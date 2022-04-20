@@ -1,13 +1,18 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Box from "./components/Box";
 import Header from "./components/Navbar";
-import Home from "./screens/Home";
+import Details from "./screens/Details";
+import Table from "./screens/HebrewTable";
 
 function App() {
   return (
     <div>
       <Header />
-      <Home />
+      <Routes>
+        <Route path="/table" element={<Table />} />
+        <Route path="/details" element={<Details />} />
+      </Routes>
     </div>
   );
 }
