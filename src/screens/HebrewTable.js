@@ -1,6 +1,5 @@
 import React from "react";
-import Box from "../components/Box";
-import Card from "../components/Card";
+
 import Table from "../components/Table";
 
 function Home() {

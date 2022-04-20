@@ -40,7 +40,7 @@ function Description() {
               commodo minim mollit occaecat nisi veniam veniam velit. Mollit
               consequat sit voluptate laborum.
             </p>
-            <a>More Examples</a>
+            <a href="/">More Examples</a>
           </div>
         ) : (
           ""
