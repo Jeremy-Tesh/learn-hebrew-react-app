@@ -14,9 +14,7 @@ const colorMap = {
   metalloid: "#73D2DE",
 };
 
-const printNumbers = (n) => {
-  var i;
-};
+const printNumbers = (n) => {};
 console.log(printNumbers());
 function Table() {
   const [isShown, setIsShown] = useState(false);
