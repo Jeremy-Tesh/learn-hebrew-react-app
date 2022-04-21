@@ -16,7 +16,7 @@ function Footer() {
       <ul className="flex flex-wrap items-center mt-3 text-sm  text-white sm:mt-0">
         <li>
           <a
-            href="#"
+            href="/about"
             className="text-white no-underline mr-4 hover:underline md:mr-6 "
           >
             About
@@ -24,7 +24,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="#"
+            href="/"
             className="text-white no-underline mr-4 hover:underline md:mr-6"
           >
             Privacy Policy
@@ -32,14 +32,17 @@ function Footer() {
         </li>
         <li>
           <a
-            href="#"
+            href="/"
             className="text-white no-underline mr-4 hover:underline md:mr-6"
           >
             Licensing
           </a>
         </li>
         <li>
-          <a href="#" className="text-white no-underline hover:underline">
+          <a
+            href="/contact"
+            className="text-white no-underline hover:underline"
+          >
             Contact
           </a>
         </li>
