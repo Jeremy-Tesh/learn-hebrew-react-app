@@ -45,7 +45,7 @@ function Table() {
         ) : (
           ""
         )}
-        {data.elements.map((element) => (
+        {data.elements.map((element, i) => (
           <div
             className=" w-[60px] h-[60px] flex flex-col relative items-center justify-center"
             style={{
@@ -56,14 +56,13 @@ function Table() {
             }}
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
-            key={element.name}
-            onClick={<Link to="/details" />}
+            key={i}
           >
             <Link
               className="no-underline hover:underline text-black"
               to="/details"
             >
-              <symbol className="">{element.symbol}</symbol>
+              <span className="">{element.symbol}</span>
               <small className="text-[8px] absolute top-[5px] left-[5px]">
                 {element.number}
               </small>

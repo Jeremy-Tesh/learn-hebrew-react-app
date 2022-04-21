@@ -4,12 +4,14 @@ import Description from "../components/Description";
 
 function Details() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center mt-10">
-      <div className="w-[1000px]">
-        <Card />
-        <Description />
-        <Description />
-        <Description />
+    <div className="w-screen  h-screen overflow-scroll pt-11 ">
+      <div className="w-screen mr-5 grid place-items-center ">
+        <div className="w-[1200px] ml-2">
+          <Card />
+          <Description />
+          <Description />
+          <Description />
+        </div>
       </div>
     </div>
   );

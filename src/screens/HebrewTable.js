@@ -5,7 +5,7 @@ import Table from "../components/Table";
 function Home() {
   return (
     <div
-      className="w-screen flex justify-center items-center
+      className="w-screen overflow-scroll 
     h-screen"
     >
       <div className="">
