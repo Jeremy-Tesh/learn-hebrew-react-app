@@ -9,8 +9,6 @@ function Details() {
         <div className="w-[1200px] ml-2">
           <Card />
           <Description />
-          <Description />
-          <Description />
         </div>
       </div>
     </div>
