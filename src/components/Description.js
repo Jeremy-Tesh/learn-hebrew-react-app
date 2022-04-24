@@ -1,3 +1,4 @@
+import { Dropdown } from "bootstrap";
 import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import down from "../assets/icons/dow.png";
@@ -5,21 +6,40 @@ import collapse from "../assets/icons/right.png";
 import { data } from "../data/Data";
 
 function Description() {
-  const [clicked, setClicked] = useState(false);
-  const [more, setMore] = useState(false);
+  const status = {
+    nppp: false,
+    1: false,
+    2: false,
+    3: false,
+  };
+
+  const handleStatus = (i) => {
+    // console.log(i);
+    setDropDown({ ...dropDown, [i]: !dropDown[i] });
+    console.log(dropDown);
+  };
+
+  const [clicked, setClicked] = useState();
+  const [dropDown, setDropDown] = useState(status);
+  const [more, setMore] = useState("");
 
   return (
     <div className="p-1 ">
       {data.elements[0].item.map((elt, i) => (
-        <div
-          key={i}
-          className={`border-1 border-[#c2c2c2]  ${clicked ? "" : "h-[38px]"} `}
-        >
-          <div onClick={() => setClicked(!clicked)}>
+        <div key={i} className={`border-1 border-[#c2c2c2]  `}>
+          <div
+            onClick={
+              () => handleStatus(i)
+
+              // dropDown === ""
+              //   ? setDropDown(elt.option) && setClicked(true)
+              //   : setDropDown("") && setClicked(false)
+            }
+          >
             <div className="flex items-center  bg-[#ededed]">
               <img
                 className="w-[20px] h-[20px] mx-2  "
-                src={clicked ? down : collapse}
+                src={dropDown[i] ? down : collapse}
                 alt=""
               />
               <p className="m-2">
@@ -29,17 +49,19 @@ function Description() {
           </div>
 
           <br></br>
-          {clicked ? (
+          {dropDown[i] ? (
             <div className="m-3">
               <p>{elt.description}</p>
               <span
                 className=" hover:cursor-pointer text-blue-500"
                 href="/"
-                onClick={() => setMore(!more)}
+                onClick={() =>
+                  more === elt.option ? setMore("") : setMore(elt.option)
+                }
               >
                 More Examples
               </span>
-              {more ? (
+              {more === elt.option ? (
                 <div>
                   <Table responsive="sm">
                     <thead>
