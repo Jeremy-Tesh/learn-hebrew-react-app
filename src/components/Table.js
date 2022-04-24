@@ -3,17 +3,6 @@ import { data } from "../data/Data";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
-const colorMap = {
-  "noble gas": "#FFBC42",
-  "alkaline earth metal": "#EC674E",
-  "diatomic nonmetal": "#D81159",
-  "alkali metal": "#8F2D56",
-  "transition metal": "#58586B",
-  "post-transition metal": "#218380",
-  lanthanide: "#4AABAF",
-  metalloid: "#73D2DE",
-};
-
 const colorings = {
   1: "#b8f5ed",
   2: "#d5ebff",

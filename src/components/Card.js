@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import content from "../components/1.JPG";
+
 import { data } from "../data/Data";
 
 function Card() {
