@@ -1,4 +1,3 @@
-import { Dropdown } from "bootstrap";
 import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import down from "../assets/icons/dow.png";
@@ -19,7 +18,6 @@ function Description() {
     console.log(dropDown);
   };
 
-  const [clicked, setClicked] = useState();
   const [dropDown, setDropDown] = useState(status);
   const [more, setMore] = useState("");
 
