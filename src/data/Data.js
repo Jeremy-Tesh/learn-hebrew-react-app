@@ -4,7 +4,7 @@ export const data = {
       name: "Hydrogen",
       number: 1,
       img: require("../assets/box/1-1.png"),
-      xpos: 1,
+      xpos: 2,
       ypos: 1,
       item: [
         {
@@ -25,9 +25,7 @@ export const data = {
           clue: "V1- Qibbuts",
           description:
             "The Preformative Vowel of Pual stem in its imperfect conjugation is shewa (ְ).\n Two other diagnostic features should be taken into consideration before establishing this option: \n 1.The presence of Dagesh in the second root letter\n 2.The vowel of first root letter is qibbuts.\n Eg. יְצֻוֶּֽה \n NB. If the second root letter is a guttural or Resh, it will not take Dagesh and the vowel of the first root letter will be holem.Eg.יְבֹרַ֥ךְ ",
-          moreExamples: {
-            row1: ["יְכֻפַּר", "כפר", "It will be cleansed"],
-          },
+          moreExamples: [["יְכֻפַּר", "כפר", "It will be cleansed"]],
         },
       ],
     },
@@ -36,7 +34,7 @@ export const data = {
       name: "Lithium",
       number: 3,
       img: require("../assets/box/2-1.png"),
-      xpos: 1,
+      xpos: 2,
       ypos: 2,
       "cpk-hex": "cc80ff",
     },
@@ -44,7 +42,7 @@ export const data = {
       name: "Beryllium",
       number: 4,
       img: require("../assets/box/2-2.png"),
-      xpos: 2,
+      xpos: 3,
       ypos: 2,
     },
 
@@ -66,21 +64,21 @@ export const data = {
       name: "Sodium",
       category: "alkali metal",
       img: require("../assets/box/3-1.png"),
-      xpos: 1,
-      ypos: 3,
-    },
-    {
-      name: "Magnesium",
-      category: "alkaline earth metal",
-      img: require("../assets/box/3-2.png"),
       xpos: 2,
       ypos: 3,
     },
     {
       name: "Magnesium",
       category: "alkaline earth metal",
-      img: require("../assets/box/3-3.png"),
+      img: require("../assets/box/3-2.png"),
       xpos: 3,
+      ypos: 3,
+    },
+    {
+      name: "Magnesium",
+      category: "alkaline earth metal",
+      img: require("../assets/box/3-3.png"),
+      xpos: 5,
       ypos: 3,
     },
     {
@@ -123,14 +121,14 @@ export const data = {
       name: "Potassium",
       category: "alkali metal",
       img: require("../assets/box/4-1.png"),
-      xpos: 1,
+      xpos: 2,
       ypos: 4,
     },
     {
       name: "Calcium",
       category: "alkaline earth metal",
       img: require("../assets/box/4-2.png"),
-      xpos: 2,
+      xpos: 3,
       ypos: 4,
     },
 
@@ -173,8 +171,16 @@ export const data = {
     {
       name: "Rubidium",
       category: "alkali metal",
-      img: require("../assets/box/5-1.png"),
+      img: require("../assets/box/5-0.png"),
       xpos: 1,
+      ypos: 5,
+    },
+
+    {
+      name: "Rubidium",
+      category: "alkali metal",
+      img: require("../assets/box/5-1.png"),
+      xpos: 2,
       ypos: 5,
     },
 
@@ -182,7 +188,7 @@ export const data = {
       name: "Yttrium",
       category: "transition metal",
       img: require("../assets/box/5-3.png"),
-      xpos: 3,
+      xpos: 5,
       ypos: 5,
     },
     {
@@ -196,7 +202,7 @@ export const data = {
       name: "Niobium",
       category: "transition metal",
       img: require("../assets/box/5-5.png"),
-      xpos: 5,
+      xpos: 6,
       ypos: 5,
     },
     {
@@ -241,19 +247,26 @@ export const data = {
       xpos: 14,
       ypos: 5,
     },
+    {
+      name: "Barium",
+      category: "alkaline earth metal",
+      img: require("../assets/box/6-0.png"),
+      xpos: 1,
+      ypos: 6,
+    },
 
     {
       name: "Barium",
       category: "alkaline earth metal",
       img: require("../assets/box/6-2.png"),
-      xpos: 2,
+      xpos: 3,
       ypos: 6,
     },
     {
       name: "Barium",
       category: "alkaline earth metal",
       img: require("../assets/box/6-3.png"),
-      xpos: 3,
+      xpos: 5,
       ypos: 6,
     },
     {
@@ -267,14 +280,21 @@ export const data = {
       name: "Tantalum",
       category: "transition metal",
       img: require("../assets/box/6-5.png"),
-      xpos: 5,
+      xpos: 6,
       ypos: 6,
     },
     {
       name: "Tungsten",
       category: "transition metal",
       img: require("../assets/box/6-6.png"),
-      xpos: 6,
+      xpos: 7,
+      ypos: 6,
+    },
+    {
+      name: "Platinum",
+      category: "transition metal",
+      img: require("../assets/box/6-9.png"),
+      xpos: 9,
       ypos: 6,
     },
 
@@ -313,26 +333,33 @@ export const data = {
       xpos: 14,
       ypos: 6,
     },
+    {
+      name: "Francium",
+      category: "alkali metal",
+      img: require("../assets/box/7-0.png"),
+      xpos: 1,
+      ypos: 7,
+    },
 
     {
       name: "Francium",
       category: "alkali metal",
       img: require("../assets/box/7-1.png"),
-      xpos: 1,
-      ypos: 7,
-    },
-    {
-      name: "Radium",
-      category: "alkaline earth metal",
-      img: require("../assets/box/7-2.png"),
       xpos: 2,
       ypos: 7,
     },
     {
       name: "Radium",
       category: "alkaline earth metal",
-      img: require("../assets/box/7-3.png"),
+      img: require("../assets/box/7-2.png"),
       xpos: 3,
+      ypos: 7,
+    },
+    {
+      name: "Radium",
+      category: "alkaline earth metal",
+      img: require("../assets/box/7-3.png"),
+      xpos: 5,
       ypos: 7,
     },
 
@@ -347,23 +374,23 @@ export const data = {
       name: "Dubnium",
       category: "transition metal",
       img: require("../assets/box/7-5.png"),
-      xpos: 5,
+      xpos: 6,
       ypos: 7,
     },
     {
       name: "Seaborgium",
       category: "transition metal",
       img: require("../assets/box/7-6.png"),
-      xpos: 6,
-      ypos: 7,
-    },
-    {
-      name: "Bohrium",
-      category: "transition metal",
-      img: require("../assets/box/7-7.png"),
       xpos: 7,
       ypos: 7,
     },
+    // {
+    //   name: "Bohrium",
+    //   category: "transition metal",
+    //   img: require("../assets/box/7-7.png"),
+    //   xpos: 8,
+    //   ypos: 7,
+    // },
     {
       name: "Hassium",
       category: "transition metal",
@@ -413,26 +440,33 @@ export const data = {
       xpos: 14,
       ypos: 7,
     },
+    {
+      name: "Ununennium",
+      category: "unknown, but predicted to be an alkali metal",
+      img: require("../assets/box/8-0.png"),
+      xpos: 1,
+      ypos: 8,
+    },
 
     {
       name: "Ununennium",
       category: "unknown, but predicted to be an alkali metal",
       img: require("../assets/box/8-1.png"),
-      xpos: 1,
-      ypos: 8,
-    },
-    {
-      name: "Silicon",
-      category: "metalloid",
-      img: require("../assets/box/8-2.png"),
       xpos: 2,
       ypos: 8,
     },
     {
       name: "Silicon",
       category: "metalloid",
-      img: require("../assets/box/8-3.png"),
+      img: require("../assets/box/8-2.png"),
       xpos: 3,
+      ypos: 8,
+    },
+    {
+      name: "Silicon",
+      category: "metalloid",
+      img: require("../assets/box/8-3.png"),
+      xpos: 5,
       ypos: 8,
     },
     {
@@ -446,23 +480,23 @@ export const data = {
       name: "Silicon",
       category: "metalloid",
       img: require("../assets/box/8-5.png"),
-      xpos: 5,
-      ypos: 8,
-    },
-    {
-      name: "Silicon",
-      category: "metalloid",
-      img: require("../assets/box/8-6.png"),
       xpos: 6,
       ypos: 8,
     },
     {
       name: "Silicon",
       category: "metalloid",
-      img: require("../assets/box/8-7.png"),
+      img: require("../assets/box/8-6.png"),
       xpos: 7,
       ypos: 8,
     },
+    // {
+    //   name: "Silicon",
+    //   category: "metalloid",
+    //   img: require("../assets/box/8-7.png"),
+    //   xpos: 8,
+    //   ypos: 8,
+    // },
     {
       name: "Silicon",
       category: "metalloid",
@@ -517,14 +551,14 @@ export const data = {
       name: "Cerium",
       category: "lanthanide",
       img: require("../assets/box/9-4.png"),
-      xpos: 4,
+      xpos: 5,
       ypos: 9,
     },
     {
       name: "Praseodymium",
       category: "lanthanide",
       img: require("../assets/box/9-5.png"),
-      xpos: 5,
+      xpos: 4,
       ypos: 9,
     },
     {
@@ -595,14 +629,14 @@ export const data = {
       name: "Cerium",
       category: "lanthanide",
       img: require("../assets/box/10-4.png"),
-      xpos: 4,
+      xpos: 5,
       ypos: 10,
     },
     {
       name: "Praseodymium",
       category: "lanthanide",
       img: require("../assets/box/10-5.png"),
-      xpos: 5,
+      xpos: 4,
       ypos: 10,
     },
     {
@@ -667,6 +701,25 @@ export const data = {
       img: require("../assets/box/10-14.png"),
       xpos: 14,
       ypos: 10,
+    },
+
+    {
+      name: "none",
+
+      xpos: 4,
+      ypos: 4,
+    },
+    {
+      name: "none",
+
+      xpos: 3,
+      ypos: 5,
+    },
+    {
+      name: "none",
+
+      xpos: 2,
+      ypos: 6,
     },
   ],
 };

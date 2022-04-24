@@ -6,6 +6,7 @@ import { data } from "../data/Data";
 
 function Description() {
   const [clicked, setClicked] = useState(false);
+  const [more, setMore] = useState(false);
 
   return (
     <div className="p-1 ">
@@ -13,40 +14,55 @@ function Description() {
         <div
           key={i}
           className={`border-1 border-[#c2c2c2]  ${clicked ? "" : "h-[38px]"} `}
-          onClick={() => setClicked(!clicked)}
         >
-          <div className="flex items-center  bg-[#ededed]">
-            <img
-              className="w-[20px] h-[20px] mx-2  "
-              src={clicked ? down : collapse}
-              alt=""
-            />
-            <p className="m-2">
-              {elt.option}-{elt.stem}
-            </p>
+          <div onClick={() => setClicked(!clicked)}>
+            <div className="flex items-center  bg-[#ededed]">
+              <img
+                className="w-[20px] h-[20px] mx-2  "
+                src={clicked ? down : collapse}
+                alt=""
+              />
+              <p className="m-2">
+                {elt.option}-{elt.stem}
+              </p>
+            </div>
           </div>
 
           <br></br>
           {clicked ? (
             <div className="m-3">
               <p>{elt.description}</p>
-              <a href="/">More Examples</a>
-              <div>
-                <Table responsive="sm">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Root</th>
-                      <th>Translation</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {elt.moreExamples[0]?.forEach(function (e) {
-                      <p>f</p>;
-                    })}
-                  </tbody>
-                </Table>
-              </div>
+              <span
+                className=" hover:cursor-pointer text-blue-500"
+                href="/"
+                onClick={() => setMore(!more)}
+              >
+                More Examples
+              </span>
+              {more ? (
+                <div>
+                  <Table responsive="sm">
+                    <thead>
+                      <tr>
+                        <th>Piel</th>
+                        <th>Root</th>
+                        <th>Translation</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {elt.moreExamples.map((e) => (
+                        <tr>
+                          {e.map((row) => (
+                            <td>{row}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </Table>
+                </div>
+              ) : (
+                ""
+              )}
             </div>
           ) : (
             ""
