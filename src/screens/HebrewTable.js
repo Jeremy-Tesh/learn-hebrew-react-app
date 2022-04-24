@@ -8,7 +8,7 @@ function Home() {
       className="w-screen overflow-scroll 
     h-screen"
     >
-      <div className="">
+      <div>
         <Table />
       </div>
     </div>
