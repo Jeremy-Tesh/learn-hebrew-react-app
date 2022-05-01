@@ -6,7 +6,7 @@ function Home() {
       <div>
         <div className="w-screen h-[300px]">
           <img
-            className="h-[300px]"
+            className="h-[300px] bgf"
             src="https://blog.weareteacherfinder.com/wp-content/uploads/how-hard-hebrew.jpg"
             alt="img"
           />

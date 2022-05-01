@@ -1,64 +1,202 @@
 export const data = {
   elements: [
     {
-      name: "Hydrogen",
-      number: 1,
+      number: 0,
       img: require("../assets/box/1-1.png"),
       xpos: 2,
       ypos: 1,
       item: [
         {
-          option: "D",
-          stem: "Piel",
-          clue: "V1- Patach",
+          option: "Perfect",
+          stem: "Qal",
+          clue: "objective suffix",
           description:
-            "The Preformative Vowel of Piel stem in its imperfect conjugation is shewa (ְ). Two other diagnostic features should be taken into consideration before establishing this option: \n 1 The presence of Dagesh in the second root letter\n2 The vowel of first root letter is patakh. \n Eg. יְדַבֵּר NB. If the second root letter is a guttural or Resh, it will not take Dagesh and the vowel of the first root letter will be qamets. \n Eg. יְבָרֵךְ",
+            "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel, if the verb has objective suffix. \n Eg.נְתָנ֣וֹ",
+
           moreExamples: [
-            ["Piel", "Root", "Translation"],
-            ["יְדַבֵּר", "דבר", "He will speak "],
-            ["יְבַקֵּֽשׁ", "בקשׁ", "He will seek"],
+            ["נְתָנ֣וֹ", "נתן", "He gave him"],
+            ["שְׁלָחַ֥נִי", "שׁלח	", "He sent me"],
+            ["יְדַעְתִּ֣יךָֽ", "ידע", "I know you"],
+          ],
+        },
+      ],
+    },
+    {
+      number: 1,
+      img: require("../assets/box/1-1.png"),
+      xpos: 3,
+      ypos: 1,
+      item: [
+        {
+          option: "Perfect",
+          stem: "֗Qal",
+          clue: "ִ First root guttural and Second masculine plural or feminine plural",
+          description:
+            "Qal stem in its perfect conjugation can have hatef patach (  ) as the vowel of first root letter, if the verb is first root guttural and second person masculine or feminine plural. \n Eg.עֲשִׂיתֶֽם",
+
+          moreExamples: [
+            ["עֲשִׂיתֶֽם", "עשׂה", "You have done"],
+            ["עֲבַרְתֶּ֖ם", "עבד", "You have come"],
+            ["אֲמַרְתֶּ֑ם", "אמר", "You have spoken"],
+            ["הֲלַכְתֶּ֔ם", "הלך", "You went"],
           ],
         },
         {
-          option: "Dp",
-          stem: "Pual",
-          clue: "V1- Qibbuts",
+          option: "Imperative",
+          stem: "Qal",
+          clue: " First root guttural and Second masculine plural or feminine plural",
           description:
-            "The Preformative Vowel of Pual stem in its imperfect conjugation is shewa (ְ).\n Two other diagnostic features should be taken into consideration before establishing this option: \n 1.The presence of Dagesh in the second root letter\n 2.The vowel of first root letter is qibbuts.\n Eg. יְצֻוֶּֽה \n NB. If the second root letter is a guttural or Resh, it will not take Dagesh and the vowel of the first root letter will be holem.Eg.יְבֹרַ֥ךְ ",
-          moreExamples: [["יְכֻפַּר", "כפר", "It will be cleansed"]],
+            " Qal stem in its imperative conjugation can have hatef patach (  ) as the vowel of first root letter, if the verb is first root guttural and second person masculine or feminine plural. \n Eg.עֲשׂ֖וּ",
+
+          moreExamples: [
+            ["עֲשׂ֖וּ", "עשׂה", "do"],
+            ["עֲל֥וּ", "עלה", "go up"],
+            ["עֲנ֣וּ", "ענה", "testify"],
+          ],
+        },
+      ],
+    },
+    {
+      number: 2,
+      img: require("../assets/box/1-14.png"),
+      xpos: 14,
+      ypos: 1,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Piel",
+          clue: "Second Root letter guttural",
+          description:
+            "Piel stem in its Perfect conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.בָאֵ֖ר",
+
+          moreExamples: [["בָאֵ֖ר", "כתב", "Make it plain"]],
+        },
+        {
+          option: "Infinitive construct",
+          stem: "Piel",
+          clue: "V2-Holem Waw",
+          description:
+            "Qal stem in its Infinitive Absolute conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.בָ֣עֵֽר",
+
+          moreExamples: [["בָ֣עֵֽר", "בער", "shall be burned"]],
         },
       ],
     },
 
     {
-      name: "Lithium",
       number: 3,
       img: require("../assets/box/2-1.png"),
       xpos: 2,
       ypos: 2,
       "cpk-hex": "cc80ff",
+      item: [
+        {
+          option: "Perfect",
+          stem: "Qal",
+          clue: "Second Masculine Plural/Feminine",
+          description:
+            "Qal stem in its imperative conjugation can have Shewa (ְ ) as its vowel. \n Eg.יְדַעְתֶּ֔ם",
+
+          moreExamples: [
+            ["יְדַעְתֶּ֔ם", "ידע", "You know"],
+            ["הֱיִיתֶ֖ם", "היה", "You were"],
+            ["שְׁמַרְתֶּ֖ם", "שׁמר", "You kept"],
+          ],
+        },
+      ],
     },
     {
-      name: "Beryllium",
       number: 4,
       img: require("../assets/box/2-2.png"),
       xpos: 3,
       ypos: 2,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Pual",
+          clue: "ִ ",
+          description:
+            "Pual stem in its Perfect conjugation can have holem   (ֹ ֹ) as the vowel of first root letter. \n Eg.צֵ֖א",
+
+          moreExamples: [
+            ["שֹׂרָ֑ף", "שׂרף", "It was burned up"],
+            ["זֹרָ֔עוּ", "זרע", "They are sown"],
+            ["קֹרָ֥א", "קרא", "He was called"],
+          ],
+        },
+      ],
     },
 
     {
-      name: "Carbon",
-      number: 6,
+      number: 5,
       img: require("../assets/box/2-13.png"),
       xpos: 13,
       ypos: 2,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Piel",
+          clue: "ִMostly regular verbs",
+          description:
+            "Piel stem in its perfect conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
+
+          moreExamples: [
+            ["דַּבֵּֽר", "דבר", "Speak on"],
+            ["הַֽלְל֖וּ", "הלל", "Praise"],
+            ["שַׁלַּ֤ח", "שׁלח", "Go"],
+            ["זַמְּר֣וּ", "זמר", "Sing"],
+          ],
+        },
+        {
+          option: "Infinitive Construct or Infinitive Absolute",
+          stem: "Piel",
+          clue: " Inseprable prepositions",
+          description:
+            "Piel stem in its imperative conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.דַבֵּ֔ר",
+
+          moreExamples: [
+            ["לְשַׁחֵ֥ת", "שׁחת", "to destroy"],
+            ["לְדַבֵּ֣ר", "דבר", "to speak"],
+            ["דַבֵּ֥ר", "דבר", "speak"],
+          ],
+        },
+      ],
     },
     {
-      name: "Nitrogen",
-      category: "diatomic nonmetal",
+      number: 6,
       img: require("../assets/box/2-14.png"),
       xpos: 14,
       ypos: 2,
+      item: [
+        {
+          option: "Participle Passive",
+          stem: "Qal",
+          clue: "V2-Shureq",
+          description:
+            "Qal stem in its Participle Passive conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.הָיָ֖ה",
+
+          moreExamples: [
+            ["כָּת֖וּב", "כתב", "written"],
+            ["בָּר֤וּךְ", "ברך", "blessed"],
+            ["אָר֤וּר", "ארר", "cursed"],
+            ["בָּח֔וּר", "בחר", "chosen"],
+          ],
+        },
+        {
+          option: "Infinitive Absolute",
+          stem: "Qal",
+          clue: "V2-Holem Waw",
+          description:
+            "Qal stem in its Infinitive Absolute conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.הָל֣וֹךְ",
+
+          moreExamples: [
+            ["הָל֣וֹךְ", "הלך", "continued"],
+            ["יָדֹ֨עַ", "ידע", "know"],
+            ["שָׁפ֔וֹט", "שׁפט", "judge"],
+            ["רָא֣וֹ", "ראה", "see"],
+          ],
+        },
+      ],
     },
     {
       name: "Sodium",
@@ -342,11 +480,65 @@ export const data = {
     },
 
     {
-      name: "Francium",
-      category: "alkali metal",
       img: require("../assets/box/7-1.png"),
       xpos: 2,
       ypos: 7,
+      item: [
+        {
+          option: "D",
+          stem: "Piel",
+          clue: "V1- patach or qamets",
+          description:
+            "The Preformative vowel of Piel stem in its waw-consecutive conjugation is shewa (ְ ), if (1)	There is dagesh in the second root letter, and (2) the vowel of first root letter is patakh. \n Eg.וַיְדַבֵּר  NB. If the second root letter is a guttural or Resh, it will not take sagesh and the vowel of the first root letter will be qamets.  \n Eg.וַיְבָ֧רֶךְ",
+          moreExamples: [
+            ["וַיְדַבֵּר", "דבר", "And he spoke"],
+            ["וַיְצַו֙", "צוה", "And he commanded"],
+            ["וַיְשַׁלַּ֖ח", "שׁלח", "And he sent forth"],
+            ["וַיְבָ֧רֶךְ", "ברך", "And he blessed"],
+            ["וַיְבַקֵּ֖שׁ", "בקשׁ", "And he sought"],
+          ],
+        },
+        {
+          option: "Dp",
+          stem: "Pual",
+          clue: "V1- Qibbuts",
+          description:
+            "The Preformative vowel of Pual stem in its waw-consecutive conjugation is shewa (ְ), if (1)	There is dagesh in the second root letter, and (2) the vowel of first root letter is qibbuts. \n Eg.וַיְכֻסּ֗וּ  NB. If the second root letter is a guttural or Resh, it will not take sagesh and the vowel of the first root letter will be holem.  \n Eg.וַֽיְגֹאֲל֖וּ",
+          moreExamples: [
+            ["וַיְכֻלּ֛וּ", "כלה", "They were finished"],
+            ["וַיְכֻסּ֗וּ", "כסה", "They were covered"],
+            [" וַיְבֻקַּ֤שׁ", "בקשׁ", "He was sought"],
+            [" וַֽיְגֹאֲל֖וּ", "גאל", "They were excluded"],
+          ],
+        },
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: "Biconsonantal or Geminate verbs and Objective Suffix",
+          description:
+            "The Preformative Vowel of Qal stem in its waw-consecutive conjugation can be shewa (ְ), if \n 1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n 2 The verb has objective suffix (OS). \n Eg.וַיְשִׂמֵהוּ NB. One of the most frequently occuring verb היה takes shewa for its preformative vowel.  \n Eg.וַֽיְהִ֖י",
+          moreExamples: [
+            ["וַיְשִׂימֵ֨נִֽי", "שׂים", "And he has made me"],
+            ["וַיְרִיב֥וּן", "ריב", "And they accused him"],
+            ["וַתְּבוֹאֵ֑הוּ", "בוא", "And let it come"],
+            ["וַיְהֻמֵּ֔ם", "המם", "And he confused them"],
+          ],
+        },
+
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: "Biconsonantal or Geminate verbs and Objective Suffix",
+          description:
+            "The Preformative Vowel of Qal stem in its waw-consecutive conjugation can be shewa (ְ), if /n 1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and /n 2 The verb has objective suffix (OS). \n Eg.וַיְשִׂמֵהוּ",
+          moreExamples: [
+            ["וַיְשִׁמֵּ֑ם", "שׁמם", "And he terrified them"],
+            ["וַיְסִבֵּ֙נִי֙", "סבב", "And he led me around"],
+            ["וַיְבִאֶ֖הָ", "בוא", "And he brought her"],
+            ["וַיַּנִּיחֵ֧הוּ", "המם", "And he rested it"],
+          ],
+        },
+      ],
     },
     {
       name: "Radium",
@@ -354,6 +546,35 @@ export const data = {
       img: require("../assets/box/7-2.png"),
       xpos: 3,
       ypos: 7,
+      item: [
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: "First Root is Yod (I-י) & V2- i-class",
+          description:
+            "The Preformative vowel of Hifil stem in its waw-consecutive conjugation can be holem (ֹ ),if the first root letter is Yod and V2 is an i-class vowel.  \n Eg. וַיֹּצִ֨יאוּ",
+          moreExamples: [
+            [" וַיֹּצִ֨יאוּ", "יצא", "And they brought"],
+            ["וַתֹּ֣סֶף", "יסף", "And she added"],
+            ["וַיֹּ֨שֶׁב֙", "ישׁב", "And he placed"],
+            ["וַתֹּ֧רֶד", "ירד", "And she let down"],
+            [" וַיֹּ֤רֶשׁ", "ירשׁ", "And he drove out"],
+          ],
+        },
+        {
+          option: "֗Q",
+          stem: "Qal",
+          clue: "First Root is Aleph",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be holem (ֹ ),if the first root letter is Apleph.  \n Eg. וַיֹּ֥אמֶר",
+
+          moreExamples: [
+            [" וַיֹּ֥אמֶר", "אמר", "And he said"],
+            ["וַתֹּאכַ֑ל", "אכל", "And she ate"],
+            ["וַיֹּאחֲז֣וּ", "אחז", "And he caught"],
+          ],
+        },
+      ],
     },
     {
       name: "Radium",

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../data/Data";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const colorings = {
   1: "#b8f5ed",
@@ -38,27 +38,31 @@ const mapping = (y, x) => {
 
 function Table() {
   const [isShown, setIsShown] = useState(false);
+  const [index, setIndex] = useState(0);
+  let navigate = useNavigate();
+
   return (
-    <div className="w-screen h-screen py-12  grid place-items-center">
-      <div className="w-[1000px] grid grid-cols-[15] pb-3  grid-row-14 ">
-        {Array.from(Array(15), (e, i) => {
-          return (
-            <div
-              className="w-[60px] h-[60px] flex flex-col  relative items-center justify-center "
-              style={{
-                gridColumn: i + 1,
-                gridRow: 0,
-                backgroundColor: "#cccccc",
-              }}
-              key={i}
-            >
-              {i === 0 ? "" : 15 - i}
-            </div>
-          );
-        })}
-      </div>
-      <div className="flex">
-        {/* <div className=" h-screen grid-cols-none grid-rows-6 ">
+    <div className="w-screen flex h-screen ">
+      <div className="px-10 py-12">
+        <div className="w-[1000px] grid grid-cols-[15] pb-3  grid-row-14 ">
+          {Array.from(Array(15), (e, i) => {
+            return (
+              <div
+                className="w-[60px] h-[60px] flex flex-col  relative items-center justify-center "
+                style={{
+                  gridColumn: i + 1,
+                  gridRow: 0,
+                  backgroundColor: "#cccccc",
+                }}
+                key={i}
+              >
+                {i === 0 ? "" : 15 - i}
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex">
+          {/* <div className=" h-screen grid-cols-none grid-rows-6 ">
           {Array.from(Array(7), (e, i) => {
             return (
               <div
@@ -73,53 +77,60 @@ function Table() {
             );
           })}
         </div> */}
-        <div className="w-[1100px] z-0 grid grid-cols-[15] gap-y-2 grid-row-8">
-          {isShown
+          <div className="w-[1000px] z-0 grid grid-cols-[15] gap-y-2 grid-row-8">
+            {/* {isShown
             ? (console.log(isShown),
               (
-                <div className="pt-20 z-10 w-[300px] col-span-5 row-span-4 grid-cols-8 grid-rows-5">
+                <div className="pt-20 z-10 w-[300px] col-span-6 row-span-4 grid-cols-8 grid-rows-5">
                   <Card />
                 </div>
               ))
-            : ""}
-          {data.elements.map((element, i) => (
-            <div
-              className="border-2 border-b-gray-500 w-[70px] h-[70px] flex flex-col relative items-center justify-center"
-              style={{
-                gridColumn: element.xpos,
-                gridRow: element.ypos,
-                backgroundColor: mapping(element.ypos, element.xpos),
-                marginBottom: element.ypos === 8 ? "45px" : "0",
-              }}
-              onMouseEnter={() => setIsShown(true)}
-              onMouseLeave={() => setIsShown(false)}
-              key={i}
-            >
-              <Link
-                className="no-underline hover:underline text-black"
-                to="/details"
+            : ""} */}
+            {data.elements.map((element, i) => (
+              <div
+                className="border-2 border-b-gray-500 w-[70px] h-[70px] flex flex-col relative items-center justify-center"
+                style={{
+                  gridColumn: element.xpos,
+                  gridRow: element.ypos,
+                  backgroundColor: mapping(element.ypos, element.xpos),
+                  marginBottom: element.ypos === 8 ? "45px" : "0",
+                }}
+                onMouseEnter={() => {
+                  // index(i);
+                  setIndex(i);
+                  console.log(i);
+                  setIsShown(true);
+                }}
+                onMouseLeave={() => setIsShown(false)}
+                key={i}
               >
-                {element.name === "none" ? (
-                  <div
-                    className="w-[60px] h-[60px] flex items-center justify-center "
-                    style={{
-                      backgroundColor: "#cccccc",
-                    }}
-                    onMouseEnter={() => setIsShown(false)}
-                  ></div>
-                ) : (
-                  <img
-                    className="w-[70px] h-[70x]"
-                    src={element.img}
-                    alt="img"
-                  />
-                )}
-              </Link>
-              {/* <div className="grid grid-flow-row-dense bg-black"></div> */}
-            </div>
-          ))}
+                <button
+                  className="no-underline hover:underline text-black"
+                  onClick={() => navigate(`/details/${i}`)}
+                >
+                  {element.name === "none" ? (
+                    <div
+                      className="w-[60px] h-[60px] flex items-center justify-center "
+                      style={{
+                        backgroundColor: "#cccccc",
+                      }}
+                      onMouseEnter={() => setIsShown(false)}
+                    ></div>
+                  ) : (
+                    <img
+                      className="w-[70px] h-[70x]"
+                      src={element.img}
+                      alt="img"
+                    />
+                  )}
+                </button>
+                {/* <div className="grid grid-flow-row-dense bg-black"></div> */}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+      <Card index={index} show={isShown} />
     </div>
   );
 }

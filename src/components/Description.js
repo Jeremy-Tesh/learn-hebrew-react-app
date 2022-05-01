@@ -4,9 +4,9 @@ import down from "../assets/icons/dow.png";
 import collapse from "../assets/icons/right.png";
 import { data } from "../data/Data";
 
-function Description() {
+function Description(props) {
   const status = {
-    nppp: false,
+    0: false,
     1: false,
     2: false,
     3: false,
@@ -23,7 +23,7 @@ function Description() {
 
   return (
     <div className="p-1 ">
-      {data.elements[0].item.map((elt, i) => (
+      {data.elements[props.index].item.map((elt, i) => (
         <div key={i} className={`border-1 border-[#c2c2c2]  `}>
           <div
             onClick={
