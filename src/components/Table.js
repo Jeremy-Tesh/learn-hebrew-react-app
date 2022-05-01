@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../data/Data";
 import Card from "../components/Card";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const colorings = {
   1: "#b8f5ed",

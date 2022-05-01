@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Table } from "react-bootstrap";
-import { useNavigate, useParams } from "react-router-dom";
 
 import { data } from "../data/Data";
 
