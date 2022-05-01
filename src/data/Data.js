@@ -199,60 +199,264 @@ export const data = {
       ],
     },
     {
-      name: "Sodium",
-      category: "alkali metal",
       img: require("../assets/box/3-1.png"),
       xpos: 2,
       ypos: 3,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "Mostly strong",
+          description:
+            "Qal stem in its imperative conjugation can have Shewa (ְ ) as its vowel. \n Eg.יֹשֵׁ֥ב",
+
+          moreExamples: [
+            ["שְׁמַ֣ע", "שׁמע", "Obey"],
+            ["רְאֵה֙", "ראה", "See"],
+            ["תְּנ֨וּ", "נתן", "Give"],
+          ],
+        },
+
+        {
+          option: "Infinitive Construct",
+          stem: "Qal",
+          clue: "Mostly strong",
+          description:
+            "Qal stem in its infinitive construct conjugation can have Shewa (ְ ) as its vowel. \n Eg.לִרְא֖וֹת",
+
+          moreExamples: [
+            ["לִרְא֖וֹת", "ראה", "to see"],
+            ["לִשְׁמֹ֕ר", "שׁמע", "to guard"],
+            ["לִקְרֹ֖א", "קרא", "to call upon"],
+          ],
+        },
+      ],
     },
     {
-      name: "Magnesium",
-      category: "alkaline earth metal",
       img: require("../assets/box/3-2.png"),
       xpos: 3,
       ypos: 3,
+      item: [
+        {
+          option: "Participle Active",
+          stem: "Qal",
+          clue: "Mostly strong",
+          description:
+            "Qal stem in its participle active conjugation can have holem  ( ֹ ) as its vowel. \n Eg.יֹשֵׁ֥ב",
+
+          moreExamples: [
+            ["יֹשֵׁ֥ב", "ישׁב", "dwell"],
+            ["עֹשֶֽׂה", "עשׂה", "do"],
+            ["הֹלֵ֥ךְ", "הלך", "go"],
+          ],
+        },
+
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "Mostly strong",
+          description:
+            "Qal stem in its participle active conjugation can have holem  ( ֹ ) as its vowel. \n Eg.יֹשֵׁ֥ב",
+
+          moreExamples: [
+            ["בֹּֽא", "בוא", "Go"],
+            ["גלל", "סבב", "March around"],
+            ["בֹּ֥זּוּ", "בזז", "Plunder"],
+          ],
+        },
+      ],
     },
     {
-      name: "Magnesium",
-      category: "alkaline earth metal",
       img: require("../assets/box/3-3.png"),
       xpos: 5,
       ypos: 3,
+      item: [
+        {
+          option: "Infintive Construct",
+          stem: "Qal",
+          clue: "Binconsonantal",
+          description:
+            "Qal stem in its perfect conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg.לָב֛וֹא",
+
+          moreExamples: [
+            ["לָב֛וֹא", "בוא", "to go back"],
+            ["לָמ֥וּת", "מות", "to die"],
+            ["בּ֔וֹשׁ", "בושׁ", "embarrassed"],
+          ],
+        },
+      ],
     },
     {
-      name: "Magnesium",
-      category: "alkaline earth metal",
       img: require("../assets/box/3-4.png"),
       xpos: 4,
       ypos: 3,
+      item: [
+        {
+          option: "Infintive Construct",
+          stem: "Qal",
+          clue: "Binconsonantal",
+          description:
+            "Qal stem in its perfect conjugation can have shureq  ( וּ ) as its vowel, if the verb is biconsonantal. \n Eg.שׁ֥וּב",
+
+          moreExamples: [
+            ["שׁ֥וּב", "שׁוב", "to go back"],
+            ["לָמ֥וּת", "מות", "to die"],
+            ["לָק֣וּם", "קום", "to rise"],
+            ["לָג֣וּר", "גור", "to sojourn"],
+          ],
+        },
+      ],
     },
     {
-      name: "Magnesium",
-      category: "alkaline earth metal",
       img: require("../assets/box/3-11.png"),
       xpos: 11,
       ypos: 3,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "Mostly Regular Verb",
+          description:
+            "Qal stem in its imperative conjugation can have Hireq ( ִ  ) as the vowel of first root letter. \n Eg.שִׁמְעוּ",
+
+          moreExamples: [
+            ["שִׁמְעוּ", "שׁבע", "Hear"],
+            ["עִבְר֣וּ", "עבד", "Pass on "],
+            ["קִבְר֥וּ", "קבר", "Bury"],
+            ["עִבְד֖וּ", "עבד", "Serve"],
+          ],
+        },
+        {
+          option: "Perfect",
+          stem: "Piel",
+          clue: "Mostly Regular Verb",
+          description:
+            "Qal stem in its imperative conjugation can have Hireq ( ִ  ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
+
+          moreExamples: [
+            ["דִּבֶּ֤ר", "דבר", "He had told"],
+            ["צִוָּ֥ה", "צוה", "He commanded"],
+            ["שִׁלַּח֙", "שׁלח", "He sent"],
+            ["מִלֵּ֨א", "מלא", "He has filled"],
+          ],
+        },
+      ],
     },
     {
-      name: "Aluminium",
-      category: "post-transition metal",
       img: require("../assets/box/3-12.png"),
       xpos: 12,
       ypos: 3,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "ִ First root letter is Yod",
+          description:
+            "Qal stem in its imperative conjugation can have Tsere (ַ ) as the vowel of first root letter. \n Eg.צֵ֖א",
+
+          moreExamples: [
+            ["צֵ֖א", "יצא	", "Go out"],
+            ["שֵֽׁב", "ישׁב", "Dwell"],
+            ["רֵ֤ד", "ירד", "Go down"],
+          ],
+        },
+        {
+          option: "Perfect",
+          stem: "Piel",
+          clue: "Second root letter guttural",
+          description:
+            "Piel stem in its perfect conjugation can have Tsere (ַ ) as the vowel of first root letter. \n Eg.בֵּרַ֣כְתִּי",
+
+          moreExamples: [
+            ["בֵּרַ֣כְתִּי", "ברך", "I blessed"],
+            ["מֵאֵ֖ן", "מאן", "He refuses"],
+            ["אֵחַ֤ר", "אחר", "He delayed"],
+          ],
+        },
+      ],
     },
     {
-      name: "Aluminium",
-      category: "post-transition metal",
       img: require("../assets/box/3-13.png"),
       xpos: 13,
       ypos: 3,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Qal",
+          clue: "ִBiconsontal or Gemminate",
+          description:
+            "Qal stem in its perfect conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
+
+          moreExamples: [
+            ["שַׁבְתֶּם֙", "שׁוב", "You have turned back"],
+            ["שַׂ֖מְתְּ", "נשׂא", "You have set up"],
+            ["גַּ֔רְתִּי", "גור", "I have sojourned"],
+            ["שַׂ֖מְתְּ", "שׂים", "You have set up"],
+            ["שַׁתִּ֤י", "שׁית", "I have made"],
+            ["סַבֹּתֶ֣ם", "סבב", "You surrounded"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Piel",
+          clue: "Second root letter with dagesh",
+          description:
+            "Qal stem in its imperative conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.דַבֵּ֔ר",
+
+          moreExamples: [
+            ["דַבֵּ֔ר", "דבר", "Tell"],
+            ["הַֽלְל֖וּ", "הלל", "Praise"],
+            ["שַׁאֲלוּ", "שׁאל", "Ask"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "Second root letter guttural",
+          description:
+            "Qal stem in its perfect conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
+
+          moreExamples: [
+            ["בַּחֲר֨וּ", "בחר", "Choose"],
+            ["זַֽעֲקִי", "זעק", "Cry out"],
+            ["שַׁאֲלוּ", "שׁאל", "Ask"],
+          ],
+        },
+      ],
     },
     {
-      name: "Silicon",
-      category: "metalloid",
       img: require("../assets/box/3-14.png"),
       xpos: 14,
       ypos: 3,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Qal",
+          clue: "Perfect suffix",
+          description:
+            "Qal stem in its perfect conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.הָיָ֖ה",
+
+          moreExamples: [
+            ["הָיְתָ֥ה", "היה", "She became."],
+            ["אָמַ֗ר", "אמר", "He said"],
+            ["עָשׂ֣וּ", "עשׂה", "They made"],
+            ["נָתַ֣תָּ", "נתן", "You gave"],
+            ["רָאִ֛יתִי", "ראה", "I saw"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Qal",
+          clue: "First Yod or First Nun",
+          description:
+            "Qal stem in its imperative conjugation can have Qamets (ְָ ) as the vowel of first root letter. \n Eg.הָב֥וּ",
+
+          moreExamples: [
+            ["הָב֥וּ", "יהב", "Give"],
+            ["שָׂ֣א", "נשׂא", "Lift"],
+          ],
+        },
+      ],
     },
 
     {
