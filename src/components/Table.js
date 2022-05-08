@@ -45,11 +45,11 @@ function Table() {
     <div className="w-screen flex h-full">
       <div className="w-screen  py-12">
         <div className="flex items-center justify-center">
-          <div className="grid grid-cols-[15]  gap-x-3 pb-3  grid-row-14 ">
+          <div className="grid grid-cols-[15]  gap-x-3 pb-24  grid-row-14 ">
             {Array.from(Array(15), (e, i) => {
               return (
                 <div
-                  className="w-[80px] h-[80px] flex flex-col items-center justify-center "
+                  className="w-[63px] h-[63px] flex flex-col items-center justify-center "
                   style={{
                     gridColumn: i + 1,
                     gridRow: 0,
@@ -69,7 +69,7 @@ function Table() {
           {Array.from(Array(7), (e, i) => {
             return (
               <div
-                className="w-[80px] h-[60px] flex items-center justify-center "
+                className="w-[68px] h-[60px] flex items-center justify-center "
                 style={{
                   backgroundColor: "#cccccc",
                 }}
@@ -83,7 +83,7 @@ function Table() {
           <div className=" grid grid-cols-[15] gap-x-3 grid-row-14 ">
             {data.elements.map((element, i) => (
               <div
-                className="border-2 border-b-gray-500 w-[80px] h-[80px] "
+                className="border-2 border-b-gray-500 w-[68px] h-[68px] "
                 style={{
                   gridColumn: element.xpos,
                   gridRow: element.ypos,
@@ -109,7 +109,7 @@ function Table() {
                 >
                   {element.name === "none" ? (
                     <div
-                      className="w-[80px] h-[80px]  "
+                      className="w-[68px] h-[68px]  "
                       style={{
                         backgroundColor: "#cccccc",
                       }}
@@ -120,7 +120,7 @@ function Table() {
                     ></div>
                   ) : (
                     <img
-                      className="w-[80px] h-[80px] bg-contain"
+                      className="w-[68px] h-[68px] bg-contain"
                       src={element.img}
                       alt="img"
                     />
@@ -129,7 +129,7 @@ function Table() {
               </div>
             ))}
             {true ? (
-              <div className="absolute top-[18%] left-[41%]">
+              <div className="absolute top-[13%] left-[34%]">
                 <Card index={index} show={isShown} />
               </div>
             ) : (
