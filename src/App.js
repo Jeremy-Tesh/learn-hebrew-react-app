@@ -16,7 +16,7 @@ function App() {
         <Route path="/table" element={<Table />} />
         <Route path="/details/:index" element={<Details />} />
       </Routes>
-      <Footer />
+      <Footer className="relative bottom-0 " />
     </div>
   );
 }

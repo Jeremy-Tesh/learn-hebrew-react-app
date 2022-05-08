@@ -42,31 +42,34 @@ function Table() {
   let navigate = useNavigate();
 
   return (
-    <div className="w-screen flex h-screen ">
-      <div className="px-10 py-12">
-        <div className="w-[1000px] grid grid-cols-[15] pb-3  grid-row-14 ">
-          {Array.from(Array(15), (e, i) => {
-            return (
-              <div
-                className="w-[60px] h-[60px] flex flex-col  relative items-center justify-center "
-                style={{
-                  gridColumn: i + 1,
-                  gridRow: 0,
-                  backgroundColor: "#cccccc",
-                }}
-                key={i}
-              >
-                {i === 0 ? "" : 15 - i}
-              </div>
-            );
-          })}
+    <div className="w-screen flex h-full">
+      <div className="w-screen  py-12">
+        <div className="flex items-center justify-center">
+          <div className="grid grid-cols-[15]  gap-x-3 pb-3  grid-row-14 ">
+            {Array.from(Array(15), (e, i) => {
+              return (
+                <div
+                  className="w-[80px] h-[80px] flex flex-col items-center justify-center "
+                  style={{
+                    gridColumn: i + 1,
+                    gridRow: 0,
+                    backgroundColor: "#cccccc",
+                  }}
+                  key={i}
+                >
+                  {String.fromCharCode(79 - i)}
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div className="flex">
+
+        <div className="flex items-center justify-center">
           {/* <div className=" h-screen grid-cols-none grid-rows-6 ">
           {Array.from(Array(7), (e, i) => {
             return (
               <div
-                className="w-[60px] h-[60px] flex items-center justify-center "
+                className="w-[80px] h-[60px] flex items-center justify-center "
                 style={{
                   backgroundColor: "#cccccc",
                 }}
@@ -77,18 +80,10 @@ function Table() {
             );
           })}
         </div> */}
-          <div className="w-[1000px] z-0 grid grid-cols-[15] gap-y-2 grid-row-8">
-            {/* {isShown
-            ? (console.log(isShown),
-              (
-                <div className="pt-20 z-10 w-[300px] col-span-6 row-span-4 grid-cols-8 grid-rows-5">
-                  <Card />
-                </div>
-              ))
-            : ""} */}
+          <div className=" grid grid-cols-[15] gap-x-3 grid-row-14 ">
             {data.elements.map((element, i) => (
               <div
-                className="border-2 border-b-gray-500 w-[70px] h-[70px] flex flex-col relative items-center justify-center"
+                className="border-2 border-b-gray-500 w-[80px] h-[80px] "
                 style={{
                   gridColumn: element.xpos,
                   gridRow: element.ypos,
@@ -99,38 +94,50 @@ function Table() {
                   // index(i);
                   setIndex(i);
                   console.log(i);
-                  setIsShown(true);
+                  element.name === "none"
+                    ? setIsShown(false)
+                    : setIsShown(true);
                 }}
                 onMouseLeave={() => setIsShown(false)}
                 key={i}
               >
                 <button
                   className="no-underline hover:underline text-black"
-                  onClick={() => navigate(`/details/${i}`)}
+                  onClick={() =>
+                    index === 100 ? "" : navigate(`/details/${i}`)
+                  }
                 >
                   {element.name === "none" ? (
                     <div
-                      className="w-[60px] h-[60px] flex items-center justify-center "
+                      className="w-[80px] h-[80px]  "
                       style={{
                         backgroundColor: "#cccccc",
                       }}
-                      onMouseEnter={() => setIsShown(false)}
+                      onMouseEnter={() => {
+                        setIndex(100);
+                        setIsShown(false);
+                      }}
                     ></div>
                   ) : (
                     <img
-                      className="w-[70px] h-[70x]"
+                      className="w-[80px] h-[80px] bg-contain"
                       src={element.img}
                       alt="img"
                     />
                   )}
                 </button>
-                {/* <div className="grid grid-flow-row-dense bg-black"></div> */}
               </div>
             ))}
+            {true ? (
+              <div className="absolute top-[18%] left-[41%]">
+                <Card index={index} show={isShown} />
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
-      <Card index={index} show={isShown} />
     </div>
   );
 }

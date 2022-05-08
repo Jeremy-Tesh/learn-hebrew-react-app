@@ -24,7 +24,12 @@ function Description(props) {
   return (
     <div className="p-1 ">
       {data.elements[props.index].item.map((elt, i) => (
-        <div key={i} className={`border-1 border-[#c2c2c2]  `}>
+        <div
+          key={i}
+          className={`border-1 my-3 border-[#c2c2c2] ${
+            dropDown[i] ? "" : "h-[40px]"
+          }  `}
+        >
           <div
             onClick={
               () => handleStatus(i)
@@ -34,7 +39,7 @@ function Description(props) {
               //   : setDropDown("") && setClicked(false)
             }
           >
-            <div className="flex items-center  bg-[#ededed]">
+            <div className="flex items-center bg-[#ededed]">
               <img
                 className="w-[20px] h-[20px] mx-2  "
                 src={dropDown[i] ? down : collapse}
@@ -48,7 +53,7 @@ function Description(props) {
 
           <br></br>
           {dropDown[i] ? (
-            <div className="m-3">
+            <div className="m-3 font-Sbl">
               <p>{elt.description}</p>
               <span
                 className=" hover:cursor-pointer text-blue-500"
@@ -73,7 +78,7 @@ function Description(props) {
                       {elt.moreExamples.map((e) => (
                         <tr>
                           {e.map((row) => (
-                            <td>{row}</td>
+                            <td className="font-Sbl">{row}</td>
                           ))}
                         </tr>
                       ))}

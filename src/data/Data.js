@@ -460,54 +460,129 @@ export const data = {
     },
 
     {
-      name: "Potassium",
-      category: "alkali metal",
       img: require("../assets/box/4-1.png"),
       xpos: 2,
       ypos: 4,
+      item: [
+        {
+          option: "Imperfect",
+          stem: "Hithpael",
+          clue: "-",
+          description:
+            "The Hithpael stem in its imperfect conjugation has the preformative את , if the verb is first person singular. \n Eg.אֶתְפַּלֵּ֥ל ",
+
+          moreExamples: [
+            ["אֶתְפַּלֵּ֥ל ", "פלל", "I will pray"],
+            ["אֶתְהַלֵּ֥ךְ", "הלך", "I will walk"],
+          ],
+        },
+      ],
     },
     {
-      name: "Calcium",
-      category: "alkaline earth metal",
       img: require("../assets/box/4-2.png"),
       xpos: 3,
       ypos: 4,
+      item: [
+        {
+          option: "Imperfect",
+          stem: "Hithpael",
+          clue: "-",
+          description:
+            "The Hithpael stem in its imperfect conjugation has the preformative נת , if the verb is first person plural. \n Eg.נִתְרָאֶ֥ה ",
+
+          moreExamples: [
+            ["נִתְרָאֶ֥ה ", "ראה", "Let us look"],
+            ["נִֽתְחַזְּקָה֙", "חזק", "Let us use our strength"],
+          ],
+        },
+      ],
     },
 
     {
-      name: "Titanium",
-      category: "transition metal",
       img: require("../assets/box/4-4.png"),
-      xpos: 4,
+      xpos: 5,
       ypos: 4,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hithpael",
+          clue: "perfect suffix",
+          description:
+            "The Hithpael stem in its perfect conjugation has the preformative הת , if the verb is second person masculine or feminine and thrid person feminine. \n Eg.הִתְהַלְּכ֨וּ ",
+
+          moreExamples: [
+            ["הִתְהַלְּכ֨וּ ", "הלך", "They walked"],
+            ["הִתְפַּלָּ֑לְתִּי", "פלל", "I prayed"],
+            ["הִתְחַזַּ֔קְתִּי", "חזק", "I was strengthened"],
+          ],
+        },
+      ],
     },
+
     {
-      name: "Vanadium",
-      category: "transition metal",
-      img: require("../assets/box/4-11.png"),
+      name: "none",
       xpos: 11,
       ypos: 4,
     },
     {
-      name: "Zinc",
-      category: "transition metal",
       img: require("../assets/box/4-12.png"),
       xpos: 12,
       ypos: 4,
+      item: [
+        {
+          option: "Participle",
+          stem: "Hithpael",
+          clue: " Participle suffix",
+          description:
+            "The Hithpael stem in its participle conjugation has the preformative מת. \n Eg.מִתְהַלֵּ֥ךְ",
+
+          moreExamples: [
+            ["מִתְהַלֵּ֥ךְ", "הלך", "walking"],
+            ["מִֽתְנַבְּאִ֖ים", "נבא", "prophesying"],
+            ["מִתְפַּלֵּ֔ל", "פלל", "praying"],
+          ],
+        },
+      ],
     },
     {
-      name: "Gallium",
-      category: "post-transition metal",
       img: require("../assets/box/4-13.png"),
       xpos: 13,
       ypos: 4,
+      item: [
+        {
+          option: "Imperfect",
+          stem: "Hithpael",
+          clue: " Second person or Thrid person feminine",
+          description:
+            "The Hithpael stem in its imperfect conjugation has the preformative ית , if the verb is third person masculine or feminine. \n Eg.יִתְהַלָּ֑כוּ",
+
+          moreExamples: [
+            ["יִתְהַלָּ֑כוּ", "הלך", "They walk."],
+            ["יִתְיַצֵּב", "חרה", "He sets himself."],
+            ["יִֽתְפַּֽלְל֖וּ", "פלל", "They pray."],
+          ],
+        },
+      ],
     },
     {
-      name: "Germanium",
-      category: "metalloid",
       img: require("../assets/box/4-14.png"),
       xpos: 14,
       ypos: 4,
+      item: [
+        {
+          option: "Imperfect",
+          stem: "Hithpael",
+          clue: " Second person or Thrid person feminine",
+          description:
+            "The Hithpael stem in its imperfect conjugation has the preformative תת , if the verb is second person masculine or feminine and thrid person feminine. \n Eg.תִּתְהַלָּֽל",
+
+          moreExamples: [
+            ["תִתְאַוֶּ֜ה", "אוה", "You will desire."],
+            ["תִּתְחַ֥ר", "חרה", "You will fret yourself"],
+            ["תִתְהַלָּֽל", "הלל", "She shall be praised."],
+          ],
+        },
+      ],
     },
 
     {
@@ -519,75 +594,342 @@ export const data = {
     },
 
     {
-      name: "Rubidium",
-      category: "alkali metal",
       img: require("../assets/box/5-1.png"),
       xpos: 2,
       ypos: 5,
-    },
+      item: [
+        {
+          option: "Participle",
+          stem: "Piel",
+          clue: "V1 is Patach",
+          description:
+            "The Preformative מ of Piel stem in its participle conjugation has Shewa (ְ ) as its vowel. \n Eg.מְבַקֵּ֑שׁ",
 
-    {
-      name: "Yttrium",
-      category: "transition metal",
-      img: require("../assets/box/5-3.png"),
-      xpos: 5,
-      ypos: 5,
+          moreExamples: [
+            ["מְבַקֵּ֑שׁ", "בקשׁ", "ֹ֟to seek"],
+            ["מְשָׁרֵ֥ת", "שׁרת", "assistant"],
+            ["מְצַוָּ֥ה", "צוה", "command"],
+          ],
+        },
+
+        {
+          option: "Participle",
+          stem: "Pual",
+          clue: "V1 is Qibbuts",
+          description:
+            "The Preformative מ of Pual stem in its participle conjugation has Shewa (ְ ) as its vowel. \n Eg.מְיֻדַּעַת",
+
+          moreExamples: [
+            ["מְיֻדַּעַת", "ידע", "ֹ֟made known"],
+            ["מְהֻלָּ֖ל", "הלל", "be praised"],
+          ],
+        },
+
+        {
+          option: "Participle",
+          stem: "Hifil",
+          clue: "Masculine Plural, Feminine Singular and Plural",
+          description:
+            "The Preformative מ of Hifil stem in its participle conjugation has Shewa (ְ ) as its vowel, if it is masculine plural, feminine singular and plural. \n Eg.מְבִאִ֣ים",
+
+          moreExamples: [
+            ["מְבִאִ֣ים", "ידע", "brought"],
+            ["מְבִינִֽים", "בין", "insight"],
+          ],
+        },
+      ],
     },
     {
-      name: "Zirconium",
-      category: "transition metal",
+      img: require("../assets/box/5-1.png"),
+      xpos: 3,
+      ypos: 5,
+      item: [
+        {
+          option: "Participle",
+          stem: "Hofal",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative מ of Hofal stem in its perfect conjugation has holem  (ֹ ) as its vowel, if the third root letter is guttral. \n Eg.הֹלִ֣יד",
+
+          moreExamples: [
+            ["הֹלִ֣יד", "ילד", "He fathered"],
+            ["הֹרֵתִ֑יךָ", "יצא", "i have taught you"],
+          ],
+        },
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: "some third root letter he or resh",
+          description:
+            "The Preformative מ of Hofal stem in its participle conjugation has qamets hatuf (ָ ) as its vowel. \n Eg.מָשְׁזָ֗ר",
+
+          moreExamples: [
+            ["מָשְׁזָ֗ר", "שׁזר", "ֹ֟twined"],
+            ["מָרְאֶ֖ה", "ראה", "being shown"],
+          ],
+        },
+      ],
+    },
+    {
       img: require("../assets/box/5-4.png"),
       xpos: 4,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.מֽוֹצֵא",
+
+          moreExamples: [
+            ["מֽוֹצֵא", "יצא", "bring forth"],
+            ["מוֹכִ֑יחַ", "יכח", "who reproves"],
+            ["מוֹשִׁ֛יעַ", "ישׁע", "who saves"],
+          ],
+        },
+        {
+          option: "Participle",
+          stem: "Nifal",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative נ of Nifall stem in its participle conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.הַֽנּוֹתָרִ֣ים",
+
+          moreExamples: [
+            ["הַנּוֹתָרֹֽת", "יתר", "The rest"],
+            ["נּוֹרָ֖א", "ירא", "Awesome"],
+            ["נוֹלָ֤ד", "ילד", "shall be born"],
+          ],
+        },
+        {
+          option: "Perfect",
+          stem: "Nifal",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative נ of Nifall stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.הַֽנּוֹתָרִ֣ים",
+
+          moreExamples: [
+            ["נוֹדַ֥ע", "ידע", "is known"],
+            ["נוֹתַ֖ר", "יתר", " is left "],
+            ["נוֹלַ֥ד", "ילד", "is born"],
+          ],
+        },
+      ],
     },
+
     {
-      name: "Niobium",
-      category: "transition metal",
+      img: require("../assets/box/5-3.png"),
+      xpos: 5,
+      ypos: 5,
+      item: [
+        {
+          option: "Participle",
+          stem: "Hofal",
+          clue: "First root letter is yod.",
+          description:
+            "The Preformative מ of Hofal stem in its participle conjugation has Shureq (וּ) as its vowel, if the first root letter is yod. \n Eg.מוּצָ֑ק",
+
+          moreExamples: [
+            ["מוּצָ֑ק", "יצק", "cast"],
+            ["מוּצֵ֗את", "יצא", "was being brought out "],
+          ],
+        },
+      ],
+    },
+
+    {
       img: require("../assets/box/5-5.png"),
       xpos: 6,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: "Mostly strong verbs",
+          description:
+            "The Preformative מ of Hofal stem in its participle conjugation has Qibbuts (ֻ ) as its vowel. \n Eg.מֻכִּ֖ים",
+
+          moreExamples: [
+            ["מֻכִּ֖ים", "נכה", "beaten"],
+            ["הַמֻּפְקָדִ֔ים", "פקד", "overseers "],
+          ],
+        },
+      ],
     },
     {
-      name: "Molybdenum",
-      category: "transition metal",
       img: require("../assets/box/5-9.png"),
       xpos: 9,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: "First root letter is Yod",
+          description:
+            "The Preformative ה of Nifal stem in its perfect conjugation has Tsere Yod ( י ֵ  ) as its vowel, if the first root letter is guttrual or resh. \n Eg.מֵיטִ֣יב",
+
+          moreExamples: [
+            ["מֵיטִ֣יב", "יטב	", "be well"],
+            ["מֵינִיק֛וֹת", "ינק", "miliking"],
+          ],
+        },
+      ],
     },
     {
-      name: "Palladium",
-      category: "transition metal",
       img: require("../assets/box/5-10.png"),
       xpos: 10,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Nifal",
+          clue: "First root letter guttural",
+          description:
+            "The Preformative נ of Nifal stem in its Perfect conjugation has segol (ְֶָ ) as its vowel, if the first root letter is gutttural. \n Eg.נִפְלָאֽוֹת",
+
+          moreExamples: [
+            ["נֶאֶסְפוּ", "אסף", "They were gathered"],
+            ["נֶהְפַּ֥ךְ", "הפך", "He has turned"],
+            ["נֶחְשָׁ֑בוּ", "חשׁב", "They are accounted"],
+            ["נֶעֶשְׂתָ֣ה", "עשׂה", "It was done"],
+          ],
+        },
+        {
+          option: "Participle",
+          stem: "Nifal",
+          clue: "First root letter guttural",
+          description:
+            "The Preformative נ of Nifal stem in its Participle conjugation has segol (ְֶָ ) as its vowel. \n Eg.נִפְלָאֽוֹת",
+
+          moreExamples: [
+            ["נֶאֱסָ֣ף", "אסף", "be gathered"],
+            ["נֶאֱמָ֥ן", "אמן", "faithful"],
+            ["נֶהְפָּֽכֶת", "הפך", "shall be overthrown"],
+          ],
+        },
+      ],
     },
     {
-      name: "Silver",
-      category: "transition metal",
       img: require("../assets/box/5-11.png"),
       xpos: 11,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Nifal",
+          clue: "Mostly Regular Verb",
+          description:
+            "The Preformative נ of Nifal stem in its Perfect conjugation has Hireq (ִ ) as its vowel. \n Eg.נִפְלָאֽוֹת",
+
+          moreExamples: [
+            ["נִשְׁבַּ֖עְתִּי", "שׁבע", "I swore"],
+            ["נִמְצָ֨א", "מצא", "He was found"],
+            ["נִתָּֽנוּ", "נתן", "They are delivered "],
+            ["נִשְׁאַר֙", "שׁאר", "He was left"],
+          ],
+        },
+        {
+          option: "Participle",
+          stem: "Nifal",
+          clue: "Mostly Regular Verb",
+          description:
+            "The Preformative נ of Nifal stem in its Participle conjugation has Hireq (ִ ) as its vowel. \n Eg.נִפְלָאֽוֹת",
+
+          moreExamples: [
+            ["נִפְלָאֽוֹת", "פלא", "Marvelous"],
+            ["הַנִּשְׁאָר֙", "שׁאר", "who are left alone"],
+            ["הַנִּמְצָ֤א", "מצא", "who was found"],
+            ["נִצָּבִ֖ים", "נצב", "who were standing"],
+          ],
+        },
+      ],
     },
     {
-      name: "Cadmium",
-      category: "transition metal",
       img: require("../assets/box/5-12.png"),
       xpos: 12,
       ypos: 5,
+      item: [
+        {
+          option: "Participle",
+          stem: "Hifil",
+          clue: "Biconsonantal or Gemminate and masculine singular",
+          description:
+            "The Preformative מ of hifil stem in its participle conjugation can take tsere (ֵ ) as its vowel, if the verb is biconsonantal or gemminatein most of its occurences. \n Eg.מַכֶּ֣ה",
+
+          moreExamples: [
+            ["מֵבִ֥יא", "בוא", "bringing"],
+            ["מֵשִׁ֗יב", "שׁוב", "return"],
+            ["מֵקִ֛ים", "קום", "establish"],
+            ["מֵבִ֔ין", "בין", "understand"],
+            ["מֵרַ֔ע", "רעע", "evildoer"],
+          ],
+        },
+      ],
     },
     {
-      name: "Indium",
-      category: "post-transition metal",
       img: require("../assets/box/5-13.png"),
       xpos: 13,
       ypos: 5,
+      item: [
+        {
+          option: "Participle",
+          stem: "Hifil",
+          clue: "Mostly regular verbs",
+          description:
+            "The Preformative ה of Hifil stem in its imperative conjugation has Patach (ַָ ) as its vowel, in most of its occurences. \n Eg.מַכֶּ֣ה",
+
+          moreExamples: [
+            ["מַכֶּ֣ה", "נכה", "who strikes"],
+            ["מַעֲלֶ֣ה", "עלה", "was offering"],
+            ["מַשְׂכִּ֑יל", "שׂכל", "who understand"],
+            ["מַחֲזִיקִ֖ים", "חזק", "who hold fast"],
+            ["מַגִּ֖יד", "נגד", "who explain"],
+          ],
+        },
+      ],
     },
     {
-      name: "Tin",
-      category: "post-transition metal",
       img: require("../assets/box/5-14.png"),
       xpos: 14,
       ypos: 5,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Nifal",
+          clue: "Perfect suffix",
+          description:
+            "The Preformative נ of Nifal stem in its perfect conjugation can have Qamets (ְָ ) as its vowel, if the verb is a biconsonantal. \n Eg.נָסֹ֤גוּ",
+
+          moreExamples: [
+            ["נָסֹ֤גוּ", "סוג", "They are turned back."],
+            ["נָכֹ֨נוּ֙", "כון", "They were formed"],
+          ],
+        },
+        {
+          option: "Participle or Infintive Absolute",
+          stem: "Nifal",
+          clue: "Biconsonantal verb",
+          description:
+            "The Preformative נ of Nifal stem in its Participle or Infintive Absolute conjugation can have Qamets (ְָ ) as its vowel, if the verb is a biconsonantal. \n Eg.נָכ֣וֹן",
+
+          moreExamples: [
+            ["נָב֣וֹן", "בין", "discerning"],
+            ["נָמ֖וֹג", "מוג", "melt"],
+          ],
+        },
+        {
+          option: "Infintive Absloute",
+          stem: "Nifal",
+          clue: "Biconsonantal verb",
+          description:
+            "The Preformative נ of Nifal stem in its imperfect conjugation can have Qamets (ְָ ) as its vowel, if the verb is a biconsonantal. \n Eg.נָכ֣וֹן. \n Eg.תָּב֥וֹא",
+
+          moreExamples: [
+            ["תָּב֥וֹא", "בוא", "You will go"],
+            ["תָּבִ֥יא", "בוא", "You will bring"],
+          ],
+        },
+      ],
     },
     {
       name: "Barium",
@@ -596,84 +938,430 @@ export const data = {
       xpos: 1,
       ypos: 6,
     },
+    {
+      img: require("../assets/box/6-2.png"),
+      xpos: 2,
+      ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: "-",
+          description:
+            "The Preformative ה of Hofal stem in its perfect conjugation has qamets hatuf (ָ ) as its vowel. \n Eg.הָשְׁלַ֤כְתָּ",
+
+          moreExamples: [
+            ["הָשְׁלַ֤כְתָּ", "שׁלך", "ֹ֟You ae brought down"],
+            ["הָמְלַ֔ךְ", "מלך", "He was made king"],
+          ],
+        },
+      ],
+    },
 
     {
-      name: "Barium",
-      category: "alkaline earth metal",
       img: require("../assets/box/6-2.png"),
       xpos: 3,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Holem  (ֹ ) as its vowel, if the first root letter is Yod. \n Eg.הֹלִ֣יד",
+
+          moreExamples: [
+            ["הֹלִ֣יד", "ילד", "He fathered"],
+            ["הֹרֵתִ֑יךָ", "יצא", "i have taught you"],
+          ],
+        },
+      ],
     },
     {
-      name: "Barium",
-      category: "alkaline earth metal",
       img: require("../assets/box/6-3.png"),
       xpos: 5,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.הוֹלִ֣יד",
+
+          moreExamples: [
+            ["הוֹלִ֣יד", "ילד", "He fathered"],
+            ["הוֹצִ֖יא", "יצא", "He brought out"],
+            ["הוֹרִ֙ישׁוּ֙", "ירש", "They drove out"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its imperative conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.הֹלִ֣יד",
+
+          moreExamples: [
+            ["הוֹשַׁ֤ע", "ישׁע", "Save"],
+            ["הוֹצֵ֖א", "יצא", "Bring out"],
+            ["הוֹדִ֥יעוּ", "ידע", "Make known"],
+          ],
+        },
+        {
+          option: "Infintive Construct",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its Infintive construct conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.לְהוֹצִ֥יא",
+
+          moreExamples: [
+            ["לְהוֹצִ֥יא", "יצא", "to bring out"],
+            ["לְהוֹשִׁ֣יעַ", "ישׁע", "to save"],
+            ["לְהוֹד֣וֹת", "ידה", "to praise"],
+          ],
+        },
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hofal stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.הוֹדַ֤ע",
+
+          moreExamples: [["הוֹדַ֤ע", "ידע", "He is made known"]],
+        },
+      ],
     },
     {
-      name: "Hafnium",
-      category: "transition metal",
       img: require("../assets/box/6-4.png"),
       xpos: 4,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: "-",
+          description:
+            "The Preformative ה of Hofal stem in its perfect conjugation has Shureq (וּ) as its vowel. \n Eg.הוּרַ֣ד",
+
+          moreExamples: [
+            ["הוּרַ֣ד", "ירד", "He was brought down"],
+            ["הוּכָ֖ן", "כון", "It is made ready "],
+          ],
+        },
+      ],
     },
     {
-      name: "Tantalum",
-      category: "transition metal",
       img: require("../assets/box/6-5.png"),
       xpos: 6,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hofal",
+          clue: "-",
+          description:
+            "The Preformative ה of Hofal stem in its perfect conjugation has Qibbuts (ֻ ) as its vowel. \n Eg.הֻגַּ֗ד",
+
+          moreExamples: [
+            ["הֻגַּ֗ד", "נגד", "He was told"],
+            ["הֻכָּ֣ה", "נכה", "He is stricken "],
+          ],
+        },
+      ],
     },
     {
-      name: "Tungsten",
-      category: "transition metal",
       img: require("../assets/box/6-6.png"),
       xpos: 7,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: "Biconsonantal or Geminate",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Hateph Patach () as its vowel, if the verb is biconsonantal or geminate. \n Eg.הֲקִמֹ֔תִי",
+
+          moreExamples: [
+            ["הֲקִמֹ֔תִי", "קום", "I have established"],
+            ["הֲרִימֹ֨תִי", "רום", "I have lifted "],
+            ["הֲרֵעֹתֶ֖ם", "עלה", "You have done evil"],
+            ["וַהֲשִׁמּוֹתִ֨י", "שׁמם", "I will amaze"],
+            ["הֲבִיאֹתִ֤יו ", "בוא", "I do bring him"],
+          ],
+        },
+        {
+          option: "Interogative particle",
+          stem: "-",
+          clue: "The verb is participle and dagesh in the first root letter",
+          description:
+            "The Prefix ה can be a interogative particle and it takes hateph patach (   ) as its vowel, if first root letter is ח . \n Eg.הֶחֳדַ֙לְתִּי֙",
+
+          moreExamples: [
+            ["הַיְדַעְתֶּ֖ם", "ידע", "Do you know?"],
+            ["הַרְּאִיתֶם֙", "ראה", "Have you seen?"],
+            ["הֲתֵלֵ֥ךְ", "הלך", "Will you go?"],
+          ],
+        },
+      ],
     },
     {
-      name: "Platinum",
-      category: "transition metal",
       img: require("../assets/box/6-9.png"),
       xpos: 9,
       ypos: 6,
+      item: [
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Tsere Yod (  י ֵ ) as its vowel, if the first root letter is Yod.   \n Eg. הֵיטִ֖יב",
+
+          moreExamples: [
+            ["הֵיטִ֖יב", "יטב", "He delt well"],
+            ["הֵינִ֥יקָה", "ינק", "She nursed"],
+          ],
+        },
+      ],
     },
 
     {
-      name: "Platinum",
-      category: "transition metal",
       img: require("../assets/box/6-10.png"),
       xpos: 10,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: "First Guttural",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has segol (ְֶָ ) as its vowel, if the first root letter is guttrual or resh. \n Eg.הֶאֱמִ֖ן",
+
+          moreExamples: [
+            ["הֶאֱמִ֖ן", "אמן", "He believed"],
+            ["הֶֽאֱבִ֥יד", "אבד", "He destroyed"],
+            ["הֶעֱלָ֤ה", "עלה", "He brings up"],
+            ["הֶֽעֱמַ֖דְתָּ", "עמד", "I have set"],
+            ["הֶחֱזַ֣קְתִּי", "חזק", "I have grasped"],
+          ],
+        },
+        {
+          option: "Definite Article",
+          stem: "-",
+          clue: "The verb is participle",
+          description:
+            "The Prefix ה can be a definte article and it takes segol (ֶ ) as its vowel, if first root letter is ח . \n Eg.הַבָּ֥אָה",
+
+          moreExamples: [
+            ["הַנֶּחֱרִ֣ים", "חרה", "who are angry"],
+            ["הֶ֣חָל֔וּץ", "חלץ", "the armed"],
+          ],
+        },
+        {
+          option: "Interogative particle",
+          stem: "-",
+          clue: "The verb is participle and dagesh in the first root letter",
+          description:
+            "The Prefix ה can be a interogative particle and it takes segol (ֶ ) as its vowel, if first root letter is ח . \n Eg.הֶחֳדַ֙לְתִּי֙",
+
+          moreExamples: [
+            ["הַנֶּחֱרִ֣ים", "חדל", "Shall I leave?"],
+            ["הֶחָפֹ֤ץ", "הֶחָפֹ֤ץ", "desire?"],
+          ],
+        },
+      ],
     },
     {
-      name: "Gold",
-      category: "transition metal",
       img: require("../assets/box/6-11.png"),
       xpos: 11,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: "Mostly Regular Verb",
+          description:
+            "The Preformative ה of Hifil stem in its Perfect conjugation has Hireq (ִ ) as its vowel. \n Eg.הִקְרִ֑יב",
+
+          moreExamples: [
+            ["הִקְרִ֑יב", "שׁוב", "He drew near"],
+            ["הִכּוּ֙", "בוא", "They struck"],
+            ["הִגִּ֥יד", "סור", "He has revealed"],
+            ["הִצִּ֤יל", "כון", "He has taken away"],
+            ["הִכְרַ֔תִּי", "כרת", "I have cut off"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Nifal",
+          clue: "V1- Qamets",
+          description:
+            "The Preformative ה of Nifal stem in its imperative conjugation can have Hireq (ִ ) as its vowel. \n Eg.הִנָּבֵ֣א",
+
+          moreExamples: [
+            ["הִנָּבֵ֣א", "נבא", "Prophesy"],
+            ["הִשָּׁ֧מֶר", "שׁוב", "Be careful"],
+            ["הִשָּׁבְע֣וּ", "שׁבע", "Swear"],
+          ],
+        },
+
+        {
+          option: "Infinitive Construct",
+          stem: "Nifal",
+          clue: "V1- Qamets",
+          description:
+            "The Preformative ה of Nifal stem in its infinitive construct conjugation has Hireq (ִ ) as its vowel. \n Eg.לְהִלָּ֥חֶם",
+
+          moreExamples: [
+            ["לְהִלָּ֥חֶם", "נבא", "to fight"],
+            ["הִשָּׁ֧מֶר", "שׁוב", "Be careful"],
+            ["הִשָּׁבְע֣וּ", "שׁבע", "Swear"],
+          ],
+        },
+      ],
     },
     {
-      name: "Mercury",
-      category: "transition metal",
       img: require("../assets/box/6-12.png"),
       xpos: 12,
       ypos: 6,
+      item: [
+        {
+          option: "Perfect",
+          stem: "Hifil",
+          clue: "Biconsonantal or Geminate verbs ",
+          description:
+            "The Preformative ה of Hifil stem in its perfect conjugation has Tsere (ֵ ) as its vowel, if it is biconsonantal or geminate. \n Eg.הֵבִ֥יא",
+          moreExamples: [
+            ["הֵבִ֥יא", "בוא", "He brought"],
+            ["הֵשִׁ֔יב", "שׁוב", "He brought back"],
+            ["הֲכִנֹֽתִי", "כון", "I have prepared "],
+            ["הֵחֵ֣ל", "חלל", "He began"],
+            ["הֵרַ֖ע", "רעע", "He has done evil"],
+          ],
+        },
+        {
+          option: "Imperative",
+          stem: "Nifal",
+          clue: "First Guttural or Resh and V1-Qamets ",
+          description:
+            "The Preformative ה of Nifal stem in its imperative conjugation has Tsere (ֵ ) as its vowel, if the first root letter is Guttural or Resh.. \n Eg.הֵאָֽסְפוּ֙",
+          moreExamples: [
+            ["הֵאָסֵ֖ף", "אסף", "be gathered"],
+            ["הֵֽאָחֲז֖וּ ", "אחז", "get property"],
+          ],
+        },
+        {
+          option: "Infinitive Construct",
+          stem: "Nifal",
+          clue: "First Guttural or Resh and V1-Qamets ",
+          description:
+            "The Preformative ה of Nifal stem in its infintive construct conjugation has Tsere (ֵ ) as its vowel, if the first root letter is Guttural or Resh.. \n Eg.הֵעָל֣וֹת",
+          moreExamples: [
+            ["הֵעָל֣וֹת", "עלה", "brought up"],
+            ["הֵרָא֥וֹת", "ראה", "appear"],
+            ["הֵחֵ֛ל", "חלל", "be profaned "],
+            ["לְהֵרָפֵֽא", "רפא", "be healed"],
+          ],
+        },
+      ],
     },
     {
-      name: "Thallium",
-      category: "post-transition metal",
       img: require("../assets/box/6-13.png"),
       xpos: 13,
       ypos: 6,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Hifil",
+          clue: "Mostly regular verbs",
+          description:
+            "The Preformative ה of Hifil stem in its imperative conjugation has Patach (ַ ) as its vowel, in most of its occurences. \n Eg.הַקְשִׁ֥יבִי",
+
+          moreExamples: [
+            ["הַקְשִׁ֥יבִי", "קשׁב", "Give attention"],
+            ["הַגִּ֣ידוּ", "נגד", "Tell"],
+            ["הַאְזֵ֖נָּה", "אזן", "Listen"],
+            ["הַצִּ֥ילוּ", "נצל", "Deliver"],
+          ],
+        },
+        {
+          option: "Imperfect",
+          stem: "Hifil",
+          clue: "Mostly regular verbs",
+          description:
+            "The Preformative ה of Hifil stem in its imperative conjugation has Patach  (ַ ) as its vowel, in most of its occurences. \n Eg.הַקְשִׁ֥יבִי",
+
+          moreExamples: [
+            ["יַאֲמִ֔ינוּ", "קשׁב", "they may believe"],
+            ["הַגִּ֣ידוּ", "נגד", "Tell"],
+            ["הַאְזֵ֖נָּה", "אזן", "Listen"],
+            ["הַצִּ֥ילוּ", "נצל", "Deliver"],
+          ],
+        },
+        {
+          option: "Definite Article",
+          stem: "-",
+          clue: "The verb is participle and dagesh in the first root letter",
+          description:
+            "The Prefix ה can be a definte article and it takes Patach (ַ ) as its vowel. \n Eg.הַבָּ֥אָה",
+
+          moreExamples: [
+            ["הַבָּ֥אָה", "בוא", "who came"],
+            ["הַיֹּשְׁבִ֖ים", "ישׁב", "who settel"],
+            ["הַיֹּֽצְאִים֙", "יצא", "who went forth"],
+            ["הַנּוֹתֶ֙רֶת֙", "יתר", "that is left"],
+          ],
+        },
+      ],
     },
     {
-      name: "Lead",
-      category: "post-transition metal",
       img: require("../assets/box/6-14.png"),
       xpos: 14,
       ypos: 6,
+      item: [
+        {
+          option: "Imperative",
+          stem: "Hifil",
+          clue: "Biconsonantal",
+          description:
+            "The Preformative ה of Hifil stem in its imperative conjugation has Qamets (ְָ ) as its vowel, if the verb is a biconsonantal. \n Eg.הָשֵׁ֤ב",
+
+          moreExamples: [
+            ["הָשֵׁ֤ב", "שׁוב", "Return"],
+            ["הָבִ֔יאוּ", "בוא", "Bring forth"],
+            ["הָסִ֜רוּ", "סור", "Put away"],
+            ["הָכֵ֥ן", "כון", "Prepare"],
+            ["הָבִ֣ינוּ", "בון", "Understand"],
+          ],
+        },
+        {
+          option: "Infinitive Construct",
+          stem: "Hifil",
+          clue: "Biconsonantal",
+          description:
+            "The Preformative ה of Hifil stem in its infinitive construct conjugation has Qamets (ָ ) as its vowel, if the verb is a biconsonantal. \n Eg.לְהָבִֽיא \n NB. The imperative and infinitive construct conjugations follow similar morophological construction. However, the later usually comes with prepositions and that helps to diffrentiate between the two. ",
+          moreExamples: [
+            ["לְהָבִֽיא", "בוא", "to bring"],
+            ["וּלְהָשִׁ֤יב", "שׁוב", "And to replace"],
+            ["לְהָמִ֤ית", "מות", "to put to death"],
+            [" לְהָקִ֗ים", "קום", "to perpetuate"],
+          ],
+        },
+        {
+          option: "Definite Article",
+          stem: "-",
+          clue: "First root letter is guttural and the verb is participle",
+          description:
+            "The Prefix ה can be a definte article and it takes Qamets (ָ ) as its vowel, if the verb is participle and the first root lettre is guttural. \n Eg.הָאֹמֵ֣ר",
+
+          moreExamples: [
+            ["הָאֹמֵ֣ר", "בוא", "who said"],
+            ["הָאֹכְלִ֤ים", "שׁוב", "who ate"],
+            ["הָעֹלֹ֣ת", "מות", "who came up"],
+            ["הָעֹֽמְדוֹת֙", "קום", "who stood"],
+          ],
+        },
+      ],
     },
     {
       name: "Francium",
@@ -745,8 +1433,6 @@ export const data = {
       ],
     },
     {
-      name: "Radium",
-      category: "alkaline earth metal",
       img: require("../assets/box/7-2.png"),
       xpos: 3,
       ypos: 7,
@@ -786,28 +1472,83 @@ export const data = {
       img: require("../assets/box/7-3.png"),
       xpos: 5,
       ypos: 7,
+      item: [
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: "First Root is Yod (I-י) & V2- i-class",
+          description:
+            "The Preformative vowel of Hifil stem in its waw-consecutive conjugation can be holem waw (וֹ), if the first root letter is Yod and V2 is an i-class vowel.  \n Eg. וַתּוֹצֵ֨א",
+
+          moreExamples: [
+            ["וַתּוֹצֵ֨א", "יצא", "And he brought forth"],
+            ["וַיּוֹסִ֥פוּ", "יסף", "And they added"],
+            ["וַיּ֥וֹלֶד", "ילד", "And he fathered"],
+            ["וַתּ֤וֹרֶד", "ירד", "And she let down"],
+            [" וַיּ֨וֹשַׁע", "ישׁע", "And he sought"],
+          ],
+        },
+      ],
     },
 
     {
-      name: "Rutherfordium",
-      category: "transition metal",
       img: require("../assets/box/7-4.png"),
       xpos: 4,
       ypos: 7,
+      item: [
+        {
+          option: "Hp",
+          stem: "Hophal",
+          clue: "Biconsonantal verbs and V2- patach",
+          description:
+            "The Preformative vowel of Hofal stem in its waw-consecutive conjugation can be Shureq (וּ), if the verb is biconsonantal.  \n Eg. וַיּוּשַׁ֞ב",
+          moreExamples: [
+            ["וַיּוּשַׁ֞ב", "שׁוב", "And he was brought back"],
+            ["וַתּוּמַ֖ת", "מות", "And she was put to death"],
+            ["וַיּוּשַׂ֤ם", "שׂים", "And he was set"],
+          ],
+        },
+      ],
     },
     {
-      name: "Dubnium",
-      category: "transition metal",
       img: require("../assets/box/7-5.png"),
       xpos: 6,
       ypos: 7,
+      item: [
+        {
+          option: "Hp",
+          stem: "Hophal",
+          clue: " V2- patach",
+          description:
+            "The Preformative vowel of Hofal stem in its waw-consecutive conjugation can be Qibbuts (ֻ ).  \n Eg. וַיֻּגַּ֥ד",
+
+          moreExamples: [
+            ["וַיֻּגַּ֥ד", "נגד", "And it was told"],
+            ["וַיֻּכּ֗וּ", "נכה", "And they were beaten"],
+            ["וַֽתֻּשְׁלְכִ֞י", "שׁלך", "And you were cast out"],
+          ],
+        },
+      ],
     },
     {
-      name: "Seaborgium",
-      category: "transition metal",
       img: require("../assets/box/7-6.png"),
       xpos: 7,
       ypos: 7,
+      item: [
+        {
+          option: "D",
+          stem: "Piel",
+          clue: " Preformative Aleph and V2- patach",
+          description:
+            "The Preformative vowel of Piel stem in its waw-consecutive conjugation can be Hateph Patach (ֲ ), if the preformative consonant is Aleph.  \n Eg. וָאֲדַבֵּ֥ר",
+
+          moreExamples: [
+            ["וָאֲדַבֵּ֥ר", "דבר", "And I spoke"],
+            [" וָאֲצַוֶּ֥ה", "צוה", "And I command"],
+            ["וָאֲבַקֵּ֣שׁ", "בקשׁ", "And I sought"],
+          ],
+        },
+      ],
     },
     // {
     //   name: "Bohrium",
@@ -817,53 +1558,217 @@ export const data = {
     //   ypos: 7,
     // },
     {
-      name: "Hassium",
-      category: "transition metal",
       img: require("../assets/box/7-8.png"),
       xpos: 8,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be Hireq Yod (ִי ), if the first root letter is Yod.  \n Eg. וַיִּֽירְא֥וּ",
+
+          moreExamples: [
+            ["וַיִּֽירְא֥וּ", "ירא", "And they were afraid"],
+            [" וַיִּירַ֨שׁ", "ירשׁ", "And he took possession"],
+            [" וַיִּיטַב֙", "יטב", "And it pleased"],
+          ],
+        },
+      ],
     },
     {
-      name: "Meitnerium",
-      category: "unknown, probably transition metal",
       img: require("../assets/box/7-9.png"),
       xpos: 9,
       ypos: 7,
+      item: [
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: " First root letter is Yod",
+          description:
+            "The Preformative vowel of Hifil stem in its waw-consecutive conjugation can be Tsere Yod (ֵי), if the first root letter is Yod.  \n Eg. וַתֵּ֣יטֶב",
+
+          moreExamples: [["וַתֵּ֣יטֶב", "יטב", "And he did well"]],
+        },
+      ],
     },
     {
-      name: "Darmstadtium",
-      category: "unknown, probably transition metal",
       img: require("../assets/box/7-10.png"),
       xpos: 10,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " Preformative א   or first root letter is ח",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be segol (ֶ ), if the Preformative א   or first root letter is ח.  \n Eg. וָאֶתֵּ֣ן",
+
+          moreExamples: [
+            ["וָאֶתֵּ֣ן", "נתן", "And I have given"],
+            ["וָאֶקַּ֥ח", "לקח", "And I took"],
+            ["וָאֶשָּׂ֥א", "נשׂא", "And I lifted up"],
+            ["וָאֶשְׁמַ֖ע", "שׁמע	", "And I obeyed"],
+          ],
+        },
+
+        {
+          option: "N",
+          stem: "Nifal",
+          clue: " Preformative א and V1- qamets",
+          description:
+            "The Preformative vowel of Nifal stem in its waw-consecutive conjugation can be segol (ֶ ), if the Preformative is א .  \n Eg. וָאֶשָּׁ֨בַֽע",
+
+          moreExamples: [["וָאֶשָּׁ֨בַֽע", "שׁבע", "And I swore "]],
+        },
+      ],
     },
     {
-      name: "Roentgenium",
-      category: "unknown, probably transition metal",
       img: require("../assets/box/7-11.png"),
       xpos: 11,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " Preformative נ י ת   ",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be hireq (ִ ), if the Preformative  נ י ת.  \n Eg. וַיִּתֵּ֥ן",
+
+          moreExamples: [
+            ["וַיִּתֵּ֥ן", "נתן", "And he gave"],
+            ["וַיִּקַּ֛ח", "לקח", "And he took"],
+            ["וַיִּשְׂאוּ֙", "נשׂא", "And he lifted up"],
+            ["וַֽיִּשְׁמְע֞וּ", "שׁמע	", "And he heard"],
+          ],
+        },
+
+        {
+          option: "N",
+          stem: "Nifal",
+          clue: " Preformative א and V1- qamets",
+          description:
+            "The Preformative vowel of Nifal stem in its waw-consecutive conjugation can be hireq (ִ ), if the Preformative is א .  \n Eg. וַיִּלָּ֥חֶם",
+
+          moreExamples: [
+            ["וַיִּלָּ֥חֶם", "לחם", "And he fought"],
+            ["וַתִּקָּבֵ֛ר", "קבר", "And she was buried"],
+            ["וַיִּשָּׁ֣בַֽע", "שׁבע", "And he swore"],
+          ],
+        },
+      ],
     },
     {
-      name: "Copernicium",
-      category: "transition metal",
       img: require("../assets/box/7-12.png"),
       xpos: 12,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " the first root letter is yod or if the verb is a biconsonantal ",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be Tsere (ִֵ ), if the first root letter is yod or if the verb is a biconsonantal.  \n Eg. וַיֵּ֣דְע֔וּ",
+
+          moreExamples: [
+            ["וַיֵּ֣דְע֔וּ", "ידע", "And they knew"],
+            ["וַיֵּ֥צֵא", "יצא", "And he went out"],
+            ["וַיֵּ֥שֶׁב", "ישׁב", "And he dwelled"],
+            ["וַתֵּ֣לֶד", "ילד	", "And she bore"],
+            ["וַיֵּבֹ֑שׁוּ", "בושׁ	", "And thye confounded"],
+          ],
+        },
+
+        {
+          option: "N",
+          stem: "Nifal",
+          clue: " Preformative א and V1- qamets",
+          description:
+            "The Preformative vowel of Nifal stem in its waw-consecutive conjugation can be Tsere ( ִֵ  ), if the first root letter is a guttural.  \n Eg. וַיֵּחָלֵ֨ק",
+
+          moreExamples: [
+            ["וַיֵּחָלֵ֨ק", "חלק", "And he divided"],
+            ["וַיֵּהָֽפְכ֛וּ", "הפך", "And they turned"],
+            ["וַיֵּאָ֖סֶף", "אסף", "And he was gathered"],
+          ],
+        },
+      ],
     },
     {
-      name: "Nihonium",
-      category: "unknown, probably transition metal",
       img: require("../assets/box/7-13.png"),
       xpos: 13,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " First root letter is guttural",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be Patach (ַ ), if the first root letter is guttural.  \n Eg. וַיַּ֣עַשׂ",
+
+          moreExamples: [
+            ["וַיַּ֣עַשׂ", "עשׂה", "And he made"],
+            [" וַיַּ֣עַל", "עלה", "And he went up"],
+            ["  וַיַּעֲנ֧וּ", "ענה", "And they answered"],
+            ["  וַיַּֽהַרְג֖וּ", "הרג", "And they killed"],
+            [" וַֽיַּחֲנ֖וּ", "חנה", "And they encamped"],
+          ],
+        },
+
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: " V2-i-class vowel",
+          description:
+            "The Preformative vowel of Hifil stem in its waw-consecutive conjugation is Patach (ַ ) for regular verbs.  \n Eg. וַיַּכּ֕וּ",
+
+          moreExamples: [
+            ["וַיַּכּ֕וּ", "נכה", "And they defeated"],
+            [" וַיַּגֵּ֥ד", "נגד", "And he told"],
+            ["  וַיַּ֥עַל", "עלה", "And he offered"],
+            [" וַיַּשְׁלִ֥כוּ", "שׁלך", "And they threw"],
+            ["וַיַּעֲמֵ֥ד", "עמד", "And he fixed"],
+          ],
+        },
+      ],
     },
     {
-      name: "Flerovium",
-      category: "post-transition metal",
       img: require("../assets/box/7-14.png"),
       xpos: 14,
       ypos: 7,
+      item: [
+        {
+          option: "Q",
+          stem: "Qal",
+          clue: " Biconsonantal or Geminate",
+          description:
+            "The Preformative vowel of Qal stem in its waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or guttural.  \n Eg. וַיָּ֥קָם",
+
+          moreExamples: [
+            ["וַיָּ֥קָם", "עשׂה", "And he rose up"],
+            [" וַיָּמֹֽת", "מות", "And he died"],
+            ["  וַיָּשֻׁ֧בוּ ", "ענה", "And it returned"],
+            ["  וַיָּ֣שֶׂם", "שׂים", "And he put"],
+            [" נוס", "חנה", "And they fled"],
+          ],
+        },
+
+        {
+          option: "H",
+          stem: "Hifil",
+          clue: "  Biconsonantal or Geminate and V2- i-class vowels",
+          description:
+            "The Preformative vowel of Hifil stem in its waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or guttural.  \n Eg. וַיָּבֵא֙",
+
+          moreExamples: [
+            ["וַיָּבֵא֙", "בוא", "And he brought"],
+            [" וַיָּ֕שֶׁב", "שׁוב", "And he brought back"],
+            [" וַיָּ֖מֶת", "מות", "And he put to death"],
+            ["וַיָּ֣סַר", "סור", "And he removed"],
+          ],
+        },
+      ],
     },
     {
       name: "Ununennium",
@@ -973,89 +1878,258 @@ export const data = {
     },
 
     {
-      name: "Cerium",
-      category: "lanthanide",
       img: require("../assets/box/9-4.png"),
       xpos: 5,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: " Feminine Plural",
+          clue: "Participle",
+          description:
+            "The suffix waw with yod and tav ( וֹת) can be a suffix attached to a participle verb.  \n Eg.פְלָאֽוֹת",
+
+          moreExamples: [
+            ["פְלָאֽוֹת", "פלא", "wonderful"],
+            ["שֹׁמֵמֽוֹת", "שׁמם", "desoloated"],
+            ["הָרֹאֹ֗ת", "ראה", "have seen"],
+          ],
+        },
+      ],
     },
     {
-      name: "Praseodymium",
-      category: "lanthanide",
       img: require("../assets/box/9-5.png"),
       xpos: 4,
       ypos: 9,
+      item: [
+        {
+          option: " Perfect Suffix",
+          Congruency: "Masculine plural",
+          clue: " Participle ",
+          description:
+            "The suffix hireq yod and Mem ( ם  ִים) can be a suffix attached to a participle verb.  \n Eg.הַיֹּשְׁבִ֖ים",
+
+          moreExamples: [
+            ["הַיֹּשְׁבִ֖ים", "ישׁב", "who live"],
+            ["הַבָּאִ֑ים", "בוא", "who came "],
+            ["עֹשִֽׂים", "עשׂה", "were doing "],
+          ],
+        },
+      ],
     },
     {
-      name: "Neodymium",
-      category: "lanthanide",
       img: require("../assets/box/9-6.png"),
       xpos: 6,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "-",
+          clue: "comes with participle or Infinitives ",
+          description:
+            "The suffix Tav ( ת ) can be perfect suffix attached to a verb.  \n Eg.יוֹשָֽׁבֶת",
+
+          moreExamples: [
+            ["יוֹשָֽׁבֶת", "ישׁב", "She lived"],
+            ["יֹלֶ֤דֶת", "ילד", "She bear "],
+          ],
+        },
+      ],
     },
     {
-      name: "Promethium",
-      category: "lanthanide",
       img: require("../assets/box/9-7.png"),
       xpos: 7,
       ypos: 9,
+      item: [
+        {
+          option: " Perfect Suffix",
+          Congruency: "Third feminine Singular",
+          clue: "comes without preformative",
+          description:
+            "The suffix Qamets followed by He ( ה ָ  ) can be a perfective suffix attached to third person feminine plural verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["אֲהֵבָ֑הּ", "אהב", "He had loved her"],
+            ["יָלְדָ֖ה", "ילד", "She had borne"],
+            ["עָשָׂ֑תָה", "עשׂה", "She had prepared"],
+          ],
+        },
+        {
+          option: "Pronominal Suffix",
+          Congruency: "Third feminine Singular",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix Qamets followed by He ( הּ ָ  ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["אֲהֵבָ֑הּ", "אהב", "He had loved her"],
+            ["אֹהֲבֶ֑יהָ", "נתן", " who love her"],
+            ["אֶתְּנֶֽנָּה", "נתן", "I will give it"],
+          ],
+        },
+        {
+          option: " Imperfect Suffix",
+          Congruency: "First common singular or Singular",
+          clue: "comes with preformative א or נ",
+          description:
+            "The suffix Qamets followed by He ( ה ָ  ) can be objective suffix attached to a verb.  \n Eg.נִכְרְתָ֥ה",
+
+          moreExamples: [
+            ["נֵדְעָ֖ה", "כרת", "Let us make"],
+            ["נֵדְעָ֖ה", "ידע", "She had borne"],
+            ["נֵלְכָ֖ה", "הלך", "Let us go"],
+          ],
+        },
+      ],
     },
     {
-      name: "Samarium",
-      category: "lanthanide",
       img: require("../assets/box/9-8.png"),
       xpos: 8,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "second feminine Singular",
+          clue: "-",
+          description:
+            "The suffix Tav and qamets ( תְ ) can be perfect suffix attached to a verb.  \n Eg.עָשִׂ֣יתָ",
+
+          moreExamples: [
+            ["עָשִׂ֑ית", "עשׂה", "You have done"],
+            ["אָמַ֔רְתְּ", "אמר", "You have spoken  "],
+            [" יָדַ֙עַתְּ֙", "ידע	", "You have done "],
+          ],
+        },
+      ],
     },
     {
-      name: "Europium",
-      category: "lanthanide",
       img: require("../assets/box/9-9.png"),
       xpos: 9,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "second masuline Singular",
+          clue: "-",
+          description:
+            "The suffix Tav and qamets ( תָ ) can be perfect suffix attached to a verb.  \n Eg.עָשִׂ֣יתָ",
+
+          moreExamples: [
+            ["עָשִׂ֣יתָ", "עשׂה", "You have done"],
+            ["אָמַ֔רְתָּ", "אמר", "You said  "],
+            [" נָתַ֖תָּה", "שׁמע", "You have done "],
+          ],
+        },
+      ],
     },
     {
-      name: "Gadolinium",
-      category: "lanthanide",
       img: require("../assets/box/9-10.png"),
       xpos: 10,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "First common singular",
+          clue: "-",
+          description:
+            "The suffix Tav and hireq Yod ( תִי ) can be perfect suffix attached to a verb.  \n Eg.נָתַ֨תִּי",
+
+          moreExamples: [
+            ["נָתַ֨תִּי", "נתן", "I have given"],
+            ["יָדַ֔עְתִּי", "ידע", "I know "],
+            [" שָׁמַ֖עְתִּי", "שׁמע", "I heard"],
+          ],
+        },
+      ],
     },
     {
-      name: "Terbium",
-      category: "lanthanide",
       img: require("../assets/box/9-11.png"),
       xpos: 11,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "third masculine Plural",
+          clue: "-",
+          description:
+            "The suffix Shureq (וּ )  can be perfect suffix attached to a verb.  \n Eg.הָיוּ",
+
+          moreExamples: [
+            ["הָיוּ֙", "היה", "They became"],
+            ["עָשׂ֣וּ", "עשׂה", "They made"],
+            ["בָּ֧אוּ", "בוא", "They went into"],
+          ],
+        },
+      ],
     },
     {
-      name: "Dysprosium",
-      category: "lanthanide",
       img: require("../assets/box/9-12.png"),
       xpos: 12,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "Second feminine Plural",
+          clue: "only ten instance",
+          description:
+            "The suffix kaf with segol and Mem sofit ( תֶן) can be a perfect suffix attached to a verb.  \n Eg.יְדַעְתֶּ֑ן",
+
+          moreExamples: [["יְדַעְתֶּ֑ן", "ידע", "You know"]],
+        },
+      ],
     },
     {
-      name: "Holmium",
-      category: "lanthanide",
       img: require("../assets/box/9-13.png"),
       xpos: 13,
       ypos: 9,
+      item: [
+        {
+          option: "Perfect Suffix",
+          Congruency: "Second masculine Plural",
+          clue: "comes with or without preformative ה ",
+          description:
+            "The suffix Tav with segol and Mem sofit ( תֶם ) can be prefix suffix attached to a verb.  \n Eg.יְדַעְתֶּ֔ם",
+
+          moreExamples: [
+            ["יְדַעְתֶּ֔ם", "ידע", "You know"],
+            ["עֲשִׂיתֶ֣ם", "עשׂה", " You had made"],
+            ["אֲמַרְתֶּ֖ם", "אמר", "you said"],
+          ],
+        },
+      ],
     },
     {
-      name: "Erbium",
-      category: "lanthanide",
       img: require("../assets/box/9-14.png"),
       xpos: 14,
       ypos: 9,
-    },
+      item: [
+        {
+          option: " Perfect Suffix",
+          Congruency: "First common plural",
+          clue: "comes without preformative",
+          description:
+            "The suffix Nun with Shureq ( נוּ  ) can be perfect suffix attached to a verb.  \n Eg.שָׁמַ֖עְנוּ",
 
-    {
-      name: "Cerium",
-      category: "lanthanide",
-      img: require("../assets/box/10-4.png"),
-      xpos: 5,
-      ypos: 10,
+          moreExamples: [
+            ["שָׁמָ֑עְנוּ", "שׁמע", "We listened"],
+            ["חָטָֽאנוּ", "חטא", " We have sinned"],
+            ["רָאִינוּ֮", "ראה", "We see"],
+          ],
+        },
+        {
+          option: "Pronominal Suffix",
+          Congruency: "First common plural",
+          clue: "comes with or without preformative ה",
+          description:
+            "The suffix Nun with Shureq ( נוּ  ) can be objective suffix attached to a verb.  \n Eg.הוֹשַׁעְתָּ֖נוּ",
+
+          moreExamples: [
+            ["הוֹשַׁעְתָּ֖נוּ", "ישׁע", "You have saved us"],
+            ["הַצִּילֵ֛נוּ", "נצל", " Deliver us"],
+            ["הוֹצִיאָ֧נוּ", " יצא", "He brought us out"],
+          ],
+        },
+      ],
     },
     {
       name: "Praseodymium",
@@ -1063,13 +2137,76 @@ export const data = {
       img: require("../assets/box/10-5.png"),
       xpos: 4,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "First Common Singular",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix hireq yod ( י ִ ) can be objective suffix attached to a verb.  \n Eg.שַׁלְּחֵ֙נִי֙",
+
+          moreExamples: [
+            ["שַׁלְּחֵ֙נִי֙", "שׁלח", "Send me away"],
+            ["עָנָ֣נִי", "ענה", "He asnswered me"],
+            ["הַרְאֵ֥נִי", "ראה", "Show me"],
+          ],
+        },
+        {
+          option: "Imperfect Suffix",
+          congruency: "Second Feminine Singular",
+          clue: "comes with preformative ת",
+          description:
+            "The suffix hireq yod ( י ִ ) can be imperfect suffix attached to a second person feminine singular verb.  \n Eg.תִּירְאִ֤י",
+
+          moreExamples: [
+            ["תִּירְאִ֤י", "ירא", "You will fear"],
+            ["תֵלֵ֑כִי", "הלך", "You have come"],
+            ["תִּזְכְּרִי֙", "זכר", "You may remember"],
+          ],
+        },
+      ],
     },
+
     {
-      name: "Neodymium",
-      category: "lanthanide",
+      img: require("../assets/box/10-4.png"),
+      xpos: 5,
+      ypos: 10,
+      item: [
+        {
+          option: " Construct Suffix",
+          congruency: "Masculine plural",
+          clue: " Participle ",
+          description:
+            "The suffix tsere yod ( י ֵ ) can be a construct chain suffix attached to a participle verb.  \n Eg.יֹשְׁבֵ֖י",
+
+          moreExamples: [
+            ["יֹשְׁבֵ֖י", "בוא", "inhabitants of"],
+            ["שֹׂנְאֵ֖י", "שׂנא", "who hate of "],
+            ["שֹׁמְרֵ֖י", "שׁמר", "keeper of "],
+          ],
+        },
+      ],
+    },
+
+    {
       img: require("../assets/box/10-6.png"),
       xpos: 6,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Third masculine Singular",
+          clue: "comes with or without preformative",
+          description:
+            "The suffix holem waw ( וֹ ) or He with shureq( הוּ ) can be objective suffix attached to a verb.  \n Eg.יְבִאֵ֣הוּ",
+
+          moreExamples: [
+            ["יְבִאֵ֣הוּ", "בוא", "Let him bring it"],
+            ["בֹּא֖וֹ", "בוא", "He had gone into it"],
+            ["הִכָּ֛הוּ", "נכה", "He struck him"],
+          ],
+        },
+      ],
     },
     {
       name: "Promethium",
@@ -1077,55 +2214,199 @@ export const data = {
       img: require("../assets/box/10-7.png"),
       xpos: 7,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Third feminine Singular",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix Qamets followed by He ( הּ ָ  ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["אֲהֵבָ֑הּ", "אהב", "He had loved her"],
+            ["אֹהֲבֶ֑יהָ", "נתן", " who love her"],
+            ["אֶתְּנֶֽנָּה", "נתן", "I will give it"],
+          ],
+        },
+
+        {
+          option: " Perfect Suffix",
+          congruency: "Third feminine Singular",
+          clue: "comes without preformative",
+          description:
+            "The suffix Qamets followed by He ( ה ָ  ) can be a perfective suffix attached to third person feminine plural verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["אֲהֵבָ֑הּ", "אהב", "He had loved her"],
+            ["יָלְדָ֖ה", "ילד", "She had borne"],
+            ["עָשָׂ֑תָה", "עשׂה", "She had prepared"],
+          ],
+        },
+        {
+          option: " Imperfect Suffix",
+          congruency: "First common singular or Singular",
+          clue: "comes with preformative א or נ",
+          description:
+            "The suffix Qamets followed by He ( ה ָ  ) can be objective suffix attached to a verb.  \n Eg.נִכְרְתָ֥ה",
+
+          moreExamples: [
+            ["נֵדְעָ֖ה", "כרת", "Let us make"],
+            ["נֵדְעָ֖ה", "ידע", "She had borne"],
+            ["נֵלְכָ֖ה", "הלך", "Let us go"],
+          ],
+        },
+      ],
     },
     {
-      name: "Samarium",
-      category: "lanthanide",
       img: require("../assets/box/10-8.png"),
       xpos: 8,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Second feminine Singular",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix kaf sofit ( ךְ ) can be objective suffix attached to a verb.  \n Eg.אֲהַבְתִּ֔יךְ",
+
+          moreExamples: [
+            ["אֲהַבְתִּ֔יךְ", "אהב", "I love you"],
+            ["נְתַתִּ֔יךְ", "נתן", " I made you"],
+            ["גֹּאֲלֵ֖ךְ", "זכר", "your redeemer"],
+          ],
+        },
+      ],
     },
     {
-      name: "Europium",
-      category: "lanthanide",
       img: require("../assets/box/10-9.png"),
       xpos: 9,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Second feminine Singular",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix kaf sofit with aleph (ךָ ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["צִוִּיתִ֛יךָ", "צוה", "I commanded you"],
+            ["נְתַתִּֽיךָ", "נתן", " I have made you"],
+            ["יְבִיאֲךָ֣", "בוא", "He brings you"],
+          ],
+        },
+      ],
     },
     {
-      name: "Gadolinium",
-      category: "lanthanide",
       img: require("../assets/box/10-10.png"),
       xpos: 10,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "third feminine Plural",
+          clue: "only one instance",
+          description:
+            "The suffix kaf with segol and Nun sofit ( ן) or He with segol and Nun sofit ( הֶן )  can be pronominal suffix attached to a verb.  \n Eg.בְּבוֹאָֽן",
+
+          moreExamples: [
+            ["בְּבוֹאָֽן", "ילד", "as one enters"],
+            ["בְּלֶכְתָּֽן", "הלך", "as they went"],
+            [" קֹנֵיהֶ֤ן", "קנה", "who buy them"],
+          ],
+        },
+      ],
     },
     {
-      name: "Terbium",
-      category: "lanthanide",
       img: require("../assets/box/10-11.png"),
       xpos: 11,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "third masculine Plural",
+          clue: "-",
+          description:
+            "The suffix Mem sofit ( ם) or He with segol and Mem sofit ( הֶם )  can be pronominal suffix attached to a verb.  \n Eg.בְּבוֹאָֽן",
+
+          moreExamples: [
+            ["נְתַתִּ֧ים", "נתן", "I have given them"],
+            ["הֱבִיא֗וּם", "בוא", "They have brought them"],
+            ["יִפְקְדֵ֛ם", "פקד", "He will be mindful of them"],
+          ],
+        },
+      ],
     },
     {
-      name: "Dysprosium",
-      category: "lanthanide",
       img: require("../assets/box/10-12.png"),
       xpos: 12,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Second feminine Plural",
+          clue: "only one instance",
+          description:
+            "The suffix kaf with segol and Mem sofit ( כֶן) can be objective suffix attached to a verb.  \n Eg.בְּיַלֶּדְכֶן֙",
+
+          moreExamples: [
+            ["בְּיַלֶּדְכֶן֙", "ילד", "When you serve as a midwife"],
+          ],
+        },
+      ],
     },
     {
-      name: "Holmium",
-      category: "lanthanide",
       img: require("../assets/box/10-13.png"),
       xpos: 13,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "Second masculine Plural",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix kaf with segol and Mem sofit ( כֶם ) can be objective suffix attached to a verb.  \n Eg.אֲהַבְתִּ֔יךְ",
+
+          moreExamples: [
+            ["בְּבֹאֲכֶ֛ם", "בוא", "When you go into"],
+            ["בְּצֵאתְכֶ֣ם", "יצא", " when you came out"],
+            ["אֲמָרְכֶ֛ם", "אמר", "you have said"],
+          ],
+        },
+      ],
     },
     {
-      name: "Erbium",
-      category: "lanthanide",
       img: require("../assets/box/10-14.png"),
       xpos: 14,
       ypos: 10,
+      item: [
+        {
+          option: "Pronominal Suffix",
+          congruency: "First common plural",
+          clue: "comes with or without preformative ת",
+          description:
+            "The suffix Nun with Shureq ( נוּ  ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["הוֹשַׁעְתָּ֖נוּ", "ישׁע", "You have saved us"],
+            ["הַצִּילֵ֛נוּ", "נצל", " Deliver us"],
+            ["הוֹצִיאָ֧נוּ", " יצא", "He brought us out"],
+          ],
+        },
+        {
+          option: "Pronominal Suffix",
+          congruency: "First common plural",
+          clue: "comes without preformative ת",
+          description:
+            "The suffix Nun with Shureq ( נוּ  ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+
+          moreExamples: [
+            ["שָׁמָ֑עְנוּ", "שׁמע", "We listened"],
+            ["חָטָֽאנוּ", "חטא", " We have sinned"],
+            ["רָאִינוּ֮", "ראה", "We see"],
+          ],
+        },
+      ],
     },
 
     {
@@ -1133,18 +2414,6 @@ export const data = {
 
       xpos: 4,
       ypos: 4,
-    },
-    {
-      name: "none",
-
-      xpos: 3,
-      ypos: 5,
-    },
-    {
-      name: "none",
-
-      xpos: 2,
-      ypos: 6,
     },
   ],
 };

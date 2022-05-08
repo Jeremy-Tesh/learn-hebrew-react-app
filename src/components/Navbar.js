@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 function Header() {
   return (
     <div>
-      <Navbar className="bg-[#0073aa]" variant="dark">
+      <Navbar className="bg-[#0073aa] font-Koulen text-xl" variant="dark">
         <Container className="flex justify-between  w-full  ">
           <Navbar.Brand href="/" className="mx-7">
             Hooked on Hebrew

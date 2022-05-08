@@ -5,13 +5,14 @@ import { data } from "../data/Data";
 
 function Card(props) {
   return (
-    <span className="flex flex-col mt-14 w-[800px] min-w-[400px]  ">
-      <h1 className="text-center"> Description</h1>
+    <span className="flex flex-col mt-14 w-[500px]  min-w-[300px]  ">
       {props.show ? (
         <Table striped bordered hover>
           <thead>
             <tr>
-              <th colSpan={4}>Performative vowel</th>
+              <th className="bg-[#0073aa]" colSpan={4}>
+                Performative vowel
+              </th>
             </tr>
             <tr>
               <th>Options</th>
@@ -28,7 +29,9 @@ function Card(props) {
             {data.elements[props.index].item.map((element, i) => (
               <tr key={i}>
                 <td>{element.option}</td>
-                <td>{element.stem}</td>
+                <td>
+                  {element.congruency ? element.congruency : element.stem}
+                </td>
                 <td>{element.clue}</td>
               </tr>
             ))}
