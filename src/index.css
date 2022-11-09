@@ -10,3 +10,48 @@
         grid-template-columns: repeat(15,minmax(0, max-content));
     }
 }
+
+.gap-x-3 {
+    column-gap: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+.box-border{
+    border-color: #6b6b6b;
+    border-width: 1px;
+}
+
+.pb-24 {
+    padding-bottom: 5px;
+}
+
+.w-screen {
+    width: 100% !important;
+    overflow: hidden !important;
+    
+}
+
+table{
+    border-width: 2px;
+    border-color: #6d747f !important;
+}
+
+.bg-head1
+{
+    background-color: #6d747f !important;
+    font-weight:bold;
+    color: #fff;
+}
+
+td
+{
+    font-weight:100 !important; 
+}
+
+.b{
+    font-weight: bold;
+}
+

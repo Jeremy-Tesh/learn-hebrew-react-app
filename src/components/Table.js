@@ -46,10 +46,10 @@ function Table() {
       <div className="w-screen  py-12">
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-[15]  gap-x-3 pb-24  grid-row-14 ">
-            {Array.from(Array(15), (e, i) => {
+            {Array.from(Array(14), (e, i) => {
               return (
                 <div
-                  className="w-[63px] h-[63px] flex flex-col items-center justify-center "
+                  className="w-[80px] h-[51px] flex flex-col items-center justify-center box-border "
                   style={{
                     gridColumn: i + 1,
                     gridRow: 0,
@@ -57,7 +57,7 @@ function Table() {
                   }}
                   key={i}
                 >
-                  {String.fromCharCode(79 - i)}
+                  {String.fromCharCode(78 - i)}
                 </div>
               );
             })}
@@ -83,12 +83,12 @@ function Table() {
           <div className=" grid grid-cols-[15] gap-x-3 grid-row-14 ">
             {data.elements.map((element, i) => (
               <div
-                className="border-2 border-b-gray-500 w-[68px] h-[68px] "
+                className="border-none border-b-gray-500 w-[80px] h-[51px] "
                 style={{
                   gridColumn: element.xpos,
                   gridRow: element.ypos,
                   backgroundColor: mapping(element.ypos, element.xpos),
-                  marginBottom: element.ypos === 8 ? "45px" : "0",
+                  marginBottom: element.ypos === 8 ? "5px" : "5px",
                 }}
                 onMouseEnter={() => {
                   // index(i);
@@ -109,9 +109,11 @@ function Table() {
                 >
                   {element.name === "none" ? (
                     <div
-                      className="w-[68px] h-[68px]  "
+                      className="w-[80px] h-[51px]  "
                       style={{
-                        backgroundColor: "#cccccc",
+                        backgroundColor: "#6d747f",
+                        borderColor: "#6e716c" ,
+                        borderWidth: "2px" ,
                       }}
                       onMouseEnter={() => {
                         setIndex(100);
@@ -120,7 +122,7 @@ function Table() {
                     ></div>
                   ) : (
                     <img
-                      className="w-[68px] h-[68px] bg-contain"
+                      className="w-[80px] h-[51px] bg-contain"
                       src={element.img}
                       alt="img"
                     />
@@ -129,8 +131,10 @@ function Table() {
               </div>
             ))}
             {true ? (
-              <div className="absolute top-[13%] left-[34%]">
-                <Card index={index} show={isShown} />
+              <div className="absolute top-[7%] left-[27.6%] ">
+      
+                    <Card index={index} show={isShown} />
+              
               </div>
             ) : (
               ""

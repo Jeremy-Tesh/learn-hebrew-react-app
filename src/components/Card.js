@@ -7,17 +7,17 @@ function Card(props) {
   return (
     <span className="flex flex-col mt-14 w-[680px]  min-w-[300px]  ">
       {props.show ? (
-        <Table striped bordered hover>
+        <Table striped bordered hover className=" bg-[#ffffff] " >
           <thead>
             <tr>
-              <th className="bg-[#0073aa]" colSpan={4}>
+              <th className="bg-head1 b" colSpan={4}>
                 Performative vowel
               </th>
             </tr>
             <tr>
-              <th>Options</th>
-              <th>Stem</th>
-              <th>Clue</th>
+              <th className="b">Options</th>
+              <th className="b">Stem</th>
+              <th className="b">Clue</th>
               {/* <th rowSpan="1" className="">
               <div className="w-[90px] h-[150px] flex m-auto justify-center items-center">
                 <img className="w-[80px] h-[80px]" src={content} alt="" />
