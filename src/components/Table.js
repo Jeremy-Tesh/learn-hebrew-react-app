@@ -92,19 +92,24 @@ function Table() {
                 }}
                 onMouseEnter={() => {
                   // index(i);
-                  setIndex(i);
+                  
                   console.log(i);
-                  element.name === "none"
-                    ? setIsShown(false)
-                    : setIsShown(true);
+                  // element.name === "none"
+                  //   ? setIsShown(false)
+                  //   : setIsShown(true);
                 }}
-                onMouseLeave={() => setIsShown(false)}
+                // onMouseLeave={() => setIsShown(false)}
                 key={i}
               >
                 <button
                   className="no-underline hover:underline text-black"
-                  onClick={() =>
-                    index === 100 ? "" : navigate(`/details/${i}`)
+                  onClick={() => {
+                    setIndex(i);
+                    element.name === "none"
+                      ? setIsShown(false)
+                      : setIsShown(true)
+                  }
+                    // index === 100 ? "" : navigate(`/details/${i}`)
                   }
                 >
                   {element.name === "none" ? (
@@ -115,10 +120,10 @@ function Table() {
                         borderColor: "#6e716c" ,
                         borderWidth: "2px" ,
                       }}
-                      onMouseEnter={() => {
-                        setIndex(100);
-                        setIsShown(false);
-                      }}
+                      // onMouseEnter={() => {
+                      //   setIndex(100);
+                      //   setIsShown(false);
+                      // }}
                     ></div>
                   ) : (
                     <img
@@ -133,7 +138,12 @@ function Table() {
             {true ? (
               <div className="absolute top-[7%] left-[27.6%] ">
       
-                    <Card index={index} show={isShown} />
+                    <Card
+                      index={index}
+                      show={isShown}
+                      isViewDetails={true}
+                      setIsShown={setIsShown}
+                    />
               
               </div>
             ) : (
