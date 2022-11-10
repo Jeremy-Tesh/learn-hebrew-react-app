@@ -5,7 +5,7 @@ import { data } from "../data/Data";
 
 function Card(props) {
   return (
-    <span className="flex flex-col  w-[680px]  min-w-[300px]  ">
+    <span className="flex flex-col  w-auto   ">
       {props.show ? (
         <Table striped bordered hover className=" bg-[#ffffff] ">
           <thead>
