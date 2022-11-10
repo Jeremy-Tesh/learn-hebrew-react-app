@@ -40,7 +40,7 @@ import bg from "../assets/box/solidbg.png";
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
-  let navigate = useNavigate();
+//   let navigate = useNavigate();
 
   return (
     <div className="lg:px-8 md:px-5 px-2  w-screen flex h-full">
