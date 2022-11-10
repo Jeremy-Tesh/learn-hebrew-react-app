@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { data } from "../data/Data";
 import Card from "../components/Card";
-import { useNavigate } from "react-router-dom";
 
 const colorings = {
   1: "#b8f5ed",
@@ -39,7 +38,6 @@ const mapping = (y, x) => {
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
-  let navigate = useNavigate();
 
   return (
     <div className="w-screen flex h-full">

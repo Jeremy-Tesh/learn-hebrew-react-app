@@ -251,7 +251,6 @@ export const data = {
       clue: "Mostly Regular Verb",
       description:
         "Piel stem in its Perfect conjugation can have Hireq ( ִ  ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙ N.B. Verbs with first root letter Nun can be confused with this form in their Nifal perfect first common plural form.",
-       
       moreExamples: [
         ["דִּבֶּ֤ר", "דבר", "He had told"],
         ["צִוָּ֥ה", "צוה", "He commanded"],
@@ -426,11 +425,11 @@ export const data = {
               "Qal stem in its Infinitive Construct conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg.לָב֛וֹא", 
              
             moreExamples: [
-              ["לָב֛וֹא", "בוא", "to go back"]
+              ["לָב֛וֹא", "בוא", "to go back"],
               ["בּ֔וֹשׁ", "בושׁ", "embarrassed"],
             ],
          },
-    {
+        {
             option: "Imperative",
             stem: "Qal",
             clue: "Binconsonantal",
@@ -438,7 +437,7 @@ export const data = {
               "Qal stem in its imperative conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg. בּ֖וֹא ",
              
             moreExamples: [
-              ["בּ֖וֹא ", "בוא", "come"]
+              ["בּ֖וֹא ", "בוא", "come"],
               ["בּ֣וֹשִׁי ", "בושׁ", "be ashamed"],
               
             ],
@@ -452,7 +451,7 @@ export const data = {
               "Qal stem in its imperative conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg. א֑וֹר ",
              
             moreExamples: [
-              ["א֑וֹר ", "אור", "it was light"]
+              ["א֑וֹר ", "אור", "it was light"],
               ["בּ֣וֹשָׁה", "בושׁ", "She has been ashamed"],
               
             ],
@@ -1469,7 +1468,7 @@ export const data = {
             moreExamples: [
               ["הֵבִ֥יא", "בוא", "He brought"],
               ["הֵשִׁ֔יב", "שׁוב", "He brought back"],
-              ["הֲכִנֹֽתִי", "כון", "I have prepared "]
+              ["הֲכִנֹֽתִי", "כון", "I have prepared "],
               ["הֵרַ֖ע", "רעע", "He has done evil"],
             ],
           },

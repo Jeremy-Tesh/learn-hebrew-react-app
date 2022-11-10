@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import { data } from "../data/Data";
 
@@ -39,7 +38,6 @@ const mapping = (y, x) => {
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
-  let navigate = useNavigate();
 
   return (
     <div className="w-screen flex h-full">
