@@ -8,7 +8,7 @@ function Card(props) {
   const { index, isViewDetails, setIsShown } = props;
   console.log(isViewDetails);
   return (
-    <span className="flex flex-col mt-14 w-[680px]  min-w-[300px]  ">
+    <span className="flex flex-col  w-[680px]  min-w-[300px]  ">
       {props.show ? (
         <Table striped bordered hover className="bg-[#ffffff] shadow-xl" >
           <thead>
