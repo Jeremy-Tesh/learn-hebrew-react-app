@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import { data } from "../data/Data";
 
@@ -39,7 +38,6 @@ const mapping = (y, x) => {
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
-  let navigate = useNavigate();
 
   return (
     <div className="w-screen flex h-full">
@@ -90,22 +88,25 @@ function Table() {
                   backgroundColor: mapping(element.ypos, element.xpos),
                   marginBottom: element.ypos === 8 ? "5px" : "5px",
                 }}
-                onMouseEnter={() => {
-                  // index(i);
-                  setIndex(i);
-                  console.log(i);
-                  element.name === "none"
-                    ? setIsShown(false)
-                    : setIsShown(true);
-                }}
-                onMouseLeave={() => setIsShown(false)}
+                // onMouseEnter={() => {
+                //   // index(i);
+                //   setIndex(i);
+                //   console.log(i);
+                //   element.name === "none"
+                //     ? setIsShown(false)
+                //     : setIsShown(true);
+                // }}
+                // onMouseLeave={() => setIsShown(false)}
                 key={i}
               >
                 <button
                   className="no-underline hover:underline text-black"
-                  onClick={() =>
-                    index === 100 ? "" : navigate(`/details/${i}`)
-                  }
+                  onClick={() => {
+                    setIndex(i);
+                    element.name === "none"
+                      ? setIsShown(false)
+                      : setIsShown(true)
+                  }}
                 >
                   {element.name === "none" ? (
                     <div
@@ -115,10 +116,10 @@ function Table() {
                         borderColor: "#6e716c",
                         borderWidth: "2px",
                       }}
-                      onMouseEnter={() => {
-                        setIndex(100);
-                        setIsShown(false);
-                      }}
+                      // onMouseEnter={() => {
+                      //   setIndex(100);
+                      //   setIsShown(false);
+                      // }}
                     ></div>
                   ) : (
                     <img
@@ -132,7 +133,12 @@ function Table() {
             ))}
             {true ? (
               <div className="absolute top-[7%] left-[27.6%] ">
-                <Card index={index} show={isShown} />
+                <Card
+                  index={index}
+                  show={isShown}
+                  isViewDetails={true}
+                  setIsShown={setIsShown}
+                />
               </div>
             ) : (
               ""
