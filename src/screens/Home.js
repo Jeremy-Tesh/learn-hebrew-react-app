@@ -16,10 +16,10 @@ function Home() {
             src="http://cdn.designbeep.com/wp-content/uploads/2019/08/featured-image-31.jpg"
             alt="img"
           /> */}
-        <div className="w-screen relative top-20 text-center">
-          <h1 className="r text-white font-Koulen text-9xl">
+        <div className="relative top-20 text-center">
+          <p className=" text-white font-Koulen text-[11vh]">
             Hooked on Hebrew{" "}
-          </h1>
+          </p>
         </div>
       </div>
 
