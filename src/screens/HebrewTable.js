@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import { data } from "../data/Data";
 import bg from "../assets/box/solidbg.png";
