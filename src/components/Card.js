@@ -5,9 +5,9 @@ import { data } from "../data/Data";
 
 function Card(props) {
   return (
-    <span className="flex flex-col mt-14 w-[680px]  min-w-[300px]  ">
+    <span className="flex flex-col  w-[680px]  min-w-[300px]  ">
       {props.show ? (
-        <Table striped bordered hover className=" bg-[#ffffff] " >
+        <Table striped bordered hover className=" bg-[#ffffff] ">
           <thead>
             <tr>
               <th className="bg-head1 b" colSpan={4}>
