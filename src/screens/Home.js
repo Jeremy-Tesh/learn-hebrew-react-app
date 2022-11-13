@@ -1,13 +1,13 @@
 import React from "react";
 import Img1 from "../assets/images/card1.png";
+import bg from "../assets/images/bg.jpg";
 function Home() {
   return (
     <div className="w-full h-auto ">
       <div
         className="h-[500px] bg-cover object-cover w-full"
         style={{
-          backgroundImage:
-            "url('http://cdn.designbeep.com/wp-content/uploads/2019/08/featured-image-31.jpg')",
+          backgroundImage: `url(${bg})`,
           backgroundPosition: "cover",
         }}
       >
@@ -16,6 +16,7 @@ function Home() {
             src="http://cdn.designbeep.com/wp-content/uploads/2019/08/featured-image-31.jpg"
             alt="img"
           /> */}
+
         <div className="relative top-20 text-center">
           <p className=" text-white font-Koulen text-[11vh]">
             Hooked on Hebrew{" "}
@@ -31,15 +32,12 @@ function Home() {
           <br></br>
 
           <p className="font-Comfortaa">
-            Here you will find creative learning aids to develop a greater
-            proficiency level in reading biblical Hebrew. Most of the Bible was
-            written in Hebrew (77.3%) and that should motivate you to learn this
-            language. Though you may think learning biblical Hebrew is complex,
-            this site's resources might help you ace your understanding and have
-            a smooth safari on the rough road of this ancient language. We hope
-            you will be hooked to Hebrew and talk about it when you sit at home
-            and when you walk along the road, when you lie down and when you get
-            up. Blessings,
+            Most of the Bible was written in Hebrew (77.3%) and that should
+            motivate you to learn this language. Here you will find creative
+            learning aids to develop a greater proficiency level in reading
+            biblical Hebrew. We hope you will be hooked to Hebrew and talk about
+            it when you sit at home and when you walk along the road, when you
+            lie down and when you get up.
           </p>
         </div>
         <img className="w-[20%] h-[20%]" src={Img1} alt="img" />

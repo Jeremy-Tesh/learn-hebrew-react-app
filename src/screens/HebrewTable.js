@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
+import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import { data } from "../data/Data";
 import bg from "../assets/box/solidbg.png";
@@ -40,7 +41,8 @@ import bg from "../assets/box/solidbg.png";
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
-//   let navigate = useNavigate();
+  const isMobile = useMediaQuery({ query: "(max-width: 500px)" });
+  let navigate = useNavigate();
 
   return (
     <div className="lg:px-8 md:px-5 px-2  w-screen flex h-full">
@@ -49,7 +51,10 @@ function Table() {
           <div className="grid sm:gap-x-1 gap-x-3 pb-24 grid-flow-col">
             {Array.from(Array(14), (e, i) => {
               return (
-                <div className="border-none border-b-gray-500 max-w[80px] relative max-h-[54px] w-auto sm:h-auto  ">
+                <div
+                  className="border-none border-b-gray-500 max-w[80px] relative max-h-[54px] w-auto sm:h-auto  "
+                  key={i}
+                >
                   <img
                     className="w-full bg-cover h-full"
                     src={bg}
@@ -97,21 +102,16 @@ function Table() {
                   // backgroundColor: mapping(element.ypos, element.xpos),
                   marginBottom: element.ypos === 8 ? "5px" : "5px",
                 }}
-                // onMouseEnter={() => {
-                // index(i);
-                // setIndex(i);
-                // console.log(i);
-                // element.name === "none"
-                //   ? setIsShown(false)
-                //   : setIsShown(true);
-                // }}
-                // onMouseLeave={() => setIsShown(false)}
                 key={i}
               >
                 <button
                   className="w-full h-full no-underline hover:underline text-black"
                   onClick={() => {
                     setIndex(i);
+
+                    if (isMobile && element.name !== "none") {
+                      return navigate(`/details/${i}`);
+                    }
                     element.name === "none"
                       ? setIsShown(false)
                       : setIsShown(true);
@@ -126,6 +126,7 @@ function Table() {
                         borderWidth: "2px",
                         background: "contain",
                       }}
+
                       // onMouseEnter={() => {
                       //   setIndex(100);
                       //   setIsShown(false);

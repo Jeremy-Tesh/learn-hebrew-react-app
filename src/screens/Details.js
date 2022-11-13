@@ -9,7 +9,7 @@ function Details() {
 
   return (
     <div className="w-auto  h-auto overflow-scroll pt-11 ">
-      <div className="w-auto mr-5 grid place-items-center ">
+      <div className="w-auto mr-5 grid m-2 ">
         <div className="w-auto ml-2">
           <div className="flex flex-wrap">
             <Card index={index} show={true} />

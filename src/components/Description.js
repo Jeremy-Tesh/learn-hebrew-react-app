@@ -15,7 +15,6 @@ function Description(props) {
   const handleStatus = (i) => {
     // console.log(i);
     setDropDown({ ...dropDown, [i]: !dropDown[i] });
-    console.log(dropDown);
   };
 
   const [dropDown, setDropDown] = useState(status);
@@ -53,7 +52,7 @@ function Description(props) {
 
           <br></br>
           {dropDown[i] ? (
-            <div className="m-3 font-Sbl">
+            <div className="m-3  font-Sbl">
               <p>{elt.description}</p>
               <span
                 className=" hover:cursor-pointer text-blue-500"
