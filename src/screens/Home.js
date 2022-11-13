@@ -1,13 +1,13 @@
 import React from "react";
 import Img1 from "../assets/images/card1.png";
+import bg from "../assets/images/bg.jpg";
 function Home() {
   return (
     <div className="w-full h-auto ">
       <div
         className="h-[500px] bg-cover object-cover w-full"
         style={{
-          backgroundImage:
-            "url('http://cdn.designbeep.com/wp-content/uploads/2019/08/featured-image-31.jpg')",
+          backgroundImage: `url(${bg})`,
           backgroundPosition: "cover",
         }}
       >
@@ -16,6 +16,7 @@ function Home() {
             src="http://cdn.designbeep.com/wp-content/uploads/2019/08/featured-image-31.jpg"
             alt="img"
           /> */}
+
         <div className="relative top-20 text-center">
           <p className=" text-white font-Koulen text-[11vh]">
             Hooked on Hebrew{" "}
