@@ -32,15 +32,12 @@ function Home() {
           <br></br>
 
           <p className="font-Comfortaa">
-            Here you will find creative learning aids to develop a greater
-            proficiency level in reading biblical Hebrew. Most of the Bible was
-            written in Hebrew (77.3%) and that should motivate you to learn this
-            language. Though you may think learning biblical Hebrew is complex,
-            this site's resources might help you ace your understanding and have
-            a smooth safari on the rough road of this ancient language. We hope
-            you will be hooked to Hebrew and talk about it when you sit at home
-            and when you walk along the road, when you lie down and when you get
-            up. Blessings,
+            Most of the Bible was written in Hebrew (77.3%) and that should
+            motivate you to learn this language. Here you will find creative
+            learning aids to develop a greater proficiency level in reading
+            biblical Hebrew. We hope you will be hooked to Hebrew and talk about
+            it when you sit at home and when you walk along the road, when you
+            lie down and when you get up.
           </p>
         </div>
         <img className="w-[20%] h-[20%]" src={Img1} alt="img" />
