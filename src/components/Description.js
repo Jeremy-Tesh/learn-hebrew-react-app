@@ -3,8 +3,11 @@ import { Table } from "react-bootstrap";
 import down from "../assets/icons/dow.png";
 import collapse from "../assets/icons/right.png";
 import { data } from "../data/Data";
+import { useNavigate } from "react-router-dom";
 
 function Description(props) {
+  const navigate = useNavigate();
+
   const status = {
     0: false,
     1: false,
@@ -21,7 +24,7 @@ function Description(props) {
   const [more, setMore] = useState("");
 
   return (
-    <div className="p-1 ">
+    <div className="p-0">
       {data.elements[props.index].item.map((elt, i) => (
         <div
           key={i}
@@ -52,7 +55,7 @@ function Description(props) {
 
           <br></br>
           {dropDown[i] ? (
-            <div className="m-3  font-Sbl">
+            <div className="m-3  font-Sbl" >
               <p>{elt.description}</p>
               <span
                 className=" hover:cursor-pointer text-blue-500"
@@ -93,6 +96,22 @@ function Description(props) {
           )}
         </div>
       ))}
+      <div className="boxclear"></div>
+      <div className="d-flex justify-end">
+        <a
+          className="text-sm rounded-full bg-[#0073aa] hover:bg-sky-600 backbutton"
+          href="/"
+          onClick={e => {
+              e.preventDefault();
+              navigate(`/table`);
+            }
+          }
+        >
+          Back to Hebrew Table
+        </a>
+        
+      </div>
+      <div className="boxclear"></div>
     </div>
   );
 }

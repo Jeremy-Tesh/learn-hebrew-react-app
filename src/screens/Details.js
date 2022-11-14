@@ -8,12 +8,14 @@ function Details() {
   const { index } = useParams();
 
   return (
-    <div className="w-auto  h-auto overflow-scroll pt-11 ">
+    <div className="pt-11 fulldescbox">
       <div className="w-auto mr-5 grid m-2 ">
         <div className="w-auto ml-2">
           <div className="flex flex-wrap">
             <Card index={index} show={true} />
-            <Box index={index} />
+            <div className="flex flex-col w-58 ml-auto mr-auto md:ml-5 lg:ml-5">
+              <Box index={index} />
+            </div> 
           </div>
 
           <Description index={index} />
