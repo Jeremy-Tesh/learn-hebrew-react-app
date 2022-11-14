@@ -134,7 +134,7 @@ function Table() {
               </div>
             ))}
             {true ? (
-              <div className="absolute top-[7%] left-[27.6%] ">
+              <div className="absolute top-[15%] left-[21.5%] descbox">
       
                     <Card
                       index={index}
@@ -147,6 +147,7 @@ function Table() {
             ) : (
               ""
             )}
+
           </div>
         </div>
       </div>
@@ -155,3 +156,5 @@ function Table() {
 }
 
 export default Table;
+
+

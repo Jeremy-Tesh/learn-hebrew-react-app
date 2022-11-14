@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 import { data } from "../data/Data";
 import bg from "../assets/box/solidbg.png";
+import { Image } from "react-bootstrap";
+import legend from "../assets/box/legend.png";
+
 
 // const colorings = {
 //   1: "#b8f5ed",
@@ -41,6 +44,7 @@ import bg from "../assets/box/solidbg.png";
 function Table() {
   const [isShown, setIsShown] = useState(false);
   const [index, setIndex] = useState(0);
+  const [isDescription, setIsDescription] = useState(false);
   const isMobile = useMediaQuery({ query: "(max-width: 500px)" });
   let navigate = useNavigate();
 
@@ -56,12 +60,12 @@ function Table() {
                   key={i}
                 >
                   <img
-                    className="w-full bg-cover h-full"
+                    className="w-full bg-cover h-full "
                     src={bg}
                     alt="img"
                   ></img>
                   <div
-                    className="absolute top-0 bottom-0 left-0 right-0 h-fit text-center m-auto text-[1.7vh]"
+                    className="absolute top-0 bottom-0 left-0 right-0 h-fit text-center m-auto font18px"
                     style={{
                       gridColumn: i + 1,
                       gridRow: 0,
@@ -105,26 +109,32 @@ function Table() {
                 key={i}
               >
                 <button
-                  className="w-full h-full no-underline hover:underline text-black"
+                  className="w-full h-full no-underline hover:underline text-black "
                   onClick={() => {
                     setIndex(i);
 
                     if (isMobile && element.name !== "none") {
                       return navigate(`/details/${i}`);
                     }
+
                     element.name === "none"
                       ? setIsShown(false)
                       : setIsShown(true);
+
+                    element.xpos === 1
+                      ? setIsDescription(true)
+                      : setIsDescription(false);
                   }}
                 >
                   {element.name === "none" ? (
                     <div
-                      className="w-full h-full  "
+                      className="w-full h-full"
                       style={{
                         backgroundColor: "#6d747f",
                         borderColor: "#6e716c",
                         borderWidth: "2px",
                         background: "contain",
+                        
                       }}
 
                       // onMouseEnter={() => {
@@ -143,21 +153,72 @@ function Table() {
               </div>
             ))}
             {true ? (
-              <div className="absolute top-[7%] left-[27.6%] ">
+              <div className="absolute top-[15%] left-[21.5%] descbox">
                 <Card
                   index={index}
                   show={isShown}
                   isViewDetails={true}
                   setIsShown={setIsShown}
+                  isDescription={isDescription}
                 />
               </div>
             ) : (
               ""
             )}
+            
           </div>
         </div>
       </div>
+      
+        <div className="legendbox" > 
+        
+          <div className="legendbox1">
+            <p>I - First Root letter</p>
+            <p>II - Second Root letter</p>
+            <p>III - Third Rood letter</p>
+            <p>a- a class vowels</p>
+            <p>B - II - <b>ו/י</b></p>
+            <p>D - Piel</p>
+            <p>DEF - Definite Article</p>
+            <p>D.F - Dagesh Forte</p>
+            <p>Dp - Pual</p>
+            <p>G- II=III</p>
+            <p>Gu - Guttural</p>
+            <p>H - Hifil</p>
+            <p>i - i class vowels</p>
+            <p>IMP - Imperfect</p>
+            <p>IMV - Imperative</p>
+            <p>INA - Infinite Absolute</p>
+            <p>INC - Infinitive Construct</p>
+          </div>
+          <div className="legendbox1">INT - Interrogative Particle
+            <p>N - Nifal</p>
+            <p>OS - Objective Suffix</p>
+            <p>PRF -Perfect</p>
+            <p>PTA - Participle Active</p>
+            <p>PTP - Participle Passive</p>
+            <p>P - Prefix</p>
+            <p>Pf - Verbal Preformative</p>
+            <p>PV - Preformative Vowel</p>
+            <p>Q - Qal</p>
+            <p>qh - qamets hatuph</p>
+            <p>tD - Hitpael</p>
+            <p>V1 - Vowel of First Root</p>
+            <p>V2 - Vowel of Second Root</p>
+            <p>u - clas vowels</p>
+            <p>Ø - No Sufformative</p>
+            <p>• - hireq </p>
+            </div>
+          <div className="legendbox1"><Image src={legend}/></div>
+
+          <div className="boxclear"></div>
+
+        </div>
+
+
     </div>
+    
+    
   );
 }
 

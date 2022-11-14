@@ -11,11 +11,6 @@
   }
 }
 
-.gap-x-3 {
-  column-gap: 5px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .box-border {
   border-color: #6b6b6b;
@@ -23,12 +18,13 @@
 }
 
 .pb-24 {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 .w-screen {
   width: 100% !important;
   overflow: hidden !important;
+  display: block;
 }
 
 table {
@@ -37,10 +33,17 @@ table {
 }
 
 .bg-head1 {
-  background-color: #6d747f !important;
-  font-weight: bold;
+  background-color: #4c5a6f  !important;
+  font-weight:bold;
   color: #fff;
 }
+
+.tableTitle{
+  font-size: 20px;
+  font-weight: bolder !important;
+  letter-spacing: .5px;
+}
+
 
 td {
   font-weight: 100 !important;
@@ -57,7 +60,8 @@ td {
 .gap-x-3 {
   column-gap: 5px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Comfortaa, cursive;
+  font-size: 15px;
 }
 
 .box-border {
@@ -75,9 +79,23 @@ td {
     
 } */
 
+.backbutton 
+{
+  padding: 8px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+a:hover{
+  color: yellow !important;
+}
+
+
 table {
   border-width: 2px;
   border-color: #6d747f !important;
+  font-family: Comfortaa, cursive !important;
 }
 
 .bg-head1 {
@@ -86,10 +104,157 @@ table {
   color: #fff;
 }
 
-td {
-  font-weight: 100 !important;
+td, span {
+  font-weight: 400 !important;
+  font-family: Comfortaa, cursive !important;
 }
 
 .b {
   font-weight: bold;
+}
+
+.m-2 p {
+  font-family: Comfortaa, cursive;
+}
+
+.font18px{
+  font-size: 18px;
+}
+
+.descbox
+{
+  width: 80%;
+  position: fixed;
+  max-width: 880px;
+  top: 20%;
+}
+
+.descbox table{
+  width: 100%;
+}
+
+.descboxleft{
+  width: 80%;
+  max-width: 900px;
+}
+
+.imagebox1{
+  width: 20%;
+  max-width: 200px;
+}
+
+.fulldescbox{
+width: 100%;
+max-width: 940px;
+margin: 0px auto;
+font-family: Comfortaa, cursive;
+}
+
+.fulldescimage{
+width: 100%;
+max-width: 300px;
+float: left;
+}
+
+.legendbox{
+  width: 100%;
+  margin: 0px auto 20px auto;
+  max-width: 1120px;
+  font-family: Comfortaa, cursive;
+ 
+}
+
+.boxclear{
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.legendbox b{
+  font-family: 'Times New Roman', Times, serif
+}
+
+.legendbox1{
+  width: 33.33%;
+  float: left;
+ 
+}
+
+.legendbox1 p
+{
+  margin: 2px 0;
+}
+
+.leftcol80{
+  width:77%;
+
+  text-align: justify;
+  margin-right: 3%;
+}
+.rightcol20{
+  width:20%;
+
+}
+@media only screen and (max-width: 600px) {
+
+  .descbox
+{
+  width: 90%;
+  position: fixed;
+  left: 5%;
+  right: 5%;
+  top: 10%;
+}
+
+.fulldescbox
+{
+width: 100% !important;
+max-width: 480px;
+margin: 0 auto;
+
+}
+
+.fulldescimage
+{
+  width: 100%;
+  height: 25px;
+  margin: 0 0px;
+}
+.w-\[70\%\] {
+  width: 100%;
+}
+
+
+.legendbox1
+{
+  width: 80%;
+  display: block;
+  margin: 0 10%;
+}
+.descboxleft {
+  width: 100%;
+}
+
+.font18px{
+  font-size: 10px;
+}
+div.leftcol80{
+  width:100%;
+  display: block;
+  text-align: justify !important;
+  clear: both;
+  
+}
+div.rightcol20{
+  width:100%;
+  display: block !important;
+  clear: both;
+}
+.text-\[11vh\] {
+  font-size: 40px !important;
+}
+
+.w-\[80\%\] {
+  width: 100%;
+}
+
 }

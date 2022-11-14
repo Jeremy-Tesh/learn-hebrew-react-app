@@ -5,7 +5,14 @@ export const data = {
       img: require("../assets/box/1-0.png"),
       xpos: 1,
       ypos: 1,
-   
+      item: [
+        {
+          title: "Row 10",
+          description:
+          "This row, row 8 and row 9 cover the vowel pointings that accompany the first root letter of those verbs that do not have preformtives (or the second root letter, if the first is missing).",
+        },
+        ],
+        
     },
 
     {
@@ -13,7 +20,14 @@ export const data = {
       img: require("../assets/box/2-0.png"),
       xpos: 1,
       ypos: 2,
-      
+      item: [
+        {
+          title: "Row 9",
+          description:
+          "This row, row 8 and row 10 cover the vowel pointings that accompany the first root letter of those verbs that do not have preformtives ( or the second root letter, if the first is missing).",
+        },
+        
+        ],
     },
 
     {
@@ -21,7 +35,14 @@ export const data = {
       img: require("../assets/box/3-0.png"),
       xpos: 1,
       ypos: 3,
-      
+      item: [
+        {
+          title: "Row 8",
+          description:
+          "This row, row 9 and row 10 cover the vowel pointings that accompany the first root letter of those verbs that do not have preformtives ( or the second root letter, if the first is missing).",
+        },
+        
+        ],
     },
 
     {
@@ -29,8 +50,15 @@ export const data = {
       img: require("../assets/box/4-0.png"),
       xpos: 1,
       ypos: 4,
-      "cpk-hex": "cc80ff",
-      
+    
+      item: [
+        {
+          title: "Row 7",
+          description:
+          "This row features the preformatives of hithpael stem.",
+        },
+        
+        ],
     },
 
     {
@@ -38,7 +66,14 @@ export const data = {
       img: require("../assets/box/5-0.png"),
       xpos: 1,
       ypos: 5,
-     
+      item: [
+        {
+          title: "Row 6",
+          description:
+          "This row presents the vowel pointings that accompany the verbal preformative מ and the inseparable preposition מ",
+        },
+        
+        ],
     },
 
     {
@@ -46,7 +81,14 @@ export const data = {
       img: require("../assets/box/6-0.png"),
       xpos: 1,
       ypos: 6,
-      
+      item: [
+        {
+          title: "Row 5",
+          description:
+          "This row presents the vowel pointings that accompany the verbal preformative ה and two more options, namely, definite article ה and interrogative particle ה",
+        },
+        
+        ],
     },
 
     {
@@ -54,7 +96,13 @@ export const data = {
       img: require("../assets/box/7-0.png"),
       xpos: 1,
       ypos: 7,
-     
+      item: [
+        {
+          title: "Row 4",
+          description:
+          "This row presents the preformative vowels for נ and the diagnostics associated with them.",
+        }
+        ],
     },
 
     {
@@ -62,7 +110,15 @@ export const data = {
       img: require("../assets/box/8-0.png"),
       xpos: 1,
       ypos: 8,
-      
+      item: [
+        {
+          title: "Row 3",
+          description:
+          "This row presents the vowel pointings that accompany the verbal preformative א י ת.",
+        
+        },
+        
+        ],
     },
     
     {
@@ -70,6 +126,14 @@ export const data = {
       img: require("../assets/box/9-0.png"),
       xpos: 1,
       ypos: 9,
+      item: [
+        {
+          title: "Row 2",
+          description:
+          "The green colored boxes of this row feature the verbal sufformatives.",
+        },
+        
+        ],
       
     },
 
@@ -78,6 +142,14 @@ export const data = {
       img: require("../assets/box/10-0.png"),
       xpos: 1,
       ypos: 10,
+      item: [
+        {
+          title: "Row 1",
+          description:
+          "The red colored boxes of this row present the objective suffixes that are attached to verbs",
+        },
+        
+        ],
       
     },
 
@@ -107,7 +179,7 @@ export const data = {
         stem: "Qal",
         clue: "V2-וּ or ֻ",
         description:
-          "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel, if the verb has objective suffix. \n Eg.נְתָנ֣וֹ",
+          "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel, if the verb has objective suffix. \n Eg. נְתָנ֣וֹ",
          
         moreExamples: [
           ["בְּר֣וּךְ", "ברך", "blessed"],
@@ -193,7 +265,7 @@ export const data = {
 /** 2nd row number 9*/
     
 {
-  img: require("../assets/box/3-1.png"),
+  img: require("../assets/box/2-1.png"),
   xpos: 2,
   ypos: 2,
   item: [
@@ -217,7 +289,7 @@ export const data = {
 },
 
 {
-  img: require("../assets/box/3-2.png"),
+  img: require("../assets/box/2-2.png"),
   xpos: 3,
   ypos: 2,
 
@@ -241,7 +313,7 @@ export const data = {
 },
 
 {
-  img: require("../assets/box/3-11.png"),
+  img: require("../assets/box/2-11.png"),
   xpos:12,
   ypos: 2,
   item: [
@@ -264,7 +336,7 @@ export const data = {
 },
 
 {
-  img: require("../assets/box/3-12.png"),
+  img: require("../assets/box/2-12.png"),
   xpos: 13,
   ypos: 2,
   item: [
@@ -299,7 +371,7 @@ export const data = {
 },
 
 {
-  img: require("../assets/box/3-13.png"),
+  img: require("../assets/box/2-13.png"),
   xpos: 14,
   ypos: 2,
   item: [
@@ -926,7 +998,7 @@ export const data = {
         {
           option: "Imperfect",
           stem: "Hithpael",
-          clue: " Second person or Thrid person feminine",
+          clue: " Second person or Third person feminine",
           description:
             "The Hithpael stem in its imperfect conjugation has the preformative תת , if the verb is second person masculine or feminine and third person feminine. \n Eg.תִּתְהַלָּֽל",
            
@@ -1181,7 +1253,7 @@ export const data = {
       ypos: 5,
       item: [
         {
-            option: "Perfect",
+            option: "Participle Passive",
             stem: "Hofal",
             clue: "some third root letter he or resh",
             description:
@@ -2146,7 +2218,7 @@ export const data = {
           stem: "Pual",
           clue: "V1- Qibbuts",
           description:
-          "The Preformative vowel of Pual stem in its imperfect conjugation is shewa (ְ), if \n(1) There is dagesh in the second root letter, and (2) the vowel of first root letter is qibbuts. \n Eg.וַיְכֻסּ֗וּ \nNB. If the second root letter is a guttural or Resh, it will not take a dagesh and the vowel of the first root letter will be holem.  \n Eg.וַֽיְגֹאֲל֖וּ",
+          "The Preformative vowel of Pual stem in its imperfect conjugation is shewa (ְ), if \n(1) There is dagesh in the second root letter, and (2) the vowel of first root letter is qibbuts. \n Eg.וַיְכֻסּ֗וּ \nNB. If the second root letter is a guttural or Resh, it will not take a dagesh and the vowel of the first root letter will be holem.  \n Eg. וַֽיְגֹאֲל֖וּ",
           
           moreExamples: [
             ["יְכֻלּ֛וּ", "כלה", "They will be finished"],
@@ -2159,7 +2231,7 @@ export const data = {
             stem: "Qal",
             clue: "Biconsonantal or Geminate verbs and Objective Suffix",
             description:
-              'The Preformative Vowel of Qal stem in its imperfect/waw-consecutive conjugation can be shewa (ְ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg.וַיְשִׂמֵהוּ \nNB. One of the most frequently occuring verb היה takes shewa for its preformative vowel.  \n Eg.וַֽיְהִ֖י',
+              'The Preformative Vowel of Qal stem in its imperfect/waw-consecutive conjugation can be shewa (ְ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg.וַיְשִׂמֵהוּ \nNB. One of the most frequently occuring verb היה takes shewa for its preformative vowel.  \n Eg. וַֽיְהִ֖י',
             moreExamples: [
               ["תְחָנֵּֽם", "חנן", "You will show mercy to them."],
               ["יְגֻרְךָ֣", "גור", "He will not dwell with you."],
@@ -2170,7 +2242,7 @@ export const data = {
             stem: "Qal",
             clue: "verb היה ",
             description:
-              'One of the most frequently occurring verbs היה takes preformative vowel shewa in its Qal stem and waw-consecutive conjugation.  \n Eg.וַֽיְהִ֖י \nNB. In the jussive conjugation, היה takes shewa for its preformative vowel.  \n Eg.["יְהִ֥י", "היה", "Let there be"],',
+              'One of the most frequently occurring verbs היה takes preformative vowel shewa in its Qal stem and waw-consecutive conjugation.  \n Eg.וַֽיְהִ֖י \nNB. In the jussive conjugation, היה takes shewa for its preformative vowel.  \n Eg. ["יְהִ֥י", "היה", "Let there be"],',
             moreExamples: [
               ["וַֽיְהִ֖י", "היה", "And it was"],
               ["וַתְּהִ֥י", "היה", "And it was"],
@@ -2182,7 +2254,7 @@ export const data = {
             stem: "Hifil",
             clue: "Biconsonantal or Geminate verbs and Objective Suffix",
             description:
-              "The Preformative Vowel of Qal stem in its imperfect/waw-consecutive conjugation can be shewa (ְ), if 1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and 2 The verb has objective suffix (OS). \n Eg.יְקִימֶֽנָּה",
+              "The Preformative Vowel of Qal stem in its imperfect/waw-consecutive conjugation can be shewa (ְ), if 1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and 2 The verb has objective suffix (OS). \n Eg. יְקִימֶֽנָּה",
             moreExamples: [
               ["יְקִימֶֽנָּה", "קום", "He will cause it to rise"],
               ["וַיְסִבֵּ֙נִי֙", "סבב", "And he led me around"],
@@ -2358,7 +2430,7 @@ export const data = {
            stem: "Qal",
            clue: " Biconsonantal or Geminate verbs and Objective Suffix",
            description:
-            "The Preformative Vowel (א) of Qal stem in its imperfect conjugation can be hateph Patach (ֲ ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg.אֲשִׂימֶֽנּוּ",    
+            "The Preformative Vowel (א) of Qal stem in its imperfect conjugation can be hateph Patach (ֲ ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg. אֲשִׂימֶֽנּוּ",    
           moreExamples: [
                 ["אֲשִׂימֶֽנּוּ", "שׂים", "I set him"],
               
@@ -2369,7 +2441,7 @@ export const data = {
           stem: "Hifil",
           clue: " Biconsonantal or Geminate verbs and Objective Suffix",
           description:
-          "The Preformative Vowel (א) of hifil stem in its imperfect conjugation can be hateph patach (ֲ ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg.אֲשִׂימֶֽנּוּ",
+          "The Preformative Vowel (א) of hifil stem in its imperfect conjugation can be hateph patach (ֲ ), if \n1 The verb is biconsonantal (II=י/ו) or Geminate (II=III), and \n2 The verb has objective suffix (OS). \n Eg. אֲשִׂימֶֽנּוּ",
                 
           moreExamples: [
             ["אֲשִׂימֶֽנּוּ", "שׂים", "I set him"],
@@ -2629,7 +2701,7 @@ export const data = {
         stem: "Hofal",
         clue: "  -",
         description:
-          "The Preformative vowel of Hifil stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or geminate.  \n Eg.תָּקְטָֽר",
+          "The Preformative vowel of Hifil stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or geminate.  \n Eg. תָּקְטָֽר",
          
         moreExamples: [
           ["תָּקְטָֽר", "קטר", "It shall be burned"],
@@ -2655,7 +2727,7 @@ export const data = {
           congruency: " Feminine Plural",
           clue: "Participle",
           description:
-            "The suffix waw with yod and tav ( וֹת) can be a suffix attached to a participle verb.  \n Eg.פְלָאֽוֹת",
+            "The suffix waw with yod and tav ( וֹת) can be a suffix attached to a participle verb.  \n Eg. פְלָאֽוֹת",
            
           moreExamples: [
             ["פְלָאֽוֹת", "פלא", "wonderful"],
@@ -2669,7 +2741,7 @@ export const data = {
             congruency: "-",
             clue: " III-ה; I-י; I-נ ",
             description:
-              "The suffix tav ( ת ) can be a suffix attached to an Infinitive Construct verb.  \n Eg.לָדַ֖עַת",
+              "The suffix tav ( ת ) can be a suffix attached to an Infinitive Construct verb.  \n Eg. לָדַ֖עַת",
              
             moreExamples: [
               ["לָדַ֖עַת", "ידע", "to know"],
@@ -2691,7 +2763,7 @@ export const data = {
             congruency: "Masculine plural",
             clue: " Participle ",
             description:
-              "The suffix tsere yod ( י ֵ ) can be a construct chain suffix attached to a participle verb.  \n Eg.יֹשְׁבֵ֖י",
+              "The suffix tsere yod ( י ֵ ) can be a construct chain suffix attached to a participle verb.  \n Eg. יֹשְׁבֵ֖י",
              
             moreExamples: [
               ["יֹשְׁבֵ֖י", "בוא", "inhabitants of"],
@@ -2714,7 +2786,7 @@ export const data = {
             congruency: "Masculine plural",
             clue: " Participle ",
             description:
-              "The suffix hireq yod and Mem (  ִים) can be a suffix attached to a participle verb.  \n Eg.הַיֹּשְׁבִ֖ים",
+              "The suffix hireq yod and Mem (  ִים) can be a suffix attached to a participle verb.  \n Eg. הַיֹּשְׁבִ֖ים",
              
             moreExamples: [
               ["הַיֹּשְׁבִ֖ים", "ישׁב", "who live"],
@@ -2736,7 +2808,7 @@ export const data = {
             congruency: "second feminine singular",
             clue: "verbal prefixes",
             description:
-    "The suffix hireq yod ( ִי ) can be imperfect suffix attached to a second person feminine singular verb.  \n Eg.תִּירְאִ֤י",
+    "The suffix hireq yod ( ִי ) can be imperfect suffix attached to a second person feminine singular verb.  \n Eg. תִּירְאִ֤י",
              
             moreExamples: [
               ["תַּעֲשִׂ֖י", "עשׂה", "You will do"],
@@ -2751,7 +2823,7 @@ export const data = {
             congruency: "second feminine singular",
             clue: "-",
             description:
-              "The suffix Hireq Yod (ִי )  can be an imperfect suffix attached to a verb.  \n Eg.שׁ֖וּבִי",
+              "The suffix Hireq Yod (ִי )  can be an imperfect suffix attached to a verb.  \n Eg. שׁ֖וּבִי",
              
             moreExamples: [
               ["שׁ֖וּבִי", "שׁוב", "Return"],
@@ -2772,7 +2844,7 @@ export const data = {
             congruency: "second or third feminine plural",
             clue: "- ",
             description:
-              "The suffix Nun with Qamets He ( נָה ) can be an imperfect suffix attached to a verb.  \n Eg.תִּשָּׁאַֽרְנָה",
+              "The suffix Nun with Qamets He ( נָה ) can be an imperfect suffix attached to a verb.  \n Eg. תִּשָּׁאַֽרְנָה",
              
             moreExamples: [
               ["תִּשָּׁאַֽרְנָה", "שׁאר", "They may remain"],
@@ -2785,7 +2857,7 @@ export const data = {
             congruency: "feminine plural",
             clue: "- ",
             description:
-              "The suffix Nun with Qamets He ( נָה ) can be a perfect suffix attached to a verb.  \n Eg.בְּכֶ֑ינָה",
+              "The suffix Nun with Qamets He ( נָה ) can be a perfect suffix attached to a verb.  \n Eg. בְּכֶ֑ינָה",
              
             moreExamples: [
               ["בְּכֶ֑ינָה", "בכה", "Weep"],
@@ -2808,7 +2880,7 @@ export const data = {
             congruency: "Third Common Plural",
             clue: "No preformative or Perfect preformative",
             description:
-              "The suffix Shureq (וּ )  can be perfect suffix attached to a verb.  \n Eg.הָיוּ",
+              "The suffix Shureq (וּ )  can be perfect suffix attached to a verb.  \n Eg. הָיוּ",
              
             moreExamples: [
               ["הָיוּ֙", "היה", "They became"],
@@ -2822,7 +2894,7 @@ export const data = {
             congruency: "Second and Third Masculine Plural",
             clue: "Second masculine plural will have preformative Tav and third Masculine Plural will have preformative Yod  ",
             description:
-              "The suffix Shureq (וּ )  can be imperfect suffix attached to a verb.  \n Eg.תִּשְׁמְר֗וּ",
+              "The suffix Shureq (וּ )  can be imperfect suffix attached to a verb.  \n Eg. תִּשְׁמְר֗וּ",
              
             moreExamples: [
               ["תִּשְׁמְר֗וּ", "שׁמר", "You will keep"],
@@ -2838,7 +2910,7 @@ export const data = {
             congruency: "second masculine Plural",
             clue: "-",
             description:
-              "The suffix Shureq (וּ )  can be imperfect suffix attached to a verb.  \n Eg.ק֤וּמוּ",
+              "The suffix Shureq (וּ )  can be imperfect suffix attached to a verb.  \n Eg. ק֤וּמוּ",
              
             moreExamples: [
               ["ק֤וּמוּ", "קום", "Get up"],
@@ -2861,7 +2933,7 @@ export const data = {
             congruency: "First common singular",
             clue: "No preformative or Perfect preformative",
             description:
-              "The suffix Tav and hireq Yod ( תִי ) can be perfect suffix attached to a verb.  \n Eg.נָתַ֨תִּי",
+              "The suffix Tav and hireq Yod ( תִי ) can be perfect suffix attached to a verb.  \n Eg. נָתַ֨תִּי",
              
             moreExamples: [
               ["נָתַ֨תִּי", "נתן", "I have given"],
@@ -2886,7 +2958,7 @@ export const data = {
           congruency: "Third feminine Singular",
           clue: "no preformative or perfect preformative",
           description:
-            "The suffix Qamets followed by He (ָה) can be a perfective suffix attached to third person feminine plural verb.  \n Eg.יָלְדָ֖ה",
+            "The suffix Qamets followed by He (ָה) can be a perfective suffix attached to third person feminine plural verb.  \n Eg. יָלְדָ֖ה",
            
           moreExamples: [
             ["יָלְדָ֖ה", "ילד", "She had borne"],
@@ -2898,7 +2970,7 @@ export const data = {
           congruency: "Third feminine Singular",
           clue: "-",
           description:
-            "The suffix Qamets followed by He (ָה) can be an objective suffix attached to a verb.  \n Eg.אֲהֵבָ֑הּ",
+            "The suffix Qamets followed by He (ָה) can be an objective suffix attached to a verb.  \n Eg. אֲהֵבָ֑הּ",
            
           moreExamples: [
             ["אֲהֵבָ֑הּ", "אהב", "He had loved her"],
@@ -2912,7 +2984,7 @@ export const data = {
           congruency: "First common singular or Singular",
           clue: "comes with preformative א or נ",
           description:
-            "The suffix Qamets followed by He ( ָה) can be a cohortative suffix attached to a verb.  \n Eg.נֵדְעָ֖ה",
+            "The suffix Qamets followed by He ( ָה) can be a cohortative suffix attached to a verb.  \n Eg. נֵדְעָ֖ה",
            
           moreExamples: [
             ["נַֽעֲשֶׂ֥ה ", "עשׂה", "Let us make"],
@@ -2934,7 +3006,7 @@ export const data = {
             congruency: "second masuline Singular",
             clue: "No preformative or perfect preformatives",
             description:
-              "The suffix Tav and qamets ( תָ ) can be perfect suffix attached to a verb.  \n Eg.עָשִׂ֣יתָ",
+              "The suffix Tav and qamets ( תָ ) can be perfect suffix attached to a verb.  \n Eg. עָשִׂ֣יתָ",
              
             moreExamples: [
               ["עָשִׂ֣יתָ", "עשׂה", "You have done"],
@@ -2978,7 +3050,7 @@ export const data = {
             congruency: "Second feminine plural",
             clue: "only ten instances",
             description:
-              "The suffix Kaf with Segol and final Nun ( תֶן) can be a perfect suffix attached to a verb.  \n Eg.יְדַעְתֶּ֑ן",
+              "The suffix Kaf with Segol and final Nun ( תֶן) can be a perfect suffix attached to a verb.  \n Eg. יְדַעְתֶּ֑ן",
              
             moreExamples: [
               ["יְדַעְתֶּ֑ן", "ידע", "You know"],
@@ -2999,7 +3071,7 @@ export const data = {
             congruency: "Second masculine plural",
             clue: "no preformative or perfect preformative ",
             description:
-              "The suffix Tav with segol and final Mem ( תֶם ) can be a sufformative attached to a verb.  \n Eg.יְדַעְתֶּ֔ם",
+              "The suffix Tav with segol and final Mem ( תֶם ) can be a sufformative attached to a verb.  \n Eg. יְדַעְתֶּ֔ם",
              
             moreExamples: [
               ["יְדַעְתֶּ֔ם", "ידע", "You know"],
@@ -3022,7 +3094,7 @@ export const data = {
           congruency: "First common plural",
           clue: "comes without preformative or perfect preformative",
           description:
-            "The suffix Nun with Shureq (נוּ  ) can be perfect suffix attached to a verb.  \n Eg.שָׁמַ֖עְנוּ",
+            "The suffix Nun with Shureq (נוּ  ) can be perfect suffix attached to a verb.  \n Eg. שָׁמַ֖עְנוּ",
            
           moreExamples: [
             ["שָׁמָ֑עְנוּ", "שׁמע", "We listened"],
@@ -3036,7 +3108,7 @@ export const data = {
           congruency: "First common plural",
           clue: "No preformative or Perfect preformatives",
           description:
-            "The suffix Nun with Shureq (נוּ  ) can be objective suffix attached to a verb.  \n Eg.הוֹשַׁעְתָּ֖נוּ",
+            "The suffix Nun with Shureq (נוּ  ) can be objective suffix attached to a verb.  \n Eg. הוֹשַׁעְתָּ֖נוּ",
            
           moreExamples: [
             ["הוֹשַׁעְתָּ֖נוּ", "ישׁע", "You have saved us"],
@@ -3154,10 +3226,16 @@ export const data = {
       xpos: 3,
       ypos: 10,
     },
-
     {
+      name: "none",
+      xpos: 4,
+      ypos: 10,
+    },
 
-      img: require("../assets/box/10-3.png"),
+    
+     /** {
+
+     img: require("../assets/box/10-3.png"),
       xpos: 4,
       ypos: 10,
       item: [
@@ -3166,7 +3244,7 @@ export const data = {
           congruency: "First Common Singular",
           clue: "-",
           description:
-            "The suffix Nun and Hireq yod  ( נִי) can be objective suffix attached to a verb.  \n Eg.שַׁלְּחֵ֙נִי֙",
+            "The suffix Nun and Hireq yod  ( נִי) can be objective suffix attached to a verb.  \n Eg. שַׁלְּחֵ֙נִי֙",
            
           moreExamples: [
             ["שַׁלְּחֵ֙נִי֙", "שׁלח", "Send me away"],
@@ -3177,7 +3255,7 @@ export const data = {
         },
        
       ],
-    },
+    },**/
 
     {
       img: require("../assets/box/10-4.png"),
@@ -3189,7 +3267,7 @@ export const data = {
           congruency: "First Common Singular",
           clue: "-",
           description:
-            "The suffix Nun and Hireq yod  ( נִי ) can be objective suffix attached to a verb.  \n Eg.שַׁלְּחֵ֙נִי֙",
+            "The suffix Nun and Hireq yod  ( נִי ) can be objective suffix attached to a verb.  \n Eg. שַׁלְּחֵ֙נִי֙",
            
           moreExamples: [
             ["שַׁלְּחֵ֙נִי֙", "שׁלח", "Send me away"],
@@ -3212,7 +3290,7 @@ export const data = {
             congruency: "Third masculine Singular",
             clue: "comes with or without preformative",
             description:
-              "The suffix Holem waw ( וֹ ) or He with shureq( הוּ ) can be objective suffix attached to a verb.  \n Eg.יְבִאֵ֣הוּ",
+              "The suffix Holem waw ( וֹ ) or He with shureq( הוּ ) can be objective suffix attached to a verb.  \n Eg. יְבִאֵ֣הוּ",
              
             moreExamples: [
               ["יְבִאֵ֣הוּ", "בוא", "Let him bring it"],
@@ -3258,7 +3336,7 @@ export const data = {
             congruency: "third feminine Plural",
             clue: "-",
             description:
-              "The suffix  final Nun ( ן ) or He with segol and final Nun ( הֶן )  can be pronominal suffix attached to a verb.  \n Eg.בְּבוֹאָֽן",
+              "The suffix  final Nun ( ן ) or He with segol and final Nun ( הֶן )  can be pronominal suffix attached to a verb.  \n Eg. בְּבוֹאָֽן",
              
             moreExamples: [
               ["בְּבוֹאָֽן", "בוא", "as one enters"],
@@ -3309,7 +3387,7 @@ export const data = {
             congruency: "First common singular or Singular",
             clue: "comes with preformative א or נ",
             description:
-              "The suffix Qamets followed by He (  ָה ) can be objective suffix attached to a verb.  \n Eg.נִכְרְתָ֥ה",
+              "The suffix Qamets followed by He (  ָה ) can be objective suffix attached to a verb.  \n Eg. נִכְרְתָ֥ה",
              
             moreExamples: [
               ["נִכְרְתָ֥ה ", "כרת", "Let us make"],
@@ -3329,7 +3407,7 @@ export const data = {
             congruency: "Second masculine singular",
             clue: "-",
             description:
-              "The suffix final Kaf with qamets ( ךָ ) can be objective suffix attached to a verb.  \n Eg.צִוִּיתִ֛יךָ",
+              "The suffix final Kaf with qamets ( ךָ ) can be objective suffix attached to a verb.  \n Eg. צִוִּיתִ֛יךָ",
              
             moreExamples: [
               ["צִוִּיתִ֛יךָ", "צוה", "I commanded you"],
@@ -3351,7 +3429,7 @@ export const data = {
             congruency: "Second feminine Singular",
             clue: "-",
             description:
-              "The suffix final Kaf with shewa ( ךְ ) can be objective suffix attached to a verb.  \n Eg.אֲהַבְתִּ֔יךְ",
+              "The suffix final Kaf with shewa ( ךְ ) can be objective suffix attached to a verb.  \n Eg. אֲהַבְתִּ֔יךְ",
              
             moreExamples: [
               ["אֲהַבְתִּ֔יךְ", "אהב", "I love you"],
@@ -3373,7 +3451,7 @@ export const data = {
             congruency: "Second feminine plural",
             clue: "only one instance",
             description:
-              "The suffix Kaf with segol and final Mem ( כֶן ) can be objective suffix attached to a verb.  \n Eg.בְּיַלֶּדְכֶן֙",
+              "The suffix Kaf with segol and final Mem ( כֶן ) can be objective suffix attached to a verb.  \n Eg. בְּיַלֶּדְכֶן֙",
              
             moreExamples: [
               ["בְּיַלֶּדְכֶן֙", "ילד", "When you serve as a midwife"],
@@ -3392,7 +3470,7 @@ export const data = {
             congruency: "Second masculine plural",
             clue: "- ",
             description:
-              "The suffix Kaf with segol and final Mem ( כֶם ) can be objective suffix attached to a verb.  \n Eg.אֲמָרְכֶ֛ם",
+              "The suffix Kaf with segol and final Mem ( כֶם ) can be objective suffix attached to a verb.  \n Eg. אֲמָרְכֶ֛ם",
              
             moreExamples: [
               ["בְּבֹאֲכֶ֛ם", "בוא", "When you go into"],
@@ -3414,7 +3492,7 @@ export const data = {
             congruency: "First common plural",
             clue: "preceded by a full vowel",
             description:
-              "The suffix Nun with Shureq ( נוּ ) can be objective suffix attached to a verb.  \n Eg.הוֹשַׁעְתָּ֖נוּ",
+              "The suffix Nun with Shureq ( נוּ ) can be objective suffix attached to a verb.  \n Eg. הוֹשַׁעְתָּ֖נוּ",
              
             moreExamples: [
               ["הוֹשַׁעְתָּ֖נוּ", "ישׁע", "You have saved us"],
@@ -3428,7 +3506,7 @@ export const data = {
             congruency: "First common plural",
             clue: "comes with no preformative or for hifil stem with preformative ה",
             description:
-              "The suffix Nun with Shureq ( נוּ ) can be a sufformative of a perfect conjugation.  \n Eg.שָׁמָ֑עְנוּ",
+              "The suffix Nun with Shureq ( נוּ ) can be a sufformative of a perfect conjugation.  \n Eg. שָׁמָ֑עְנוּ",
              
             moreExamples: [
               ["שָׁמָ֑עְנוּ", "שׁמע", "We listened"],
