@@ -100,7 +100,7 @@ function Description(props) {
       <div className="d-flex justify-end">
         <a
           className="text-sm rounded-full bg-[#0073aa] hover:bg-sky-600 backbutton"
-          href="#"
+          href="/"
           onClick={e => {
               e.preventDefault();
               navigate(`/table`);
