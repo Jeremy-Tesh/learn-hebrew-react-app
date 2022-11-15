@@ -97,7 +97,7 @@ function Description(props) {
         </div>
       ))}
       <div className="boxclear"></div>
-      <div className="d-flex justify-end">
+      <div className="d-flex justify-center md:justify-end">
         <a
           className="text-sm rounded-full bg-[#0073aa] hover:bg-sky-600 backbutton"
           href="/"
