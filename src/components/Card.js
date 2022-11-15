@@ -18,12 +18,12 @@ function Card(props) {
                   <span className="tableTitle">{!isDescription ? 'Preformative vowel' : data.elements[index].item[0].title }</span>
                   {isViewDetails && (
                     <div className="flex items-center">
-                    {/*<button
+                    <button
                         className="text-sm rounded-full bg-[#0073aa] h-9 px-3 mr-2 hover:bg-sky-600 hover:text-[yellow]"
                         onClick={() => navigate(`/details/${index}`)}
                       >
                         View Details
-                      </button>*/}
+                      </button>
 
                       <button
                         className="text-sm rounded-full bg-[#fefefe] text-[#0073aa] h-7 w-7 p-2"
