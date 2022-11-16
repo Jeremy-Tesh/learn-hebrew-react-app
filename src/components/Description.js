@@ -55,7 +55,7 @@ function Description(props) {
 
           <br></br>
           {dropDown[i] ? (
-            <div className="m-3  font-Sbl" >
+            <div className="m-3  font-Hsbl">
               <p>{elt.description}</p>
               <span
                 className=" hover:cursor-pointer text-blue-500"
@@ -80,7 +80,7 @@ function Description(props) {
                       {elt.moreExamples.map((e) => (
                         <tr>
                           {e.map((row) => (
-                            <td className="font-Sbl">{row}</td>
+                            <td className="font-Hsbl">{row}</td>
                           ))}
                         </tr>
                       ))}
@@ -101,15 +101,13 @@ function Description(props) {
         <a
           className="text-sm rounded-full bg-[#0073aa] hover:bg-sky-600 backbutton"
           href="/"
-          onClick={e => {
-              e.preventDefault();
-              navigate(`/table`);
-            }
-          }
+          onClick={(e) => {
+            e.preventDefault();
+            navigate(`/table`);
+          }}
         >
           Back to Hebrew Table
         </a>
-        
       </div>
       <div className="boxclear"></div>
     </div>
