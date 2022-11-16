@@ -1,5 +1,4 @@
 import React from "react";
-import file1 from "../assets/file/ETS_Presentation_Nov_15.pdf";
 import { resourceImages } from '../data/ResourceImages';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
