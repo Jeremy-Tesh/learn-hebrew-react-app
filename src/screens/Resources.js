@@ -7,7 +7,7 @@ function Resources() {
 
     <div className="boxclear"></div>
     <div className="resources1">
-                <iframe src={file1} width="100%" height="630px" className="borderframe"></iframe>
+                <iframe src={file1} width="100%" height="630px" name="pdfviewer" className="borderframe"></iframe>
                 <div className="boxclear"></div>
   </div>
   <div className="boxclear"></div>
