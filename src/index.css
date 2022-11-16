@@ -186,22 +186,19 @@ float: left;
 
 .leftcol80{
   width:77%;
-
   text-align: justify;
   margin-right: 3%;
 }
+
 .rightcol20{
   width:20%;
-
 }
 
 .resources1
 {
   width: 90%;
   margin: 40px auto;
-
 }
-
 
 
 @media only screen and (max-width: 600px) {
