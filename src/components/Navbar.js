@@ -27,8 +27,8 @@ function Header() {
             <Nav.Link className="mx-3" href="/table">
               Hebrew Table
             </Nav.Link>
-            <Nav.Link className="mx-3" href="/about">
-              About us
+            <Nav.Link className="mx-3" href="/resources">
+              Resources
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -16,10 +16,10 @@ function Footer() {
       <ul className="flex flex-wrap items-center mt-3 text-sm  text-white sm:mt-0">
         <li>
           <a
-            href="/about"
+            href="/resources"
             className="text-white no-underline mr-4 hover:underline md:mr-6 "
           >
-            About
+            Resources
           </a>
         </li>
         <li>
