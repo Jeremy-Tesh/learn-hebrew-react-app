@@ -6,6 +6,7 @@ module.exports = {
         Sbl: ["Noto Serif Hebrew", "serif"],
         Koulen: ["Koulen", "cursive"],
         Comfortaa: ["Comfortaa", "cursive"],
+        Hsbl: ["SBL", "sbl"],
       },
     },
   },
