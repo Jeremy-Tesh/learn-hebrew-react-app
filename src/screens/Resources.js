@@ -14,7 +14,7 @@ function Resources() {
           showIndicators={false}
         >
           {resourceImages.map(resource => <div>
-            <img src={resource.img} />
+            <img src={resource.img} alt="" />
           </div>)}
         </Carousel>
       </div>
