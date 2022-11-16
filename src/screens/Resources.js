@@ -1,6 +1,5 @@
 import React from "react";
 import file1 from "../assets/file/ETS_Presentation_11152022.pdf";
-import file2 from "../assets/file/ETS_Presentation_Nov_15.pptx";
 
 function Resources() {
   return <div className="">
