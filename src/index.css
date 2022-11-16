@@ -11,6 +11,10 @@
   }
 }
 
+@font-face {
+  font-family: "SBL";
+  src: url("assets/font/SBL_Hbrw.ttf");
+}
 
 .navbar-nav .nav-link {
   padding-left: 10px !important;
@@ -18,7 +22,7 @@
 }
 
 .nav-link {
-padding: 5px 0px !important;
+  padding: 5px 0px !important;
 }
 
 .box-border {
@@ -42,17 +46,16 @@ table {
 }
 
 .bg-head1 {
-  background-color: #4c5a6f  !important;
-  font-weight:bold;
+  background-color: #4c5a6f !important;
+  font-weight: bold;
   color: #fff;
 }
 
-.tableTitle{
+.tableTitle {
   font-size: 20px;
   font-weight: bolder !important;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
-
 
 td {
   font-weight: 100 !important;
@@ -88,18 +91,16 @@ td {
     
 } */
 
-.backbutton 
-{
+.backbutton {
   padding: 8px 25px;
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
 }
 
-a:hover{
+a:hover {
   color: yellow !important;
 }
-
 
 table {
   border-width: 2px;
@@ -113,9 +114,10 @@ table {
   color: #fff;
 }
 
-td, span {
+td,
+span {
   font-weight: 400 !important;
-  font-family: Comfortaa, cursive !important;
+  /* font-family: Comfortaa, cursive !important; */
 }
 
 .b {
@@ -123,89 +125,83 @@ td, span {
 }
 
 .m-2 p {
-  font-family: Comfortaa, cursive;
+  /* font-family: Comfortaa, cursive; */
 }
 
-.font18px{
+.font18px {
   font-size: 18px;
 }
 
-.descbox
-{
+.descbox {
   width: 80%;
   position: fixed;
   max-width: 880px;
   top: 20%;
 }
 
-.descbox table{
+.descbox table {
   width: 100%;
 }
 
-.descboxleft{
+.descboxleft {
   width: 80%;
   max-width: 900px;
 }
 
-.imagebox1{
+.imagebox1 {
   width: 20%;
   max-width: 200px;
 }
 
-.fulldescbox{
-width: 100%;
-max-width: 940px;
-margin: 0px auto;
-font-family: Comfortaa, cursive;
+.fulldescbox {
+  width: 100%;
+  max-width: 940px;
+  margin: 0px auto;
+  font-family: Comfortaa, cursive;
 }
 
-.fulldescimage{
-width: 100%;
-max-width: 300px;
-float: left;
+.fulldescimage {
+  width: 100%;
+  max-width: 300px;
+  float: left;
 }
 
-.legendbox{
+.legendbox {
   width: 100%;
   margin: 0px auto 20px auto;
   max-width: 900px;
   font-family: Comfortaa, cursive;
- 
 }
 
-.boxclear{
+.boxclear {
   clear: both;
   margin-bottom: 20px;
 }
 
-.legendbox b{
-  font-family: 'Times New Roman', Times, serif
+.legendbox b {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.legendbox1{
+.legendbox1 {
   width: 33.33%;
   float: left;
- 
 }
 
-.legendbox1 p
-{
+.legendbox1 p {
   margin: 2px 0;
 }
 
-.leftcol80{
-  width:77%;
+.leftcol80 {
+  width: 77%;
 
   text-align: justify;
   margin-right: 3%;
 }
-.rightcol20{
-  width:20%;
-
+.rightcol20 {
+  width: 20%;
 }
 
-.resources1
-{
+.resources1 {
   position: relative;
   width: 90%;
   height: 80vh;
@@ -213,8 +209,7 @@ float: left;
   overflow: hidden;
 }
 
-.pdf-viewer
-{
+.pdf-viewer {
   position: absolute;
   top: 0;
   left: 0;
@@ -224,13 +219,11 @@ float: left;
   height: 100%;
 }
 
-.carousel > .thumbs-wrapper
-{
+.carousel > .thumbs-wrapper {
   margin: 20px 0 !important;
 }
 
-.carousel > .thumbs-wrapper > ul
-{
+.carousel > .thumbs-wrapper > ul {
   padding: 0;
 }
 
@@ -240,7 +233,7 @@ float: left;
 
 .carousel img {
   border-width: 2px !important;
-  border-color:  rgb(185, 185, 185) !important;
+  border-color: rgb(185, 185, 185) !important;
 }
 
 .carousel .slide img {
@@ -248,66 +241,57 @@ float: left;
 }
 
 @media only screen and (max-width: 600px) {
+  .descbox {
+    width: 90%;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 10%;
+  }
 
-  .descbox
-{
-  width: 90%;
-  position: fixed;
-  left: 5%;
-  right: 5%;
-  top: 10%;
-}
+  .fulldescbox {
+    width: 100% !important;
+    max-width: 480px;
+    margin: 0 auto;
+  }
 
-.fulldescbox
-{
-width: 100% !important;
-max-width: 480px;
-margin: 0 auto;
+  .fulldescimage {
+    width: 100%;
+    height: 25px;
+    margin: 0 0px;
+  }
+  .w-\[70\%\] {
+    width: 100%;
+  }
 
-}
+  .legendbox1 {
+    width: 80%;
+    display: block;
+    margin: 0 10%;
+  }
+  .descboxleft {
+    width: 100%;
+  }
 
-.fulldescimage
-{
-  width: 100%;
-  height: 25px;
-  margin: 0 0px;
-}
-.w-\[70\%\] {
-  width: 100%;
-}
+  .font18px {
+    font-size: 10px;
+  }
+  div.leftcol80 {
+    width: 100%;
+    display: block;
+    text-align: justify !important;
+    clear: both;
+  }
+  div.rightcol20 {
+    width: 100%;
+    display: block !important;
+    clear: both;
+  }
+  .text-\[11vh\] {
+    font-size: 40px !important;
+  }
 
-
-.legendbox1
-{
-  width: 80%;
-  display: block;
-  margin: 0 10%;
-}
-.descboxleft {
-  width: 100%;
-}
-
-.font18px{
-  font-size: 10px;
-}
-div.leftcol80{
-  width:100%;
-  display: block;
-  text-align: justify !important;
-  clear: both;
-  
-}
-div.rightcol20{
-  width:100%;
-  display: block !important;
-  clear: both;
-}
-.text-\[11vh\] {
-  font-size: 40px !important;
-}
-
-.w-\[80\%\] {
-  width: 100%;
-}
-
+  .w-\[80\%\] {
+    width: 100%;
+  }
 }
