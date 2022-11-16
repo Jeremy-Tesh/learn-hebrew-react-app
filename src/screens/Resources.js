@@ -1,5 +1,5 @@
 import React from "react";
-import file1 from "../assets/file/ETS_Presentation_11152022.pdf";
+import file1 from "../assets/file/ETS_Presentation_Nov_15.pdf";
 
 function Resources() {
   return <div className="">
@@ -7,9 +7,9 @@ function Resources() {
 
     <div className="boxclear"></div>
     <div className="resources1">
-                <iframe src={file1} width="100%" height="630px" title="Presentation" name="pdfviewer" className="borderframe"></iframe>
-                <div className="boxclear"></div>
-  </div>
+      <iframe src={file1} title="Presentation" name="pdfviewer" className="pdf-viewer"></iframe>
+      <div className="boxclear"></div>
+    </div>
   <div className="boxclear"></div>
   </div>
   </div>;
