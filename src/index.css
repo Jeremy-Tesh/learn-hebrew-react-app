@@ -215,7 +215,28 @@ float: left;
   height: 100%;
 }
 
+.carousel > .thumbs-wrapper
+{
+  margin: 20px 0 !important;
+}
 
+.carousel > .thumbs-wrapper > ul
+{
+  padding: 0;
+}
+
+.carousel .carousel-status {
+  background: #333;
+}
+
+.carousel img {
+  border-width: 2px !important;
+  border-color:  rgb(185, 185, 185) !important;
+}
+
+.carousel .slide img {
+  border: 2px solid rgb(185, 185, 185) !important;
+}
 
 @media only screen and (max-width: 600px) {
 
