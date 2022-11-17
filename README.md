@@ -1,6 +1,6 @@
 # Learn Hebrew React App
 
-##Overview
+## Overview
 It is a platform for learning that makes it simple for students to learn and comprehend Hebrew. It is created to resemble a periodic table, and each element includes a key phrase that, when clicked, provides more details of the word with examples.
 
 ## Installation
