@@ -6,7 +6,7 @@ function Footer() {
       <span className="text-sm text-white sm:text-center dark:text-gray-400">
         © 2022{" "}
         <a
-          href="https://flowbite.com"
+          href="/"
           className="text-white no-underline mr-4 hover:underline md:mr-6"
         >
           Hooked on Hebrew
