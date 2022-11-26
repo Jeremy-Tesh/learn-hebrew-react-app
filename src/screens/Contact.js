@@ -20,7 +20,7 @@ function Contact() {
                 alt="profile"
               />
             </div>
-            <h5 className="mt-[20px]">Pastor Melak alemayew</h5>
+            <h5 className="mt-[20px]">Melak Alemayehu Tsegaw</h5>
             <p className="card-text">
               Adventist University of Africa, Nairobi, Kenya
               <br />
