@@ -6,6 +6,7 @@ import Resources from "./screens/Resources";
 import Details from "./screens/Details";
 import Table from "./screens/HebrewTable";
 import Home from "./screens/Home";
+import Contact from "./screens/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/table" element={<Table />} />
             <Route path="/details/:index" exact element={<Details />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         <Footer />

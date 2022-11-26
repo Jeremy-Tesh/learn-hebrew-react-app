@@ -26,6 +26,9 @@ function Header() {
             <Nav.Link className="mx-3" href="/resources">
               Resources
             </Nav.Link>
+            <Nav.Link className="mx-3" href="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
