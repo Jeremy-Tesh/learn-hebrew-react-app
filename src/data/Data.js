@@ -179,7 +179,7 @@ export const data = {
         stem: "Qal",
         clue: "V2-וּ or ֻ",
         description:
-          "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel, if the verb has objective suffix. \n Eg. נְתָנ֣וֹ",
+          "Qal stem in its passive participle conjugation can have Shewa (ְ ) as its vowel, if the verb has objective suffix. \n Eg. נְתָנ֣וֹ",
          
         moreExamples: [
           ["בְּר֣וּךְ", "ברך", "blessed"],
@@ -274,7 +274,7 @@ export const data = {
         stem: "Qal",
         clue: "Second Masculine Plural/Feminine",
         description:
-          "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel. \n Eg.יְדַעְתֶּ֔ם",
+          "Qal stem in its perfect conjugation can have Shewa (ְ ) as its vowel of its first root letter. \n Eg.יְדַעְתֶּ֔ם",
          
         moreExamples: [
           ["יְדַעְתֶּ֔ם", "ידע", "You know"],
@@ -345,7 +345,7 @@ export const data = {
         stem: "Piel",
         clue: "Mostly regular verbs",
         description:
-          "Piel stem in its perfect conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
+          "Piel stem in its imperative conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.שַׁבְתֶּם֙",
          
         moreExamples: [
           ["דַּבֵּֽר", "דבר", "Speak on"],
@@ -419,7 +419,7 @@ export const data = {
             stem: "Qal",
             clue: "Mostly strong",
             description:
-              "Qal stem in its imperative conjugation can have Shewa (ְ ) as its vowel. \n Eg. שְׁמַ֣ע ",
+              "Qal stem in its imperative conjugation can have Shewa (ְ ) as its vowel of its first root letter. \n Eg. שְׁמַ֣ע ",
              
             moreExamples: [
               ["שְׁמַ֣ע", "שׁמע", "Obey"],
@@ -434,7 +434,7 @@ export const data = {
             stem: "Qal",
             clue: "Mostly strong",
             description:
-              "Qal stem in its infinitive construct conjugation can have Shewa (ְ ) as its vowel. \n Eg.לִרְא֖וֹת",
+              "Qal stem in its infinitive construct conjugation can have Shewa (ְ ) as its vowel of its first root letter. \n Eg.לִרְא֖וֹת",
              
             moreExamples: [
               ["לִרְא֖וֹת", "ראה", "to see"],
@@ -458,7 +458,7 @@ export const data = {
             stem: "Qal",
             clue: "Mostly strong",
             description:
-              "Qal stem in its participle active conjugation can have holem  ( ֹ ) as its vowel. \n Eg.יֹשֵׁ֥ב",
+              "Qal stem in its participle active conjugation can have holem  ( ֹ ) as its vowel of its first root letter. \n Eg.יֹשֵׁ֥ב",
              
             moreExamples: [
               ["יֹשֵׁ֥ב", "ישׁב", "dwell"],
@@ -473,7 +473,7 @@ export const data = {
             stem: "Qal",
             clue: "Biconsonantal or Geminate",
             description:
-              "Qal stem in its imperative conjugation can have holem  ( ֹ ) as its vowel, if the verb is biconsonantal or geminate. \n Eg. בֹּֽא ",
+              "Qal stem in its imperative conjugation can have holem  ( ֹ ) as its vowel of its first root letter, if the verb is biconsonantal or geminate. \n Eg. בֹּֽא ",
              
             moreExamples: [
               ["בֹּֽא", "בוא", "Go"],
@@ -494,7 +494,7 @@ export const data = {
             stem: "Qal",
             clue: "Binconsonantal",
             description:
-              "Qal stem in its Infinitive Construct conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg.לָב֛וֹא", 
+              "Qal stem in its Infinitive Construct conjugation can have holem waw  ( וֹ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg.לָב֛וֹא", 
              
             moreExamples: [
               ["לָב֛וֹא", "בוא", "to go back"],
@@ -506,7 +506,7 @@ export const data = {
             stem: "Qal",
             clue: "Binconsonantal",
             description:
-              "Qal stem in its imperative conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg. בּ֖וֹא ",
+              "Qal stem in its imperative conjugation can have holem waw  ( וֹ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg. בּ֖וֹא ",
              
             moreExamples: [
               ["בּ֖וֹא ", "בוא", "come"],
@@ -520,7 +520,7 @@ export const data = {
             stem: "Qal",
             clue: "Binconsonantal",
             description:
-              "Qal stem in its imperative conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg. א֑וֹר ",
+              "Qal stem in its perfect conjugation can have holem waw  ( וֹ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg. א֑וֹר ",
              
             moreExamples: [
               ["א֑וֹר ", "אור", "it was light"],
@@ -534,7 +534,7 @@ export const data = {
             stem: "Qal",
             clue: "Binconsonantal",
             description:
-              "Qal stem in its participle conjugation can have holem waw  ( וֹ ) as its vowel, if the verb is biconsonantal. \n Eg. בּוֹשִׁ֔ים",
+              "Qal stem in its participle conjugation can have holem waw  ( וֹ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg. בּוֹשִׁ֔ים",
              
             moreExamples: [
               ["בּוֹשִׁ֔ים", "בושׁ", "She has been ashamed"],
@@ -555,7 +555,7 @@ export const data = {
           stem: "Qal",
           clue: "Binconsonantal",
           description:
-            "Qal stem in its perfect conjugation can have shureq  ( וּ ) as its vowel, if the verb is biconsonantal. \n Eg.שׁ֥וּב",
+            "Qal stem in its imperative conjugation can have shureq  ( וּ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg.שׁ֥וּב",
            
           moreExamples: [
             ["שׁ֖וּבִי", "שׁוב", "Return"],
@@ -569,7 +569,7 @@ export const data = {
           stem: "Qal",
           clue: "Binconsonantal",
           description:
-            "Qal stem in its perfect conjugation can have shureq  ( וּ ) as its vowel, if the verb is biconsonantal. \n Eg.שׁ֥וּב",
+            "Qal stem in its infinitive construct can have shureq  ( וּ ) as its vowel of its first root letter, if the verb is biconsonantal. \n Eg.שׁ֥וּב",
            
           moreExamples: [
             ["שׁ֥וּב", "שׁוב", "to go back"],
@@ -680,7 +680,7 @@ export const data = {
               "Qal stem in its infinitive construct conjugation can have Tsere (ַ ) as the vowel of first root letter. \n Eg. לָתֵ֥ת",
              
             moreExamples: [
-              ["לָתֵ֥ת", "יצא ", "to give"],
+              ["לָתֵ֥ת", "נתן ", "to give"],
               ["לָשֵׂ֣את", "נשׂא", "to support"]
                 
             ],
@@ -764,7 +764,7 @@ export const data = {
             stem: "Piel", 
             clue: "Second root letter with dagesh",
             description:
-              "Qal stem in its imperative conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.דַבֵּ֔ר",
+              "Piel stem in its imperative conjugation can have Patach (ַ ) as the vowel of first root letter. \n Eg.דַבֵּ֔ר",
              
             moreExamples: [
                 ["דַבֵּ֔ר", "דבר", "Tell"],
@@ -976,7 +976,7 @@ export const data = {
         {
           option: "Imperfect",
           stem: "Hithpael",
-          clue: " Second person or Thrid person feminine",
+          clue: " Second person or Third person feminine",
           description:
             "The Hithpael stem in its imperfect conjugation has the preformative ית , if the verb is third person masculine or feminine. \n Eg.יִתְהַלָּ֑כוּ",
            
@@ -1081,7 +1081,7 @@ export const data = {
             stem: "Hifil",
             clue: " First root letter is Yod",
             description:
-              "The Preformative ה of Hifil stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.מֽוֹצֵא",
+              "The Preformative מ of Hifil stem in its perfect conjugation has Holem Vav (וֹ) as its vowel, if the first root letter is Yod. \n Eg.מֽוֹצֵא",
              
             moreExamples: [
               ["מֽוֹצֵא", "יצא", "bring forth"],
@@ -1233,7 +1233,7 @@ export const data = {
             stem: "Hifil",
             clue: "Mostly regular verbs",
             description:
-            "The Preformative ה of Hifil stem in its imperative conjugation has Patach (ַ ) as its vowel, in most of its occurrences. \n Eg.מַכֶּ֣ה",
+            "The Preformative מ of Hifil stem in its imperative conjugation has Patach (ַ ) as its vowel, in most of its occurrences. \n Eg.מַכֶּ֣ה",
               
             moreExamples: [
               ["מַכֶּ֣ה", "נכה", "who strikes"],
@@ -1710,7 +1710,7 @@ export const data = {
           stem: "Hifil",
           clue: "Biconsonantal and Geminate",
           description:
-            "The Preformative ה of Hifil stem in its imperative conjugation has Qamets (ָ ) as its vowel, if the verb is a biconsonantal. \n Eg.הָשֵׁ֤ב",
+            "The Preformative ה of Hifil stem in its imperative conjugation has Qamets (ָ ) as its vowel, if the verb is a biconsonantal or geminate . \n Eg.הָשֵׁ֤ב",
            
           moreExamples: [
             ["הָשֵׁ֤ב", "שׁוב", "Return"],
@@ -1738,7 +1738,7 @@ export const data = {
             stem: "-",
             clue: "First root letter is guttural and the verb is participle",
             description:
-            "The Prefix ה can be a definte article and it takes Qamets (ָ ) as its vowel, if the verb is participle and the first root lettre is guttural. \n Eg.הָאֹמֵ֣ר",
+            "The Prefix ה can be a definte article and it takes Qamets (ָ ) as its vowel, if the verb is participle and the first root letter is guttural. \n Eg.הָאֹמֵ֣ר",
            
             moreExamples: [
               ["הָאֹמֵ֣ר", "אמר", "who said"],
@@ -2100,7 +2100,7 @@ export const data = {
           stem: "Hifil",
           clue: " V2-i-class vowel",
           description:
-            "The Preformative vowel of Hifil stem in its imperfect/waw-consecutive conjugation is Patach (ַ ).  \n Eg. וַֽנַּחֲרֵם֙",
+            "The Preformative vowel of Hifil stem in its imperfect/waw-consecutive conjugation is Patach (ַ ), if V2 is an i class.  \n Eg. וַֽנַּחֲרֵם֙",
            
           moreExamples: [
             ["וַֽנַּחֲרֵם֙", "חרם", "And we devoted to destruction"],
@@ -2139,7 +2139,7 @@ export const data = {
           stem: "Qal",
           clue: " Biconsonantal or Geminate",
           description:
-            "The Preformative vowel of Qal stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or guttural.  \n Eg. וַיָּ֥קָם",
+            "The Preformative vowel of Qal stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or geminate.  \n Eg. וַיָּ֥קָם",
            
           moreExamples: [
             ["נָק֥וּמָה", "קום", "And let us arise"],
@@ -2557,7 +2557,7 @@ export const data = {
           moreExamples: [
             ["תֵּדַ֜ע", "ידע", "You will know"],
             ["וַיֵּ֥צֵא", "יצא", "And he went out"],
-            ["וַיֵּ֥שֶׁב", "ישׁב", "And he dwelled"],
+            ["וַיֵּ֥שֶׁב", "ישׁב", "And he dwelt"],
             ["וַתֵּ֣לֶד", "ילד  ", "And she bore"],
             ["וַיֵּבֹ֑שׁוּ", "בושׁ ", "And they confounded"],
           ],
@@ -2606,7 +2606,7 @@ export const data = {
           stem: "Nifal",
           clue: " Dagesh Forte in the first root letter and V1- Qamets",
           description:
-            "The Preformative vowel of Nifal stem in its imperfect/waw-consecutive conjugation can be Hireq (ִ ).\n Eg. וַיִּלָּ֥חֶם",
+            "The Preformative vowel of Nifal stem in its imperfect/waw-consecutive conjugation can be Hireq (ִ ), if there is a dagesh forte in the first root letter and V1 qamets . \n Eg. וַיִּלָּ֥חֶם",
            
           moreExamples: [
             ["יִלָּחֵ֣ם", "לחם", "He will fight"],
@@ -2671,7 +2671,7 @@ export const data = {
           stem: "Qal",
           clue: " Biconsonantal or Geminate",
           description:
-            "The Preformative vowel of Qal stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or guttural.  \n Eg. וַיָּ֥קָם",
+            "The Preformative vowel of Qal stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or germinate.  \n Eg. וַיָּ֥קָם",
            
           moreExamples: [
             ["וַיָּ֥קָם", "קום", "And he rose up"],
@@ -2701,7 +2701,7 @@ export const data = {
         stem: "Hofal",
         clue: "  -",
         description:
-          "The Preformative vowel of Hifil stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or geminate.  \n Eg. תָּקְטָֽר",
+          "The Preformative vowel of Hofal stem in its imperfect/waw-consecutive conjugation can be Qamets (ָ ), if the verb is biconsonantal or geminate.  \n Eg. תָּקְטָֽר",
          
         moreExamples: [
           ["תָּקְטָֽר", "קטר", "It shall be burned"],
